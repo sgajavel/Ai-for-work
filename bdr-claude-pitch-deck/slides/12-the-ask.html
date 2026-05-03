@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>12 · The Ask</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared/tokens.css">
+<style>
+  body {
+    background: var(--chrome-bg);
+    color: var(--chrome-ink);
+  }
+
+  .ask-content {
+    position: absolute;
+    top: 160px;
+    left: 120px;
+    right: 120px;
+    bottom: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+
+  .ask-top {
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+  }
+
+  .ask-kicker {
+    font-family: var(--font-mono);
+    font-size: 20px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: rgba(255, 255, 255, 0.4);
+  }
+
+  .ask-title {
+    font-family: var(--font-display);
+    font-size: 96px;
+    line-height: 1.08;
+    color: var(--chrome-ink);
+  }
+
+  .ask-title .accent {
+    color: var(--accent);
+  }
+
+  .ask-divider {
+    width: 80px;
+    height: 3px;
+    background: var(--accent);
+    opacity: 0.6;
+  }
+
+  .ask-points {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 64px;
+    max-width: 1200px;
+  }
+
+  .ask-point {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    font-family: var(--font-body);
+    font-size: 28px;
+    color: rgba(255, 255, 255, 0.85);
+    line-height: 1.4;
+  }
+
+  .ask-point-bullet {
+    color: var(--accent);
+    font-size: 24px;
+    flex-shrink: 0;
+  }
+
+  .ask-point strong {
+    color: #fff;
+    font-weight: 600;
+  }
+
+  .ask-bottom {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+  }
+
+  .ask-cta {
+    font-family: var(--font-display);
+    font-style: italic;
+    font-size: 48px;
+    color: var(--accent);
+    line-height: 1.2;
+  }
+
+  .ask-meta {
+    font-family: var(--font-mono);
+    font-size: 18px;
+    color: rgba(255, 255, 255, 0.3);
+    letter-spacing: 0.08em;
+    text-align: right;
+    line-height: 1.8;
+  }
+
+  .ask-badge {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 16px;
+    justify-content: flex-end;
+  }
+
+  .ask-badge-dot {
+    width: 8px;
+    height: 8px;
+    background: var(--accent);
+    border-radius: 50%;
+  }
+
+  .ask-badge-text {
+    font-family: var(--font-body);
+    font-size: 20px;
+    color: var(--accent);
+    font-weight: 500;
+  }
+</style>
+</head>
+<body>
+
+<div class="ask-content">
+  <div class="ask-top">
+    <div class="ask-kicker">Next Steps</div>
+
+    <h1 class="ask-title">
+      Let's Start With a<br>
+      <span class="accent">2-Week Pilot</span>
+    </h1>
+
+    <div class="ask-divider"></div>
+
+    <div class="ask-points">
+      <div class="ask-point">
+        <span class="ask-point-bullet">&#9670;</span>
+        <span><strong>What we need:</strong> 5-10 BDR volunteers and 15 minutes for a kickoff session</span>
+      </div>
+      <div class="ask-point">
+        <span class="ask-point-bullet">&#9670;</span>
+        <span><strong>What you get:</strong> Measurable results within 2 weeks -- response rates, time saved, meetings booked</span>
+      </div>
+      <div class="ask-point">
+        <span class="ask-point-bullet">&#9670;</span>
+        <span><strong>Investment:</strong> Less than $250/month for the pilot group</span>
+      </div>
+      <div class="ask-point">
+        <span class="ask-point-bullet">&#9670;</span>
+        <span><strong>No risk:</strong> Cancel anytime. No contract. No integration. No IT involvement.</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="ask-bottom">
+    <div class="ask-cta">Let's pick a start date.</div>
+    <div>
+      <div class="ask-meta">
+        Claude AI for BDRs<br>
+        Powered by Anthropic
+      </div>
+      <div class="ask-badge">
+        <span class="ask-badge-dot"></span>
+        <span class="ask-badge-text">claude.ai</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>

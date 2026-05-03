@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>08 · 4,300% ROI</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared/tokens.css">
+<style>
+  body {
+    background: var(--paper-warm);
+  }
+
+  .roi-content {
+    position: absolute;
+    top: var(--content-pad-top);
+    left: var(--content-pad-x);
+    right: var(--content-pad-x);
+    bottom: var(--content-pad-bottom);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .roi-title {
+    font-family: var(--font-display);
+    font-size: var(--fs-h1);
+    line-height: 1.1;
+    color: var(--ink);
+    margin-bottom: 56px;
+  }
+
+  .roi-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 24px;
+    flex: 1;
+  }
+
+  .roi-card {
+    background: var(--paper);
+    border: 1px solid var(--hairline);
+    padding: 40px 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .roi-card-label {
+    font-family: var(--font-mono);
+    font-size: 18px;
+    letter-spacing: 0.15em;
+    text-transform: uppercase;
+    color: var(--ink-50);
+    margin-bottom: 12px;
+  }
+
+  .roi-card-number {
+    font-family: var(--font-body);
+    font-weight: 700;
+    line-height: 1;
+    margin-bottom: 12px;
+  }
+
+  .roi-card-number.cost {
+    font-size: var(--fs-stat-lg);
+    color: var(--ink);
+  }
+
+  .roi-card-number.savings {
+    font-size: var(--fs-stat-lg);
+    color: var(--accent);
+  }
+
+  .roi-card-number.roi-hero {
+    font-size: 120px;
+    color: var(--accent);
+  }
+
+  .roi-card-number.payback {
+    font-size: var(--fs-stat-lg);
+    color: var(--accent);
+  }
+
+  .roi-card-detail {
+    font-family: var(--font-body);
+    font-size: var(--fs-body-sm);
+    color: var(--ink-50);
+    line-height: 1.4;
+  }
+
+  .roi-card-underline {
+    width: 48px;
+    height: 3px;
+    background: var(--accent);
+    margin-bottom: 16px;
+    opacity: 0.5;
+  }
+
+  .roi-card.hero-card {
+    background: var(--accent-light);
+    border-color: rgba(13, 138, 94, 0.15);
+  }
+
+  .roi-bottom {
+    margin-top: 24px;
+    padding-top: 24px;
+    border-top: 1px solid var(--hairline);
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+  }
+
+  .roi-bottom-label {
+    font-family: var(--font-body);
+    font-size: var(--fs-body);
+    color: var(--ink-80);
+  }
+
+  .roi-bottom-number {
+    font-family: var(--font-body);
+    font-size: var(--fs-h2);
+    font-weight: 700;
+    color: var(--accent);
+  }
+</style>
+</head>
+<body>
+
+<div class="slide-masthead">
+  <span>Impact</span>
+  <span>08 / 12</span>
+</div>
+
+<div class="roi-content">
+  <h1 class="roi-title">The Numbers Speak<br>for Themselves</h1>
+
+  <div class="roi-grid">
+    <div class="roi-card">
+      <div class="roi-card-label">Annual Cost</div>
+      <div class="roi-card-underline"></div>
+      <div class="roi-card-number cost">$12,000</div>
+      <div class="roi-card-detail">40 BDRs x $20-25/month each</div>
+    </div>
+
+    <div class="roi-card">
+      <div class="roi-card-label">Time Value Saved</div>
+      <div class="roi-card-underline"></div>
+      <div class="roi-card-number savings">$528,000</div>
+      <div class="roi-card-detail">330 hrs x $40/hr x 40 BDRs per year</div>
+    </div>
+
+    <div class="roi-card hero-card">
+      <div class="roi-card-label">Return on Investment</div>
+      <div class="roi-card-underline"></div>
+      <div class="roi-card-number roi-hero">4,300%</div>
+      <div class="roi-card-detail">$44 returned for every $1 spent</div>
+    </div>
+
+    <div class="roi-card">
+      <div class="roi-card-label">Payback Period</div>
+      <div class="roi-card-underline"></div>
+      <div class="roi-card-number payback">~1 week</div>
+      <div class="roi-card-detail">Less than the cost of a single intern</div>
+    </div>
+  </div>
+
+  <div class="roi-bottom">
+    <span class="roi-bottom-label">Conservative incremental revenue impact:</span>
+    <span class="roi-bottom-number">$2M+</span>
+  </div>
+</div>
+
+<div class="slide-footer">
+  <span></span>
+  <span>Claude AI for BDRs</span>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>07 · Email Response Rates</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared/tokens.css">
+<style>
+  .er-content {
+    position: absolute;
+    top: var(--content-pad-top);
+    left: var(--content-pad-x);
+    right: var(--content-pad-x);
+    bottom: var(--content-pad-bottom);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .er-title {
+    font-family: var(--font-display);
+    font-size: var(--fs-h1);
+    line-height: 1.1;
+    color: var(--ink);
+    margin-bottom: 56px;
+  }
+
+  .er-main {
+    flex: 1;
+    display: flex;
+    gap: 80px;
+    align-items: flex-end;
+  }
+
+  .er-chart {
+    flex: 1;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    gap: 64px;
+    height: 100%;
+    padding-bottom: 40px;
+  }
+
+  .er-bar-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+  }
+
+  .er-bar-value {
+    font-family: var(--font-body);
+    font-size: var(--fs-h2);
+    font-weight: 700;
+    line-height: 1;
+  }
+
+  .er-bar {
+    width: 200px;
+  }
+
+  .er-bar-generic {
+    height: 16px;
+    background: var(--ink-50);
+  }
+
+  .er-bar-ai {
+    height: 480px;
+    background: var(--accent);
+  }
+
+  .er-bar-label {
+    font-family: var(--font-body);
+    font-size: var(--fs-body-sm);
+    color: var(--ink-80);
+    text-align: center;
+    max-width: 200px;
+  }
+
+  .er-bar-value.generic { color: var(--ink-50); }
+  .er-bar-value.ai      { color: var(--accent); }
+
+  .er-stats {
+    flex: 0.8;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    padding-bottom: 80px;
+  }
+
+  .er-multiplier {
+    font-family: var(--font-body);
+    font-size: 96px;
+    font-weight: 700;
+    color: var(--accent);
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+
+  .er-multiplier-label {
+    font-family: var(--font-body);
+    font-size: var(--fs-body);
+    color: var(--ink-80);
+    margin-top: 8px;
+  }
+
+  .er-stat-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 32px;
+    border-top: 1px solid var(--hairline);
+  }
+
+  .er-stat-item {
+    display: flex;
+    align-items: baseline;
+    gap: 12px;
+  }
+
+  .er-stat-bullet {
+    width: 8px;
+    height: 8px;
+    background: var(--accent);
+    flex-shrink: 0;
+    margin-top: 8px;
+  }
+
+  .er-stat-text {
+    font-family: var(--font-body);
+    font-size: var(--fs-body-sm);
+    color: var(--ink-80);
+    line-height: 1.45;
+  }
+
+  .er-stat-text strong {
+    color: var(--ink);
+    font-weight: 700;
+  }
+</style>
+</head>
+<body>
+
+<div class="slide-masthead">
+  <span>Proof</span>
+  <span>07 / 12</span>
+</div>
+
+<div class="er-content">
+  <h1 class="er-title">Personalization Isn't<br>Optional Anymore</h1>
+
+  <div class="er-main">
+    <div class="er-chart">
+      <div class="er-bar-group">
+        <div class="er-bar-value generic">&lt;1%</div>
+        <div class="er-bar er-bar-generic"></div>
+        <div class="er-bar-label">Generic / templated email</div>
+      </div>
+      <div class="er-bar-group">
+        <div class="er-bar-value ai">15-30%</div>
+        <div class="er-bar er-bar-ai"></div>
+        <div class="er-bar-label">AI-personalized email</div>
+      </div>
+    </div>
+
+    <div class="er-stats">
+      <div>
+        <div class="er-multiplier">15-30x</div>
+        <div class="er-multiplier-label">improvement in email effectiveness</div>
+      </div>
+
+      <div class="er-stat-list">
+        <div class="er-stat-item">
+          <div class="er-stat-bullet"></div>
+          <div class="er-stat-text"><strong>10-15x more likely</strong> to generate a response than generic templates</div>
+        </div>
+        <div class="er-stat-item">
+          <div class="er-stat-bullet"></div>
+          <div class="er-stat-text">Company-specific personalization <strong>triples</strong> response rates</div>
+        </div>
+        <div class="er-stat-item">
+          <div class="er-stat-bullet"></div>
+          <div class="er-stat-text">AI-assisted outreach drives <strong>40-70% faster</strong> revenue growth</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="slide-footer">
+  <span></span>
+  <span>Claude AI for BDRs</span>
+</div>
+
+</body>
+</html>

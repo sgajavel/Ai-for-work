@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>02 · A Day in the Life</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared/tokens.css">
+<style>
+  .dil-content {
+    position: absolute;
+    top: var(--content-pad-top);
+    left: var(--content-pad-x);
+    right: var(--content-pad-x);
+    bottom: var(--content-pad-bottom);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .dil-title {
+    font-family: var(--font-display);
+    font-size: var(--fs-h1);
+    line-height: 1.1;
+    color: var(--ink);
+    margin-bottom: 48px;
+  }
+
+  .dil-bar-section {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 32px;
+  }
+
+  .dil-bar-wrapper {
+    display: flex;
+    height: 88px;
+    border: 1px solid var(--hairline);
+    overflow: hidden;
+  }
+
+  .dil-segment {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 12px;
+    border-right: 1px solid rgba(255,255,255,0.3);
+    transition: opacity 0.2s;
+  }
+
+  .dil-segment:last-child {
+    border-right: none;
+  }
+
+  .dil-seg-label {
+    font-family: var(--font-body);
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-align: center;
+    line-height: 1.2;
+  }
+
+  .dil-seg-time {
+    font-family: var(--font-mono);
+    font-size: 16px;
+    color: rgba(255,255,255,0.8);
+    margin-top: 4px;
+  }
+
+  .seg-research   { background: #1B3A4B; width: 31.25%; }
+  .seg-email      { background: #2D5F74; width: 21.875%; }
+  .seg-calling    { background: var(--accent-deep); width: 31.25%; }
+  .seg-linkedin   { background: #6B7A87; width: 5.5%; }
+  .seg-crm        { background: #8B97A3; width: 6.5%; }
+  .seg-callprep   { background: #A8B2BB; width: 3.625%; }
+
+  .dil-legend {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 16px 48px;
+    margin-top: 8px;
+  }
+
+  .dil-legend-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .dil-legend-dot {
+    width: 14px;
+    height: 14px;
+    flex-shrink: 0;
+  }
+
+  .dil-legend-text {
+    font-family: var(--font-body);
+    font-size: var(--fs-body-sm);
+    color: var(--ink-80);
+  }
+
+  .dil-legend-time {
+    font-family: var(--font-mono);
+    font-size: 20px;
+    color: var(--ink);
+    font-weight: 500;
+  }
+
+  .dil-callout {
+    margin-top: 40px;
+    padding-top: 32px;
+    border-top: 1px solid var(--hairline);
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+  }
+
+  .dil-callout-stat {
+    font-family: var(--font-body);
+    font-size: var(--fs-stat-md);
+    font-weight: 700;
+    color: var(--signal);
+  }
+
+  .dil-callout-text {
+    font-family: var(--font-body);
+    font-size: var(--fs-body);
+    color: var(--ink-80);
+    max-width: 700px;
+  }
+
+  .dil-stats-row {
+    display: flex;
+    gap: 48px;
+    margin-top: 24px;
+  }
+
+  .dil-mini-stat {
+    font-family: var(--font-mono);
+    font-size: 20px;
+    color: var(--ink-50);
+  }
+
+  .dil-mini-stat strong {
+    font-weight: 500;
+    color: var(--ink);
+  }
+</style>
+</head>
+<body>
+
+<div class="slide-masthead">
+  <span>The Problem</span>
+  <span>02 / 12</span>
+</div>
+
+<div class="dil-content">
+  <h1 class="dil-title">Where Does the Day<br>Actually Go?</h1>
+
+  <div class="dil-bar-section">
+    <div class="dil-bar-wrapper">
+      <div class="dil-segment seg-research">
+        <span class="dil-seg-label">Prospect Research</span>
+        <span class="dil-seg-time">2-3 hrs</span>
+      </div>
+      <div class="dil-segment seg-email">
+        <span class="dil-seg-label">Email Writing</span>
+        <span class="dil-seg-time">1.5-2 hrs</span>
+      </div>
+      <div class="dil-segment seg-calling">
+        <span class="dil-seg-label">Cold Calling</span>
+        <span class="dil-seg-time">2-3 hrs</span>
+      </div>
+      <div class="dil-segment seg-linkedin">
+        <span class="dil-seg-label" style="font-size:14px">LinkedIn</span>
+        <span class="dil-seg-time" style="font-size:13px">45m</span>
+      </div>
+      <div class="dil-segment seg-crm">
+        <span class="dil-seg-label" style="font-size:14px">CRM</span>
+        <span class="dil-seg-time" style="font-size:13px">60m</span>
+      </div>
+      <div class="dil-segment seg-callprep">
+        <span class="dil-seg-label" style="font-size:12px">Prep</span>
+        <span class="dil-seg-time" style="font-size:12px">45m</span>
+      </div>
+    </div>
+
+    <div class="dil-legend">
+      <div class="dil-legend-item">
+        <div class="dil-legend-dot" style="background:#1B3A4B"></div>
+        <span class="dil-legend-text">Prospect Research</span>
+        <span class="dil-legend-time">2-3 hrs</span>
+      </div>
+      <div class="dil-legend-item">
+        <div class="dil-legend-dot" style="background:#2D5F74"></div>
+        <span class="dil-legend-text">Email Writing &amp; Personalization</span>
+        <span class="dil-legend-time">1.5-2 hrs</span>
+      </div>
+      <div class="dil-legend-item">
+        <div class="dil-legend-dot" style="background:var(--accent-deep)"></div>
+        <span class="dil-legend-text">Cold Calling &amp; Voicemails</span>
+        <span class="dil-legend-time">2-3 hrs</span>
+      </div>
+      <div class="dil-legend-item">
+        <div class="dil-legend-dot" style="background:#6B7A87"></div>
+        <span class="dil-legend-text">LinkedIn Outreach</span>
+        <span class="dil-legend-time">30-45 min</span>
+      </div>
+      <div class="dil-legend-item">
+        <div class="dil-legend-dot" style="background:#8B97A3"></div>
+        <span class="dil-legend-text">CRM / Activity Logging</span>
+        <span class="dil-legend-time">45-60 min</span>
+      </div>
+      <div class="dil-legend-item">
+        <div class="dil-legend-dot" style="background:#A8B2BB"></div>
+        <span class="dil-legend-text">Call Prep &amp; Meeting Prep</span>
+        <span class="dil-legend-time">30-45 min</span>
+      </div>
+    </div>
+
+    <div class="dil-callout">
+      <span class="dil-callout-stat">~30%</span>
+      <span class="dil-callout-text">of a BDR's day is actual selling. The rest is research, writing, and admin.</span>
+    </div>
+
+    <div class="dil-stats-row">
+      <span class="dil-mini-stat"><strong>44-50</strong> dials/day</span>
+      <span class="dil-mini-stat"><strong>40-80</strong> emails/day</span>
+      <span class="dil-mini-stat"><strong>30-45 min</strong> research/prospect</span>
+      <span class="dil-mini-stat"><strong>34</strong> touchpoints to convert</span>
+    </div>
+  </div>
+</div>
+
+<div class="slide-footer">
+  <span></span>
+  <span>Claude AI for BDRs</span>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>10 · Rollout Plan</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared/tokens.css">
+<style>
+  .ro-content {
+    position: absolute;
+    top: var(--content-pad-top);
+    left: var(--content-pad-x);
+    right: var(--content-pad-x);
+    bottom: var(--content-pad-bottom);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ro-title {
+    font-family: var(--font-display);
+    font-size: var(--fs-h1);
+    line-height: 1.1;
+    color: var(--ink);
+    margin-bottom: 64px;
+  }
+
+  .ro-timeline {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0;
+  }
+
+  .ro-line-track {
+    display: flex;
+    align-items: center;
+    gap: 0;
+    margin-bottom: 40px;
+    padding: 0 40px;
+  }
+
+  .ro-node {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background: var(--accent);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--font-mono);
+    font-size: 20px;
+    font-weight: 500;
+    color: #fff;
+    flex-shrink: 0;
+    position: relative;
+  }
+
+  .ro-connector {
+    flex: 1;
+    height: 3px;
+    background: var(--accent);
+    opacity: 0.3;
+  }
+
+  .ro-phases {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+    flex: 1;
+  }
+
+  .ro-phase {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ro-phase-time {
+    font-family: var(--font-mono);
+    font-size: 22px;
+    color: var(--accent);
+    letter-spacing: 0.05em;
+    margin-bottom: 8px;
+  }
+
+  .ro-phase-title {
+    font-family: var(--font-body);
+    font-size: 36px;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 24px;
+    line-height: 1.2;
+  }
+
+  .ro-phase-items {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  }
+
+  .ro-phase-item {
+    font-family: var(--font-body);
+    font-size: 22px;
+    color: var(--ink-80);
+    line-height: 1.45;
+    padding-left: 20px;
+    position: relative;
+  }
+
+  .ro-phase-item::before {
+    content: "\25B8";
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+    font-size: 18px;
+  }
+
+  .ro-bottom {
+    margin-top: auto;
+    padding-top: 32px;
+    border-top: 1px solid var(--hairline);
+    font-family: var(--font-body);
+    font-size: var(--fs-body);
+    color: var(--ink-80);
+  }
+
+  .ro-bottom strong {
+    color: var(--accent);
+    font-weight: 700;
+  }
+</style>
+</head>
+<body>
+
+<div class="slide-masthead">
+  <span>Implementation</span>
+  <span>10 / 12</span>
+</div>
+
+<div class="ro-content">
+  <h1 class="ro-title">Up and Running in<br>Days, Not Months</h1>
+
+  <div class="ro-timeline">
+    <div class="ro-line-track">
+      <div class="ro-node">1</div>
+      <div class="ro-connector"></div>
+      <div class="ro-node">2</div>
+      <div class="ro-connector"></div>
+      <div class="ro-node">3</div>
+    </div>
+
+    <div class="ro-phases">
+      <div class="ro-phase">
+        <div class="ro-phase-time">Week 1-2</div>
+        <div class="ro-phase-title">Pilot</div>
+        <div class="ro-phase-items">
+          <div class="ro-phase-item">Set up Claude accounts for 5-10 volunteer BDRs</div>
+          <div class="ro-phase-item">15-minute kickoff covering top 3 use cases</div>
+          <div class="ro-phase-item">BDRs start using Claude immediately</div>
+          <div class="ro-phase-item">Track baseline: emails, response rates, meetings</div>
+        </div>
+      </div>
+
+      <div class="ro-phase">
+        <div class="ro-phase-time">Week 3-4</div>
+        <div class="ro-phase-title">Measure &amp; Optimize</div>
+        <div class="ro-phase-items">
+          <div class="ro-phase-item">Compare pilot BDR metrics vs. baseline and peers</div>
+          <div class="ro-phase-item">Gather qualitative feedback from pilot group</div>
+          <div class="ro-phase-item">Build shared prompt library of best performers</div>
+          <div class="ro-phase-item">Refine workflows based on results</div>
+        </div>
+      </div>
+
+      <div class="ro-phase">
+        <div class="ro-phase-time">Month 2</div>
+        <div class="ro-phase-title">Full Rollout</div>
+        <div class="ro-phase-items">
+          <div class="ro-phase-item">Expand to all 40+ BDRs with proven playbooks</div>
+          <div class="ro-phase-item">Assign "prompt champions" per pod or team</div>
+          <div class="ro-phase-item">Track ROI monthly and report to leadership</div>
+          <div class="ro-phase-item">No integration work, no IT project, no vendor review</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ro-bottom">
+    <strong>No six-month IT project.</strong> No API setup. No contract. BDRs sign in, ask questions, get results.
+  </div>
+</div>
+
+<div class="slide-footer">
+  <span></span>
+  <span>Claude AI for BDRs</span>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>09 · 3-Minute Workflow</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared/tokens.css">
+<style>
+  .wf-content {
+    position: absolute;
+    top: var(--content-pad-top);
+    left: var(--content-pad-x);
+    right: var(--content-pad-x);
+    bottom: var(--content-pad-bottom);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wf-title {
+    font-family: var(--font-display);
+    font-size: var(--fs-h1);
+    line-height: 1.1;
+    color: var(--ink);
+    margin-bottom: 16px;
+  }
+
+  .wf-scenario {
+    font-family: var(--font-body);
+    font-size: var(--fs-body-sm);
+    color: var(--ink-50);
+    margin-bottom: 48px;
+    font-style: italic;
+  }
+
+  .wf-steps {
+    flex: 1;
+    display: flex;
+    gap: 0;
+    align-items: stretch;
+  }
+
+  .wf-step {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 0 40px;
+  }
+
+  .wf-step:first-child { padding-left: 0; }
+  .wf-step:last-child  { padding-right: 0; }
+
+  .wf-step:not(:last-child) {
+    border-right: 1px solid var(--hairline);
+  }
+
+  .wf-step-header {
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+    margin-bottom: 20px;
+  }
+
+  .wf-step-number {
+    font-family: var(--font-mono);
+    font-size: 56px;
+    font-weight: 500;
+    color: var(--accent);
+    line-height: 1;
+  }
+
+  .wf-step-label {
+    font-family: var(--font-body);
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--ink);
+  }
+
+  .wf-step-time {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-size: 20px;
+    color: var(--accent-deep);
+    background: var(--accent-light);
+    padding: 6px 16px;
+    margin-bottom: 24px;
+    letter-spacing: 0.05em;
+  }
+
+  .wf-step-desc {
+    font-family: var(--font-body);
+    font-size: var(--fs-body-sm);
+    color: var(--ink-80);
+    line-height: 1.55;
+  }
+
+  .wf-step-detail {
+    margin-top: 20px;
+    padding-top: 16px;
+    border-top: 1px solid var(--hairline);
+  }
+
+  .wf-step-detail-item {
+    font-family: var(--font-body);
+    font-size: 22px;
+    color: var(--ink-80);
+    line-height: 1.5;
+    padding: 6px 0;
+    padding-left: 20px;
+    position: relative;
+  }
+
+  .wf-step-detail-item::before {
+    content: "\25B8";
+    position: absolute;
+    left: 0;
+    color: var(--accent);
+  }
+
+  .wf-arrow {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 36px;
+    color: var(--ink-50);
+    padding: 0 8px;
+    flex-shrink: 0;
+  }
+
+  .wf-callout {
+    margin-top: auto;
+    padding-top: 32px;
+    border-top: 1px solid var(--hairline);
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+  }
+
+  .wf-callout-new {
+    font-family: var(--font-body);
+    font-size: var(--fs-stat-md);
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  .wf-callout-vs {
+    font-family: var(--font-body);
+    font-size: var(--fs-body);
+    color: var(--ink-50);
+  }
+
+  .wf-callout-old {
+    font-family: var(--font-body);
+    font-size: var(--fs-stat-md);
+    font-weight: 700;
+    color: var(--signal);
+    text-decoration: line-through;
+    text-decoration-thickness: 3px;
+  }
+</style>
+</head>
+<body>
+
+<div class="slide-masthead">
+  <span>Proof</span>
+  <span>09 / 12</span>
+</div>
+
+<div class="wf-content">
+  <h1 class="wf-title">From Raw Data to<br>Ready-to-Send in 3 Minutes</h1>
+  <p class="wf-scenario">Scenario: BDR is prospecting a Fortune 500 company for IT advisory services.</p>
+
+  <div class="wf-steps">
+    <div class="wf-step">
+      <div class="wf-step-header">
+        <span class="wf-step-number">1</span>
+        <span class="wf-step-label">Paste</span>
+      </div>
+      <div class="wf-step-time">30 seconds</div>
+      <div class="wf-step-desc">
+        BDR types into Claude: "Research Acme Corp for a cold outreach to their VP of IT Infrastructure. Focus on recent technology investments and potential advisory needs."
+      </div>
+    </div>
+
+    <div class="wf-step">
+      <div class="wf-step-header">
+        <span class="wf-step-number">2</span>
+        <span class="wf-step-label">Generate</span>
+      </div>
+      <div class="wf-step-time">60 seconds</div>
+      <div class="wf-step-desc">Claude returns:</div>
+      <div class="wf-step-detail">
+        <div class="wf-step-detail-item">Key business priorities from latest earnings</div>
+        <div class="wf-step-detail-item">Recent tech investments &amp; digital initiatives</div>
+        <div class="wf-step-detail-item">3 relevant pain points for IT advisory</div>
+        <div class="wf-step-detail-item">Personalized opening line</div>
+        <div class="wf-step-detail-item">3 tailored discovery questions</div>
+      </div>
+    </div>
+
+    <div class="wf-step">
+      <div class="wf-step-header">
+        <span class="wf-step-number">3</span>
+        <span class="wf-step-label">Review &amp; Send</span>
+      </div>
+      <div class="wf-step-time">90 seconds</div>
+      <div class="wf-step-desc">
+        BDR reviews the output, tweaks one sentence for personal touch, and drops the email into SalesLoft. Done.
+      </div>
+    </div>
+  </div>
+
+  <div class="wf-callout">
+    <span class="wf-callout-new">3 minutes</span>
+    <span class="wf-callout-vs">Previously:</span>
+    <span class="wf-callout-old">40+ minutes</span>
+  </div>
+</div>
+
+<div class="slide-footer">
+  <span></span>
+  <span>Claude AI for BDRs</span>
+</div>
+
+</body>
+</html>

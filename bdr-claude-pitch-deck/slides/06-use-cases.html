@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>06 · 8 Use Cases</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared/tokens.css">
+<style>
+  .uc-content {
+    position: absolute;
+    top: var(--content-pad-top);
+    left: var(--content-pad-x);
+    right: var(--content-pad-x);
+    bottom: var(--content-pad-bottom);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .uc-title {
+    font-family: var(--font-display);
+    font-size: 64px;
+    line-height: 1.1;
+    color: var(--ink);
+    margin-bottom: 48px;
+  }
+
+  .uc-title .count {
+    color: var(--accent);
+  }
+
+  .uc-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 1fr 1fr;
+    flex: 1;
+  }
+
+  .uc-cell {
+    padding: 28px 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-right: 1px solid var(--hairline);
+    border-bottom: 1px solid var(--hairline);
+  }
+
+  .uc-cell:nth-child(4),
+  .uc-cell:nth-child(8) {
+    border-right: none;
+  }
+
+  .uc-cell:nth-child(n+5) {
+    border-bottom: none;
+  }
+
+  .uc-cell-number {
+    font-family: var(--font-mono);
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--accent);
+    line-height: 1;
+  }
+
+  .uc-cell-title {
+    font-family: var(--font-body);
+    font-size: 26px;
+    font-weight: 700;
+    color: var(--ink);
+    line-height: 1.25;
+    margin-top: 4px;
+  }
+
+  .uc-cell-text {
+    font-family: var(--font-body);
+    font-size: 22px;
+    color: var(--ink-80);
+    line-height: 1.45;
+  }
+</style>
+</head>
+<body>
+
+<div class="slide-masthead">
+  <span>Proof</span>
+  <span>06 / 12</span>
+</div>
+
+<div class="uc-content">
+  <h1 class="uc-title"><span class="count">8</span> Ways BDRs Use Claude Every Day</h1>
+
+  <div class="uc-grid">
+    <div class="uc-cell">
+      <div class="uc-cell-number">01</div>
+      <div class="uc-cell-title">Account Research</div>
+      <div class="uc-cell-text">Summarize 10-K filings, earnings calls, and news into a one-page briefing in under 5 minutes</div>
+    </div>
+    <div class="uc-cell">
+      <div class="uc-cell-number">02</div>
+      <div class="uc-cell-title">Personalized Emails</div>
+      <div class="uc-cell-text">Draft multi-touch sequences tailored to each prospect's industry, role, and company priorities</div>
+    </div>
+    <div class="uc-cell">
+      <div class="uc-cell-number">03</div>
+      <div class="uc-cell-title">Call Prep Sheets</div>
+      <div class="uc-cell-text">Generate talking points, potential objections, and discovery questions before every call</div>
+    </div>
+    <div class="uc-cell">
+      <div class="uc-cell-number">04</div>
+      <div class="uc-cell-title">Objection Handling</div>
+      <div class="uc-cell-text">Build custom response scripts for common pushbacks: budget, timing, existing vendor</div>
+    </div>
+    <div class="uc-cell">
+      <div class="uc-cell-number">05</div>
+      <div class="uc-cell-title">Qualification Frameworks</div>
+      <div class="uc-cell-text">Apply BANT or MEDDIC consistently with AI-generated checklists tailored to each prospect</div>
+    </div>
+    <div class="uc-cell">
+      <div class="uc-cell-number">06</div>
+      <div class="uc-cell-title">Meeting Prep &amp; Follow-Up</div>
+      <div class="uc-cell-text">Summarize pre-meeting research and draft professional follow-up emails in minutes</div>
+    </div>
+    <div class="uc-cell">
+      <div class="uc-cell-number">07</div>
+      <div class="uc-cell-title">Competitive Intelligence</div>
+      <div class="uc-cell-text">Quick-turn analysis of competitor positioning, strengths, and weaknesses for specific deals</div>
+    </div>
+    <div class="uc-cell">
+      <div class="uc-cell-number">08</div>
+      <div class="uc-cell-title">Industry &amp; Persona Research</div>
+      <div class="uc-cell-text">Understand vertical pain points and buyer personas for IT advisory prospects</div>
+    </div>
+  </div>
+</div>
+
+<div class="slide-footer">
+  <span></span>
+  <span>Claude AI for BDRs</span>
+</div>
+
+</body>
+</html>

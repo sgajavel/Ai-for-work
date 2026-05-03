@@ -1,0 +1,113 @@
+/* BDR + Claude AI Pitch Deck — Design Tokens */
+
+:root {
+  /* Color */
+  --ink:           #0F1923;
+  --ink-80:        #3A4854;
+  --ink-50:        #6B7A87;
+  --paper:         #FFFFFF;
+  --paper-warm:    #F7F8FA;
+
+  --accent:        #0D8A5E;
+  --accent-light:  #E8F5EE;
+  --accent-deep:   #06634A;
+
+  --signal:        #D4760A;
+  --signal-light:  #FFF4E6;
+
+  --hairline:      rgba(15, 25, 35, 0.10);
+  --chrome-bg:     #0F1923;
+  --chrome-ink:    #FFFFFF;
+
+  /* Typography */
+  --font-display:  'Instrument Serif', Georgia, serif;
+  --font-body:     'DM Sans', -apple-system, system-ui, sans-serif;
+  --font-mono:     'JetBrains Mono', 'SF Mono', ui-monospace, monospace;
+
+  --fs-hero:       140px;
+  --fs-h1:         72px;
+  --fs-h2:         48px;
+  --fs-h3:         36px;
+  --fs-body:       28px;
+  --fs-body-sm:    24px;
+  --fs-stat-hero:  140px;
+  --fs-stat-lg:    80px;
+  --fs-stat-md:    56px;
+
+  /* Spacing */
+  --sp-xs:   8px;
+  --sp-sm:   16px;
+  --sp-md:   24px;
+  --sp-lg:   40px;
+  --sp-xl:   64px;
+  --sp-2xl:  96px;
+
+  /* Chrome */
+  --content-pad-x:      120px;
+  --content-pad-top:    120px;
+  --content-pad-bottom: 100px;
+}
+
+/* Reset */
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+/* Canvas Lock */
+body {
+  width: 1920px;
+  height: 1080px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  position: relative;
+  background: var(--paper);
+  color: var(--ink);
+  font-family: var(--font-body);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3 { text-wrap: balance; }
+p { text-wrap: pretty; }
+
+/* Slide chrome — opt-in via class */
+.slide-masthead {
+  position: absolute;
+  top: 0;
+  left: var(--content-pad-x);
+  right: var(--content-pad-x);
+  height: 80px;
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding-bottom: var(--sp-sm);
+  border-bottom: 1px solid var(--hairline);
+  font-family: var(--font-mono);
+  font-size: 20px;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  color: var(--ink-50);
+}
+
+.slide-footer {
+  position: absolute;
+  bottom: 0;
+  left: var(--content-pad-x);
+  right: var(--content-pad-x);
+  height: 60px;
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  padding-top: var(--sp-sm);
+  border-top: 1px solid var(--hairline);
+  font-family: var(--font-body);
+  font-size: 20px;
+  color: var(--ink-50);
+}
+
+.slide-content {
+  position: absolute;
+  top: var(--content-pad-top);
+  left: var(--content-pad-x);
+  right: var(--content-pad-x);
+  bottom: var(--content-pad-bottom);
+}

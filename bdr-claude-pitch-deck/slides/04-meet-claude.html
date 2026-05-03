@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>04 · Meet Claude</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared/tokens.css">
+<style>
+  .mc-content {
+    position: absolute;
+    top: var(--content-pad-top);
+    left: var(--content-pad-x);
+    right: var(--content-pad-x);
+    bottom: var(--content-pad-bottom);
+    display: flex;
+    gap: 80px;
+  }
+
+  .mc-left {
+    flex: 1.1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .mc-right {
+    flex: 0.9;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .mc-title {
+    font-family: var(--font-display);
+    font-size: 56px;
+    line-height: 1.15;
+    color: var(--ink);
+    margin-bottom: 48px;
+  }
+
+  .mc-title .accent {
+    color: var(--accent);
+  }
+
+  .mc-points {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    padding-left: 28px;
+    border-left: 1px solid var(--hairline);
+  }
+
+  .mc-point {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+
+  .mc-point-title {
+    font-family: var(--font-body);
+    font-size: var(--fs-body);
+    font-weight: 700;
+    color: var(--ink);
+    line-height: 1.3;
+  }
+
+  .mc-point-text {
+    font-family: var(--font-body);
+    font-size: var(--fs-body-sm);
+    color: var(--ink-80);
+    line-height: 1.5;
+  }
+
+  .mc-chat {
+    background: var(--paper-warm);
+    border: 1px solid var(--hairline);
+    padding: 32px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .mc-chat-label {
+    font-family: var(--font-mono);
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    color: var(--ink-50);
+    margin-bottom: 8px;
+  }
+
+  .mc-chat-msg {
+    padding: 16px 20px;
+    font-family: var(--font-body);
+    font-size: 22px;
+    line-height: 1.5;
+    max-width: 92%;
+  }
+
+  .mc-chat-user {
+    background: var(--ink);
+    color: var(--chrome-ink);
+    align-self: flex-end;
+    border-radius: 2px;
+  }
+
+  .mc-chat-ai {
+    background: var(--paper);
+    color: var(--ink);
+    border: 1px solid var(--hairline);
+    align-self: flex-start;
+    border-radius: 2px;
+  }
+
+  .mc-chat-ai .highlight {
+    color: var(--accent);
+    font-weight: 600;
+  }
+
+  .mc-chat-cursor {
+    display: inline-block;
+    width: 2px;
+    height: 18px;
+    background: var(--accent);
+    margin-left: 4px;
+    vertical-align: text-bottom;
+  }
+</style>
+</head>
+<body>
+
+<div class="slide-masthead">
+  <span>The Solution</span>
+  <span>04 / 12</span>
+</div>
+
+<div class="mc-content">
+  <div class="mc-left">
+    <h1 class="mc-title">
+      What If Every BDR Had a <span class="accent">Senior Research Analyst</span> Sitting Next to Them?
+    </h1>
+
+    <div class="mc-points">
+      <div class="mc-point">
+        <div class="mc-point-title">Built by Anthropic for knowledge work</div>
+        <div class="mc-point-text">Purpose-built for research, writing, and analysis -- exactly what BDRs do all day.</div>
+      </div>
+      <div class="mc-point">
+        <div class="mc-point-title">Augments your BDRs, doesn't replace them</div>
+        <div class="mc-point-text">Handles research, drafting, and prep so reps can focus on live conversations.</div>
+      </div>
+      <div class="mc-point">
+        <div class="mc-point-title">No technical setup required</div>
+        <div class="mc-point-text">Simple chat interface, right alongside Salesforce and SalesLoft.</div>
+      </div>
+      <div class="mc-point">
+        <div class="mc-point-title">Reads complex documents, writes naturally</div>
+        <div class="mc-point-text">10-K filings, earnings calls, 50-page reports -- summarized in seconds, in a human tone.</div>
+      </div>
+    </div>
+  </div>
+
+  <div class="mc-right">
+    <div class="mc-chat">
+      <div class="mc-chat-label">Claude Chat Interface</div>
+      <div class="mc-chat-msg mc-chat-user">
+        Research Acme Corp for a cold outreach to their VP of IT Infrastructure.
+      </div>
+      <div class="mc-chat-msg mc-chat-ai">
+        <strong>Acme Corp -- Key Findings:</strong><br><br>
+        <span class="highlight">&#9670; Digital transformation</span> initiative announced in Q3 earnings ($40M investment)<br><br>
+        <span class="highlight">&#9670; Pain point:</span> Legacy infrastructure migration to hybrid cloud<br><br>
+        <span class="highlight">&#9670; Opening line:</span> "Following Acme's $40M digital infrastructure investment..."<span class="mc-chat-cursor"></span>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="slide-footer">
+  <span></span>
+  <span>Claude AI for BDRs</span>
+</div>
+
+</body>
+</html>

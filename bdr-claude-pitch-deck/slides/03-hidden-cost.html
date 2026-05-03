@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>03 · Hidden Cost</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared/tokens.css">
+<style>
+  .hc-content {
+    position: absolute;
+    top: var(--content-pad-top);
+    left: var(--content-pad-x);
+    right: var(--content-pad-x);
+    bottom: var(--content-pad-bottom);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hc-title {
+    font-family: var(--font-display);
+    font-size: 64px;
+    line-height: 1.1;
+    color: var(--ink);
+    margin-bottom: 56px;
+  }
+
+  .hc-columns {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 48px;
+    flex: 1;
+  }
+
+  .hc-col {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .hc-col-number {
+    font-family: var(--font-mono);
+    font-size: var(--fs-h2);
+    font-weight: 500;
+    color: var(--signal);
+    margin-bottom: 16px;
+  }
+
+  .hc-col-title {
+    font-family: var(--font-body);
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--ink);
+    margin-bottom: 16px;
+    line-height: 1.25;
+  }
+
+  .hc-col-text {
+    font-family: var(--font-body);
+    font-size: var(--fs-body-sm);
+    color: var(--ink-80);
+    line-height: 1.55;
+  }
+
+  .hc-col-divider {
+    width: 48px;
+    height: 3px;
+    background: var(--signal);
+    margin-bottom: 24px;
+    opacity: 0.5;
+  }
+
+  .hc-stat-block {
+    margin-top: auto;
+    padding-top: 40px;
+    border-top: 1px solid var(--hairline);
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+  }
+
+  .hc-stat-number {
+    font-family: var(--font-body);
+    font-size: 110px;
+    font-weight: 700;
+    color: var(--signal);
+    line-height: 1;
+    letter-spacing: -0.02em;
+  }
+
+  .hc-stat-suffix {
+    font-family: var(--font-body);
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--signal);
+  }
+
+  .hc-stat-detail {
+    font-family: var(--font-body);
+    font-size: var(--fs-body-sm);
+    color: var(--ink-50);
+  }
+
+  .hc-stat-formula {
+    font-family: var(--font-mono);
+    font-size: 20px;
+    color: var(--ink-50);
+    margin-top: 4px;
+  }
+</style>
+</head>
+<body>
+
+<div class="slide-masthead">
+  <span>The Problem</span>
+  <span>03 / 12</span>
+</div>
+
+<div class="hc-content">
+  <h1 class="hc-title">The Hidden Cost of<br>"How We've Always Done It"</h1>
+
+  <div class="hc-columns">
+    <div class="hc-col">
+      <div class="hc-col-number">01</div>
+      <div class="hc-col-divider"></div>
+      <div class="hc-col-title">Speed to lead suffers</div>
+      <div class="hc-col-text">
+        30-45 minutes of research per prospect means fewer accounts touched daily.
+        Current output: only 44-50 dials and 40-80 emails per day.
+      </div>
+    </div>
+
+    <div class="hc-col">
+      <div class="hc-col-number">02</div>
+      <div class="hc-col-divider"></div>
+      <div class="hc-col-title">Generic outreach falls flat</div>
+      <div class="hc-col-text">
+        Templated emails get less than 1% response rate.
+        Your BDRs are sending hundreds of emails that almost nobody reads.
+      </div>
+    </div>
+
+    <div class="hc-col">
+      <div class="hc-col-number">03</div>
+      <div class="hc-col-divider"></div>
+      <div class="hc-col-title">Inconsistent quality</div>
+      <div class="hc-col-text">
+        Prep quality varies by rep experience.
+        Newer BDRs take even longer and produce weaker outreach.
+      </div>
+    </div>
+  </div>
+
+  <div class="hc-stat-block">
+    <div>
+      <span class="hc-stat-number">$528,000</span>
+      <span class="hc-stat-suffix">/year</span>
+    </div>
+    <div class="hc-stat-detail">in time spent on tasks AI can accelerate  -- across your 40 BDRs</div>
+    <div class="hc-stat-formula">$40/hr fully loaded cost  x  330 hrs reclaimed per BDR  x  40 BDRs</div>
+  </div>
+</div>
+
+<div class="slide-footer">
+  <span></span>
+  <span>Claude AI for BDRs</span>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>05 · Before vs After</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared/tokens.css">
+<style>
+  .ba-content {
+    position: absolute;
+    top: var(--content-pad-top);
+    left: var(--content-pad-x);
+    right: var(--content-pad-x);
+    bottom: var(--content-pad-bottom);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ba-title {
+    font-family: var(--font-display);
+    font-size: var(--fs-h1);
+    line-height: 1.1;
+    color: var(--ink);
+    margin-bottom: 48px;
+  }
+
+  .ba-title .before { color: var(--signal); }
+  .ba-title .after  { color: var(--accent); }
+
+  .ba-table {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ba-header {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr 1fr;
+    gap: 0;
+    padding: 0 0 16px 0;
+    border-bottom: 2px solid var(--ink);
+  }
+
+  .ba-header-cell {
+    font-family: var(--font-mono);
+    font-size: 20px;
+    font-weight: 500;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+  }
+
+  .ba-header-cell.task   { color: var(--ink-50); }
+  .ba-header-cell.before { color: var(--signal); }
+  .ba-header-cell.after  { color: var(--accent); }
+  .ba-header-cell.saved  { color: var(--ink-50); }
+
+  .ba-row {
+    display: grid;
+    grid-template-columns: 1.4fr 1fr 1fr 1fr;
+    gap: 0;
+    padding: 24px 0;
+    border-bottom: 1px solid var(--hairline);
+    align-items: center;
+  }
+
+  .ba-row:nth-child(even) {
+    background: var(--paper-warm);
+    margin: 0 -16px;
+    padding: 24px 16px;
+  }
+
+  .ba-cell-task {
+    font-family: var(--font-body);
+    font-size: var(--fs-body);
+    font-weight: 600;
+    color: var(--ink);
+  }
+
+  .ba-cell-before {
+    font-family: var(--font-body);
+    font-size: var(--fs-body);
+    font-weight: 700;
+    color: var(--signal);
+  }
+
+  .ba-cell-after {
+    font-family: var(--font-body);
+    font-size: var(--fs-body);
+    font-weight: 700;
+    color: var(--accent);
+  }
+
+  .ba-cell-saved {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+  }
+
+  .ba-saved-bar-bg {
+    width: 180px;
+    height: 12px;
+    background: rgba(13, 138, 94, 0.1);
+    position: relative;
+  }
+
+  .ba-saved-bar-fill {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    background: var(--accent);
+  }
+
+  .ba-saved-pct {
+    font-family: var(--font-mono);
+    font-size: 22px;
+    font-weight: 500;
+    color: var(--accent);
+  }
+
+  .ba-callout {
+    margin-top: auto;
+    padding-top: 32px;
+    border-top: 1px solid var(--hairline);
+    display: flex;
+    align-items: baseline;
+    gap: 16px;
+  }
+
+  .ba-callout-number {
+    font-family: var(--font-body);
+    font-size: var(--fs-stat-lg);
+    font-weight: 700;
+    color: var(--accent);
+    line-height: 1;
+  }
+
+  .ba-callout-text {
+    font-family: var(--font-body);
+    font-size: var(--fs-body);
+    color: var(--ink-80);
+    line-height: 1.4;
+  }
+</style>
+</head>
+<body>
+
+<div class="slide-masthead">
+  <span>Proof</span>
+  <span>05 / 12</span>
+</div>
+
+<div class="ba-content">
+  <h1 class="ba-title">
+    <span class="before">Before</span> Claude vs. <span class="after">After</span> Claude
+  </h1>
+
+  <div class="ba-table">
+    <div class="ba-header">
+      <div class="ba-header-cell task">Task</div>
+      <div class="ba-header-cell before">Before</div>
+      <div class="ba-header-cell after">With Claude</div>
+      <div class="ba-header-cell saved">Time Saved</div>
+    </div>
+
+    <div class="ba-row">
+      <div class="ba-cell-task">Account Research</div>
+      <div class="ba-cell-before">30-45 min</div>
+      <div class="ba-cell-after">3-5 min</div>
+      <div class="ba-cell-saved">
+        <div class="ba-saved-bar-bg"><div class="ba-saved-bar-fill" style="width:87%"></div></div>
+        <span class="ba-saved-pct">87%</span>
+      </div>
+    </div>
+
+    <div class="ba-row">
+      <div class="ba-cell-task">Email Personalization</div>
+      <div class="ba-cell-before">5-10 min</div>
+      <div class="ba-cell-after">2-3 min</div>
+      <div class="ba-cell-saved">
+        <div class="ba-saved-bar-bg"><div class="ba-saved-bar-fill" style="width:60%"></div></div>
+        <span class="ba-saved-pct">60%</span>
+      </div>
+    </div>
+
+    <div class="ba-row">
+      <div class="ba-cell-task">Call Prep &amp; Talking Points</div>
+      <div class="ba-cell-before">30-45 min</div>
+      <div class="ba-cell-after">10-15 min</div>
+      <div class="ba-cell-saved">
+        <div class="ba-saved-bar-bg"><div class="ba-saved-bar-fill" style="width:60%"></div></div>
+        <span class="ba-saved-pct">60%</span>
+      </div>
+    </div>
+
+    <div class="ba-row">
+      <div class="ba-cell-task">Meeting Notes &amp; Follow-Up</div>
+      <div class="ba-cell-before">20-30 min</div>
+      <div class="ba-cell-after">5-10 min</div>
+      <div class="ba-cell-saved">
+        <div class="ba-saved-bar-bg"><div class="ba-saved-bar-fill" style="width:63%"></div></div>
+        <span class="ba-saved-pct">63%</span>
+      </div>
+    </div>
+
+    <div class="ba-row">
+      <div class="ba-cell-task">Objection Handling Scripts</div>
+      <div class="ba-cell-before">20-30 min</div>
+      <div class="ba-cell-after">5-10 min</div>
+      <div class="ba-cell-saved">
+        <div class="ba-saved-bar-bg"><div class="ba-saved-bar-fill" style="width:63%"></div></div>
+        <span class="ba-saved-pct">63%</span>
+      </div>
+    </div>
+  </div>
+
+  <div class="ba-callout">
+    <span class="ba-callout-number">1.5-2.5 hrs</span>
+    <span class="ba-callout-text">freed per rep, per day = 330 additional productive hours per year, per BDR</span>
+  </div>
+</div>
+
+<div class="slide-footer">
+  <span></span>
+  <span>Claude AI for BDRs</span>
+</div>
+
+</body>
+</html>

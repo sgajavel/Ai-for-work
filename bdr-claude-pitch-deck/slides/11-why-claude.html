@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>11 · Why Claude</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,300..700;1,9..40,300..700&family=Instrument+Serif:ital@0;1&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="../shared/tokens.css">
+<style>
+  .wc-content {
+    position: absolute;
+    top: var(--content-pad-top);
+    left: var(--content-pad-x);
+    right: var(--content-pad-x);
+    bottom: var(--content-pad-bottom);
+    display: flex;
+    flex-direction: column;
+  }
+
+  .wc-title {
+    font-family: var(--font-display);
+    font-size: var(--fs-h1);
+    line-height: 1.1;
+    color: var(--ink);
+    margin-bottom: 56px;
+  }
+
+  .wc-title .accent {
+    color: var(--accent);
+  }
+
+  .wc-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    flex: 1;
+  }
+
+  .wc-card {
+    padding: 40px 48px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    border-right: 1px solid var(--hairline);
+    border-bottom: 1px solid var(--hairline);
+  }
+
+  .wc-card:nth-child(2),
+  .wc-card:nth-child(4) {
+    border-right: none;
+  }
+
+  .wc-card:nth-child(3),
+  .wc-card:nth-child(4) {
+    border-bottom: none;
+  }
+
+  .wc-card-number {
+    font-family: var(--font-mono);
+    font-size: 32px;
+    font-weight: 500;
+    color: var(--accent);
+    line-height: 1;
+  }
+
+  .wc-card-title {
+    font-family: var(--font-body);
+    font-size: 32px;
+    font-weight: 700;
+    color: var(--ink);
+    line-height: 1.25;
+    margin-top: 8px;
+  }
+
+  .wc-card-text {
+    font-family: var(--font-body);
+    font-size: var(--fs-body-sm);
+    color: var(--ink-80);
+    line-height: 1.55;
+    max-width: 620px;
+  }
+
+  .wc-card-divider {
+    width: 40px;
+    height: 3px;
+    background: var(--accent);
+    opacity: 0.4;
+  }
+</style>
+</head>
+<body>
+
+<div class="slide-masthead">
+  <span>Differentiation</span>
+  <span>11 / 12</span>
+</div>
+
+<div class="wc-content">
+  <h1 class="wc-title">Why <span class="accent">Claude</span>, Specifically?</h1>
+
+  <div class="wc-grid">
+    <div class="wc-card">
+      <div class="wc-card-number">01</div>
+      <div class="wc-card-divider"></div>
+      <div class="wc-card-title">Reads long documents natively</div>
+      <div class="wc-card-text">
+        10-K filings, earnings transcripts, 100-page research reports. Other AI tools hit length limits and lose context. Claude handles them in full.
+      </div>
+    </div>
+
+    <div class="wc-card">
+      <div class="wc-card-number">02</div>
+      <div class="wc-card-divider"></div>
+      <div class="wc-card-title">Sounds human, not robotic</div>
+      <div class="wc-card-text">
+        Claude's writing tone is natural and professional. Prospects can't tell it was AI-assisted. No awkward "as an AI" language.
+      </div>
+    </div>
+
+    <div class="wc-card">
+      <div class="wc-card-number">03</div>
+      <div class="wc-card-divider"></div>
+      <div class="wc-card-title">Built for knowledge work</div>
+      <div class="wc-card-text">
+        Designed specifically for research, analysis, and writing -- exactly what BDRs do all day. Not a general-purpose chatbot.
+      </div>
+    </div>
+
+    <div class="wc-card">
+      <div class="wc-card-number">04</div>
+      <div class="wc-card-divider"></div>
+      <div class="wc-card-title">Safe and trustworthy</div>
+      <div class="wc-card-text">
+        Anthropic is the industry leader in AI safety. Your team's data is handled responsibly. No training on your inputs.
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="slide-footer">
+  <span></span>
+  <span>Claude AI for BDRs</span>
+</div>
+
+</body>
+</html>
