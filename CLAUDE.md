@@ -168,6 +168,34 @@ Actions and Next Steps table has three columns, Action Item / Owner / Date, and 
 line is dated and owned. Reserve the last 10 minutes of any call for it. Same-day
 follow-up is the standard.
 
+### The Plan & Next Steps gate
+
+The hinge between discovery and Proposal. One question, asked plainly:
+
+> **"Now that you understand how Info-Tech would work with you on your critical
+> initiatives, are you interested in moving forward with a partnership?"**
+
+**Yes** opens the Power questions, then the Plan questions. **No** is not a scheduling
+problem and not an objection to handle. It means the conversation is not connected to
+a real business priority, and the fix is to go back to VMD and re-confirm business
+goals, not to push harder on logistics.
+
+Info-Tech's framework treats the value confirmation and the next-step booking as **one
+gate**, not two motions. That is Jillian development area 2 in concrete form.
+
+### Stages after discovery
+
+Full detail, including entrance and exit criteria and the verbatim Power and Plan
+question banks, is in `reference/deal-stages.md`. The short version:
+
+- **Proposal (Stage 3)** is entered only once the QP is fully built, meaning OAT is a
+  yes to everything and every Power and Plan question is answered. Exits on submitted
+  proposal, verbal agreement on price and terms from the DM, CPQ delivered, a written
+  MAP with reverse timeline, and procurement/legal timelines understood.
+- **Commit (Stage 4)** is signature and PO. Named failure points: not understanding
+  procurement and legal timelines, not asking about vacations when setting dates, and
+  veto power surfacing late because it was not squashed during Power questioning.
+
 ---
 
 ## 5. Standing sales rules
@@ -181,8 +209,11 @@ These apply on every call and in every written output.
   in playbook Section 13 (CSC Global, Harvard, TPG).
 - **Power is the habitual blank.** It must be explicitly asked, never assumed. Flag it
   unfilled until confirmed. "Anyone else you'd bring in?" is a soft participation
-  probe, not the Power question. The real ask is who signs off and who else has to
-  agree.
+  probe, not the Power question. The real ask is who signs off, who controls budget,
+  and who can veto. Full question bank in `reference/deal-stages.md`.
+- **Pricing before Proposal stage.** Ranges are fine in conversation. A physical
+  proposal only goes out once the opportunity has been formally moved into Proposal
+  stage. The stage move comes first, the document second.
 - **No screen share by default.** Exceptions: Building Alignment live co-creation, and
   the FAC website walkthrough.
 - **Roleplay and simulation content is never citable as real account intel.**
@@ -214,7 +245,11 @@ and prep should support them rather than work around them.
    solved?"
 2. **Earn the close before booking.** Never move to calendar logistics before an
    explicit value or interest confirmation. "Was this useful, worth another
-   conversation?" comes before offering times.
+   conversation?" comes before offering times. The formal version of this is the
+   **Plan & Next Steps gate** in Section 4, which Info-Tech's own framework structures
+   as a single yes/no gate rather than two separate motions. Build the checkpoint into
+   the SMB call script rather than treating value-check and next-step-booking as
+   separate beats.
 3. **Build a tactical SMB fast start plan.** Concrete actions, channels, numbers,
    cadences. Not a strategic overview.
 
@@ -383,6 +418,10 @@ CLAUDE.md                       This file. Operating manual and standing rules.
 reference/
   role-context.md               Full onboarding distillation. Sales framework,
                                 training takeaways, coaching feedback, product lines.
+  deal-stages.md                Everything after discovery. Plan & Next Steps gate,
+                                Power and Plan question banks, Proposal and Commit
+                                entrance/exit criteria, account transition.
+  sfdc-event-export-2026-08-13.md   Raw campaign export behind the event calendar.
 playbook/
   outreach-playbook.md          Single source of truth for outreach drafting.
                                 Voice, subject lines, structure, campaign types,
@@ -426,9 +465,23 @@ Merged from this repo and from the onboarding notes. Update as these close.
 - [ ] **Updated FY26 member value stat sheet**, whether one exists.
 - [ ] **CKIP Lesson 6 and FAC Module Lesson 4** not yet captured.
 
+**Sales motion questions raised 2026-08-13:**
+
+- [ ] **Does the SMB motion route new logos through Acquire first**, or do ACDs
+      originate and close SMB deals end to end? This decides whether the Account
+      Transition process in `reference/deal-stages.md` is operational or background.
+- [ ] **Is there an SMB-specific pacing** of the QP and the Proposal/Commit gates,
+      given shorter call windows, or does the same structure apply unchanged?
+- [ ] **What does OAT stand for and where does it live?** Referenced as the Proposal
+      entry gate but not defined.
+- [ ] **Stage criteria deck is labeled FY2025.** Confirm with Alexandra Keech whether
+      it has been refreshed for FY2026/27 before quoting a stage rule as policy.
+
 **Admin:**
 
-- [ ] **Meeting content** from 2026-08-13. Lands in `meetings/`.
+- [x] **Meeting content** from 2026-08-13, Proposal & Commit module. In
+      `meetings/2026-08-13-proposal-commit-stage.md`, standing rules promoted into
+      Sections 4, 5, 6 and `reference/deal-stages.md`.
 - [ ] **Confirm tiering definitions.** Section 8 is a draft proposal.
 - [ ] **Full names for routing reps.** "Nick P" and "Erin Font" as given. SLED contact
       unnamed.
