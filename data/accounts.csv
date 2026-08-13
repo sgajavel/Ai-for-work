@@ -1,6 +1,700 @@
 account_id,account_name,tier,tier_reason,scope_status,routed_to,industry,revenue_musd,parent_company,city,zip,membership_status,last_reviewed
-EX-001,EXAMPLE Meridian Foods Inc,1,Membership lapsed 2024 and prior CIO still in seat,in-book,,Food & beverage manufacturing,180,,Fresno,93720,lapsed-2024,2026-08-13
-EX-002,EXAMPLE Calder Health Partners,2,Named CIO identified plus OT security timing hook,in-book,,Healthcare services,95,,San Diego,92121,none,2026-08-13
-EX-003,EXAMPLE Vantage Logistics Group,3,No named IT contact and no engagement footprint,in-book,,Transportation & logistics,240,,Stockton,95206,none,2026-08-13
-EX-004,EXAMPLE Redwood Credit Alliance,,Small credit union,routed-out,Nick P,Credit union,60,,Santa Rosa,95403,none,2026-08-13
-EX-005,EXAMPLE Sierra Composite Materials,,Sub-500M but appears to be a division,needs-ownership-check,,Advanced materials,310,Possible parent: unconfirmed holding co,Sacramento,95814,none,2026-08-13
+001a700000HLX7IAAX,Achievers,,Tiering deferred pending scope resolution,duplicate-record,merge into: Achievers LLC,,,Achievers Solutions Inc.,,,never,2026-08-13
+0014y0000255ClhAAE,Achievers Llc,,Tiering deferred pending scope resolution,duplicate-record,merge into: Achievers LLC,,,Achievers Solutions Inc.,,,never,2026-08-13
+0014y00002rShuVAAS,Achievers Solutions Inc.,,Tiering deferred pending scope resolution,duplicate-record,merge into: Achievers LLC,,,,,,never,2026-08-13
+0014000000VAODkAAP,Advantest America R&D Center Inc,,Tiering deferred pending scope resolution,duplicate-record,"merge into: Advantest Test Solutions, Inc.",,,Advantest Corporation,,,lapsed,2026-08-13
+001a7000001JuELAA0,Affinity,,Tiering deferred pending scope resolution,duplicate-record,merge into: Affinity,,,,,,never,2026-08-13
+0014y00002vMkwXAAS,AppDirecte Canada Inc,,Tiering deferred pending scope resolution,duplicate-record,merge into: AppDirect,,,AppDirect,,,never,2026-08-13
+0014000000VAPDDAA5,California Casualty Management Company,,Tiering deferred pending scope resolution,duplicate-record,merge into: California Casualty,,,California Casualty,,,lapsed,2026-08-13
+001f3000021hvPDAAY,Doma,,Tiering deferred pending scope resolution,duplicate-record,"merge into: Doma Holdings, Inc.",,,Title Resources Group,,,never,2026-08-13
+0014y00002jRhh0AAC,Doma,,Tiering deferred pending scope resolution,duplicate-record,"merge into: Doma Holdings, Inc.",,,Title Resources Group,,,never,2026-08-13
+0014y00002rSjKzAAK,"Doma Title Insurance, Inc.",,Tiering deferred pending scope resolution,duplicate-record,"merge into: Doma Holdings, Inc.",,,Title Resources Group,,,never,2026-08-13
+001f300001v8yNxAAI,Eaze,,Tiering deferred pending scope resolution,duplicate-record,"merge into: Eaze, Inc.",,,Vireo Growth Inc.,,,never,2026-08-13
+001a700000nFDVUAA4,Enable,,Tiering deferred pending scope resolution,duplicate-record,merge into: Enable,,,,,,never,2026-08-13
+0013300001iPW5VAAW,Enterprise Jbilling Ltd,,Tiering deferred pending scope resolution,duplicate-record,merge into: AppDirect,,,AppDirect,,,never,2026-08-13
+001a700000QuqBRAAZ,Go1,,Tiering deferred pending scope resolution,duplicate-record,merge into: Go1 USA LLC,,,,,,never,2026-08-13
+001a700000eycrbAAA,Jerry,,Tiering deferred pending scope resolution,duplicate-record,merge into: Jerry,,,,,,never,2026-08-13
+0014y00002ihRBEAA2,Juniper Square Inc.,,Tiering deferred pending scope resolution,duplicate-record,merge into: Juniper Square,,,,,,never,2026-08-13
+001a700000Hsa6nAAB,Kabam,,Tiering deferred pending scope resolution,duplicate-record,"merge into: Kabam, Inc.",,,Netmarble Corp.,,,never,2026-08-13
+0014y00002rShoBAAS,"Kabam Games, Inc",,Tiering deferred pending scope resolution,duplicate-record,"merge into: Kabam, Inc.",,,Netmarble Corp.,,,never,2026-08-13
+0014y00002rSmpPAAS,Microcorp LLC,,Tiering deferred pending scope resolution,duplicate-record,merge into: AppDirect,,,AppDirect,,,never,2026-08-13
+0014y00002dHpgWAAS,Mozilla Corporation,,Tiering deferred pending scope resolution,duplicate-record,merge into: Mozilla Foundation,,,Mozilla Foundation,,,never,2026-08-13
+0014y00002rSmaZAAS,North American Title Company,,Tiering deferred pending scope resolution,duplicate-record,merge into: North American Title,,,Title Resources Group,,,never,2026-08-13
+0014y00002ihL1DAAU,North American Title Company of Colorado,,Tiering deferred pending scope resolution,duplicate-record,merge into: North American Title,,,Title Resources Group,,,never,2026-08-13
+0014y00002jRqD6AAK,"North American Title Company, Inc.",,Tiering deferred pending scope resolution,duplicate-record,merge into: North American Title,,,Title Resources Group,,,never,2026-08-13
+001a7000003nh4UAAQ,North East Medical Services,,Tiering deferred pending scope resolution,duplicate-record,merge into: North East Medical Services,,,,,,never,2026-08-13
+0014000000VAQCkAAP,"Proofpoint, Inc.",,Tiering deferred pending scope resolution,duplicate-record,merge into: Proofpoint,,,,,,lapsed,2026-08-13
+001f300001v8k5mAAA,SRS Acquiom Inc.,,Tiering deferred pending scope resolution,duplicate-record,merge into: SRS Acquiom,,,,,,never,2026-08-13
+0014y00002ih7s4AAA,Securonix,,Tiering deferred pending scope resolution,duplicate-record,merge into: Securonix,,,,,,never,2026-08-13
+0014y00002lttiaAAA,VODACOM GROUP LTD,,Tiering deferred pending scope resolution,duplicate-record,merge into: Vodacom,,,Vodafone Group Plc,,,never,2026-08-13
+0014y00003QzArJAAV,"Vir Biotechnology, Inc.",,Tiering deferred pending scope resolution,duplicate-record,"merge into: Vir Biotechnology, Inc.",,,,,,never,2026-08-13
+001f300001v8MK5AAM,"Wag Labs, Inc.",,Tiering deferred pending scope resolution,duplicate-record,merge into: Wag! Group Co.,,,Wag! Group Co.,,,never,2026-08-13
+001a700000HOLd5AAH,Wag's,,Tiering deferred pending scope resolution,duplicate-record,merge into: Wag! Group Co.,,,Wag! Group Co.,,,never,2026-08-13
+0014y0000257K9SAAU,Wiser Inc,,Tiering deferred pending scope resolution,duplicate-record,"merge into: Wiser Solutions, Inc.",,,"Wiser Solutions, Inc.",,,never,2026-08-13
+0014y00002dHpxMAAS,"Wiser Solutions, Inc.",,Tiering deferred pending scope resolution,duplicate-record,"merge into: Wiser Solutions, Inc.",,,,,,never,2026-08-13
+0014y00002p8tC4AAI,Workstream Inc.,,Tiering deferred pending scope resolution,duplicate-record,merge into: Workstream,,,,,,never,2026-08-13
+001a700000KhNx8AAF,XYZ,,Tiering deferred pending scope resolution,duplicate-record,merge into: XYZ,,,,,,never,2026-08-13
+001a700000HLr6BAAT,xyz,,Tiering deferred pending scope resolution,duplicate-record,merge into: XYZ,,,,,,never,2026-08-13
+001a700000HLOQnAAP,xyz,,Tiering deferred pending scope resolution,duplicate-record,merge into: XYZ,,,,,,never,2026-08-13
+001a700000CNE8JAAX,15Five,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001lIywjAAC,6sense,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002vMkQDAA0,AIC Inc.,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001ospn4AAA,ALOM,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002ih1QLAAY,Abnormal AI,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8tZQAAY,Abode Services,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Abode,,,never,2026-08-13
+001a7000015pT55AAE,Academia.edu,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000001Dd3P9AAJ,Accel,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002ihJe7AAE,Achievers LLC,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Achievers Solutions Inc.,,,never,2026-08-13
+0014y00002vMlJWAA0,AdColony,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"Digital Turbine, Inc.",,,never,2026-08-13
+001a7000015prerAAA,AdRoll,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"NextRoll, Inc.",,,never,2026-08-13
+0014y00002pC2K2AAK,Aehr Test Systems,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001whbquAAA,Affinity,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002rSgrTAAS,AiDASH,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002jRoyfAAC,Airship,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002WcFbDAAV,Airtable,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000VAMSMAA5,Alameda Alliance for Health,1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+0014y00002rSnfAAAS,"Alchemy Cloud, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001osvjTAAQ,"Alert Enterprise, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002588xKAAQ,Algolia,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015psbOAAQ,Algonomy,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a70000032ZQ8AAM,AllTrails,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001osvDdAAI,"Allana Buick & Bers, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001whfhtAAA,Allbirds,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002jSU1NAAW,Alpaca,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"AlpacaDB, Inc.",,,never,2026-08-13
+001f300001v90goAAA,Alpine Investors,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000sIte6AAC,Altamont Capital Partners,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000Vt62KAAR,Amax,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,AMAX Engineering,,,never,2026-08-13
+0014000000VALvTAAX,American Academy of Ophthalmology,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002rSeehAAC,Amoroso Construction,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"SJ Amoroso Construction Co., LLC",,,never,2026-08-13
+0014y00002ih7OTAAY,"Amplitude, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002rSj8zAAC,"Anchorage Digital, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"Anchor Labs, Inc.",,,never,2026-08-13
+0013300001ot5KZAAY,AngelList LLC,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,AL Advisors Management Inc.,,,never,2026-08-13
+001f300001v8SiFAAU,AnitaB.org,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000K4e10AAB,Antora Energy,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002l7RilAAE,AnyRoad,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015o3j1AAA,Anyscale,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001ot50ZAAQ,Apartment List,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f3000022PdoFAAS,Apollo GraphQL,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Apollo Graph Inc.,,,never,2026-08-13
+0014y00002rON47AAG,AppDirect,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001qPtEaAAK,AppsFlyer,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001lNMaHAAW,Aria Systems,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y0000277IjLAAU,Arkose Labs,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015ogHbAAI,ArmorCode Inc.,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8aR5AAI,Armory,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Harness,,,never,2026-08-13
+0014y00002rU9pOAAS,Ashby,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y0000276nAoAAI,Asi Computer Technologies Inc,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,ASI Corporation,,,never,2026-08-13
+0014y00002raYdOAAU,Astra,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000HIwBsAAL,Astranis Space Technologies,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000VAR7SAAX,Athens Administrators,1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+0014y00002rSlUXAA0,Augmedix,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Commure,,,never,2026-08-13
+0014y00002LxVEJAA3,Aurora Solar,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000001DdFFiAAN,Azul,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"Azul Systems, Inc.",,,never,2026-08-13
+0013300001osxgLAAQ,B-Stock,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"B-Stock Solutions, LLC",,,never,2026-08-13
+0014y00002ih7LEAAY,BBAM,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001qPtlEAAS,BCCI Construction,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Global Infrastructure Solutions Inc.,,,never,2026-08-13
+0013300001lNMllAAG,"Backblaze, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v95J4AAI,Bauer's Intelligent Transportation,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002ih7cKAAQ,Bay Alarm Company,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000WgaDGAAZ,Bay Area Community Health,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000VsDRPAA3,"Bay Cities Paving & Grading, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y0000255mmLAAQ,Benchling,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f3000022PdpxAAC,Beyond,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002VQIpkAAH,Birdeye,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002rSgmWAAS,Bista Solutions Inc,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015plLNAAY,Blackmagic Design,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002ih63FAAQ,"Blend Labs, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y0000258KyjAAE,Boku,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002p8d9kAAA,Booster,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000K4o0iAAB,Branch,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001whZBFAA2,Branch International,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001wha4YAAQ,Brave,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"Brave Software, Inc.",,,never,2026-08-13
+0013300001oswPfAAI,Bridge Housing Corporation,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002jRqo3AAC,"Bridgebio Pharma, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001zvNJ5AAM,Bright Machines,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002U2quzAAB,BrightEdge,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"BrightEdge Technologies, Inc.",,,never,2026-08-13
+0014y00002eZcvTAAS,Brightline,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000K4e1JAAR,Brightside Health,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8MdzAAE,Brightwheel,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001zx4Z0AAI,Brilliant Corners,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000003nbuKAAQ,Brilliant Earth,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001lNNBlAAO,"Build Group, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8KJXAA2,BuildZoom,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Block Renovation,,,never,2026-08-13
+001a700000LEgFFAA1,Burning Man Project,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000ZqGPKAA3,Byer California,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,PAR Apparel Group,,,never,2026-08-13
+0014y00002rSlLwAAK,Bynd LLC,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Beyond,,,never,2026-08-13
+0013300001qPwfYAAS,Cahill Contractors,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002ihODZAA2,Calbee America,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000pHL2RAAW,California Academy of Sciences,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002rSeR2AAK,California Casualty,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001rUXJgAAO,Callan,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000Vt548AAB,Caminar,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002dKcTAAA0,"Captivateiq, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8CaaAAE,Carbon,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000003ngAYAAY,Carbon Health,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002rSlJLAA0,Catchpoint,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,LogicMonitor,,,never,2026-08-13
+001f300001v8FCFAA2,Center for Social Dynamics,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y0000276nxfAAA,Cerus,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002rSg0lAAC,Chartboost,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,LoopMe Ltd,,,never,2026-08-13
+001a700000K9HesAAF,Cherry,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001lNNY2AAO,Chinese Hospital Association,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Chinese Hospital,,,never,2026-08-13
+0014y00002pBNoCAAW,Chipper Cash,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000Vs4sRAAR,Chronicle Books,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,The McEvoy Group,,,never,2026-08-13
+001f300001v8uipAAA,CircleCI,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001dwYxaAAE,Clari,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8WS5AAM,Clarify Health Solutions,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y0000259rKFAAY,"ClassDojo, Inc. (Class Twist, Inc.)",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002p9MgVAAU,ClimateWorks Foundation,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001qPyPGAA0,Cloudian Inc,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002dJd5jAAC,Cobalt,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000VANzMAAX,Coblentz Patch Duffy & Bass LLP,1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+0014y00002vMkcOAAS,CodeSignal,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000LEtT7AAL,Coefficient Giving,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002rUGtoAAG,Collectively,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,The Brandtech Group,,,never,2026-08-13
+0014y00002l7BaRAAU,Computerworld,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Foundry,,,never,2026-08-13
+001a700000K96EPAAZ,Constructor.io,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Constructor,,,never,2026-08-13
+001f300001whdfVAAQ,ControlUp,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,ControlUp Technologies Ltd,,,never,2026-08-13
+0014y000025Al4cAAC,Conviva,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8xmyAAA,Copper,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8yN3AAI,Corelight,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000ZqG5wAAF,Craigslist,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f3000022Pdu9AAC,Cresta,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001ot5KOAAY,Crunchbase,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002vMl1GAAS,Culture Amp,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000ClrMvAAJ,"Cyberhaven, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002U4SexAAF,"Cytek Biosciences, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001whdnZAAQ,DCL Logistics,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00003OU67rAAD,Data.ai (by Sensor Tower),3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Sensor Tower,,,never,2026-08-13
+001f300001whYx9AAE,Databook,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002lwi3EAAQ,Deepgram,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000K4J58AAF,Deepwatch,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000VAOdlAAH,Degenkolb Engineers,1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+0014y00002ltVlmAAE,Delfi Diagnostics,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000bxAiJAAU,Delinea,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001lIxipAAC,Demandbase,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000bxAbEAAU,Denodo,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001xtRm3AAE,DivcoWest,1,"Winback, lapsed membership on the account",in-book,,,,DivCore Capital,,,lapsed,2026-08-13
+0013300001dwYyPAAU,"Docker, Inc",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000VAQMMAA5,Dodge & Cox,1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+001f300001v8NZCAA2,Dolls Kill,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002LxVIbAAN,Domino Data Lab,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001qPy05AAC,Doximity,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v94NqAAI,"Drill Tech Drilling & Shoring, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8sU2AAI,Dronedeploy,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000001TrNHJAA3,Duetto,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000VsKN1AAN,"E&E Co., Ltd.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001whbEAAAY,EIS Group Inc,1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+001a700000K46CwAAJ,EMPIRE,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8iGLAAY,Earthjustice,1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+0014y00002rSEDIAA4,Ease,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Employee Navigator,,,never,2026-08-13
+001f3000022q5huAAA,"Eat Just, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000K4SF2AAN,"Eaze, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Vireo Growth Inc.,,,never,2026-08-13
+0014000000mY8eUAAS,"Eden Housing, Inc.",1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+0014000000VALuFAAX,Edgewood,1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+0014y00002rUO2ZAAW,Edpuzzle,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000Vt5l7AAB,Egain Corporation,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8p6jAAA,Elation Health,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000VsIeFAAV,Elma Electronic Inc.,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Elma Electronic AG,,,never,2026-08-13
+0014y00002rSku4AAC,Embroker,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000LEjOSAA1,Emerson Collective,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002rSxEyAAK,Enable,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y0000275LZdAAM,Enovix Corporation,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002rShzqAAC,"Env Services, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001osymFAAQ,Envoy,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001lNOXNAA4,"Essai, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Advantest Corporation,,,never,2026-08-13
+001a700000K9HexAAF,Evenup,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001qPu1AAAS,Everlane,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001lIyw0AAC,Exar Corporation,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"MaxLinear, Inc.",,,never,2026-08-13
+0014y00002ihP7IAAU,Exclusive Networks NA,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Exclusive Networks,,,never,2026-08-13
+0014000000VAS4nAAH,Exploratorium,1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+0014y00002vMl8kAAC,"F-Secure, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001whcQAAAY,FLYR,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015oItRAAU,Factory,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015oS8GAAU,FalconX,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002pC3KyAAK,Farallon Capital Management,1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+001f300001v9218AAA,"Farmer's Business Network, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001oswQvAAI,"Fastpath Solutions, LLC",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Delinea,,,never,2026-08-13
+001f300001v93KCAAY,"Fce Benefit Administrators, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001loDIyAAM,Federal Home Loan Bank of San Francisco,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001z9QQQAA2,Felton Institute,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8lMsAAI,Financial Technology Partners / FT Partners,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015pho8AAA,First Round Capital,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002bbUyiAAE,Firstup,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000001aNztpAAC,"Firstup, Inc. (formerly Dynamic Signal)",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"Firstup, Inc.",,,never,2026-08-13
+0014y0000276pCUAAY,Flickr,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Awesome,,,never,2026-08-13
+001f3000022PdyIAAS,Flutterwave,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002ihHX8AAM,Food Bank of Contra Costa and Solano,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002pB3E6AAK,Forma,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8rr1AAA,Fountain,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001whaaCAAQ,Foxit Software Incorporated,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Foxit,,,never,2026-08-13
+0013300001loFDxAAM,Front,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002jS8kgAAC,GI Partners,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8aw4AAA,GSI Technology,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015owytAAA,Gala,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002jRpekAAC,Galway Holdings,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8wcxAAA,Gametime,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"Gametime United, Inc.",,,never,2026-08-13
+0014y00002LxNT3AAN,General Catalyst,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002lueGcAAI,Generate,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Generate Capital,,,never,2026-08-13
+001a700000K3uBbAAJ,Getaround,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001wheOZAAY,Gladly,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"Gladly Software, Inc.",,,never,2026-08-13
+001f300001v962dAAA,"Glass, Lewis & Co.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002vNGvcAAG,Global Fund for Women,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8q7kAAA,"Globality, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8jvYAAQ,"Glooko, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000HNzp6AAD,Go1 USA LLC,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002rScmFAAS,Golden Gate Capital,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000VAPn5AAH,Golden Gate National Parks Conservancy,1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+0014y00002pC2xtAAC,Gong,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002ihHtpAAE,Gordon and Betty Moore Foundation,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000K3uBdAAJ,Gorgias,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002vOyHFAA0,Gotion Inc.,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"Gotion High-tech Co., Ltd.",,,never,2026-08-13
+0014y00002rSnpFAAS,Greylock Partners,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000003ne62AAA,Grove Collaborative,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v99TKAAY,GrubMarket Inc.,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8yvXAAQ,Hall Capital Partners LLC,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Pathstone,,,never,2026-08-13
+001f300001v8MINAA2,Hanson Bridgett LLP,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001whdrBAAQ,Harness,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000VsJQJAA3,"Harris & Associates, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000BBHdqAAH,Harvey Corporation,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000LEmGZAA1,Hathaway Dinwiddie Construction Group,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015owz1AAA,Haus,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001yqdJyAAI,Headspace,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001osv1qAAA,HealthRIGHT 360,1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+0013300001qPtOQAA0,Heartflow,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002ihRWAAA2,Herrero Builders,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y000032ahUxAAI,"Highnote Platform, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000K3uBmAAJ,Hive,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00003OUmtfAAD,Homebase,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"Pioneer Works, Inc.",,,never,2026-08-13
+001a7000015ouXJAAY,Homebound,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8rBYAAY,HoneyBook,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000007GGT9AAO,"Honeycomb (Hound Technology, Inc.)",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Honeycomb,,,never,2026-08-13
+0014y00002rUdMrAAK,Horizon3.ai,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001dwYeGAAU,Houzz,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y000025ADPnAAO,Hover Inc.,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002U43I8AAJ,Human Interest Inc.,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8hCeAAI,Huseby Inc,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"Esquire Deposition Solutions, LLC",,,never,2026-08-13
+001a700000LEegwAAD,"Hydraulic Controls, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002jRqtlAAC,IEM Holdings Group Inc.,1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+001a700000LEaLqAAL,"Ichor Holdings, Ltd.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8LHJAA2,"Iconiq Capital, LLC",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,ICONIQ,,,never,2026-08-13
+001f300001v8TDHAA2,Imperfect Foods,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Misfits Market,,,never,2026-08-13
+0014y00002jRlEEAA0,InMobi,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001lNPCRAA4,Included Health,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002raAeKAAU,"Infinitus Systems, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002WakS4AAJ,Influxdata Inc.,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v99UqAAI,Innovaccer,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000ZnFXTAA3,"InsideView, A Demandbase Company",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Demandbase,,,never,2026-08-13
+0014y0000276t52AAA,Insidesource,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8MJ0AAM,Instawork,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8y8wAAA,Institute on Aging,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8gUPAAY,Integral Development Corp.,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y0000276q8lAAA,"Interior Architects, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,IA Interior Architects,,,never,2026-08-13
+001f300001v95QBAAY,Internet Archive,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8uYhAAI,"Intershop Communications, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Intershop Communications AG,,,never,2026-08-13
+001a7000001Fh9DAAS,Interwell Health,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+00140000011lkU3AAI,"Irhythm Technologies, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8weyAAA,"Ironclad, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8uHUAAY,Iterable,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000LELGEAA5,Janie and Jack,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000K4jg0AAB,Jerry,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002pC3anAAC,"Jewish Family and Children's Services of San Francisco, the Peninsula, Marin and Sonoma Counties",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002ihJnLAAU,Jewish Federation Bay Area,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001osrTSAAY,Jews for Jesus,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001qPudfAAC,Jitterbit,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002ih1TOAAY,"Jsr Micro, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,JSR Corporation,,,never,2026-08-13
+001f300001v7iZgAAI,Jumio Corporation,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002vMkxTAAS,Juniper Square,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000Y9qEaAAJ,KQED,1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+0014y0000276qNAAAY,Kairos Power,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002raMBIAA2,Karbon,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000VsJ73AAF,Kennedy Jenks,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8VmxAAE,Kentik,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002pBUlQAAW,Kidango,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002rSZb9AAG,Kiteworks,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001oswo2AAA,Kiva,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y0000276qUOAAY,"Kiva Brands, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v9XKmAAM,Komodo Health,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8ZrgAAE,Kong,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8vXXAAY,Kore.ai,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002vMkjmAAC,Labelbox,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002p8Z4hAAE,"Land Home Financial Services, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y000025ADPsAAO,Larkin Street Youth Services,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f3000022Pe5zAAC,Lattice,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001cCPdPAAW,"Legacy Partners, LLC",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Collier Enterprises,,,never,2026-08-13
+0013300001lIyO5AAK,Life360,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8mtQAAQ,LifeStreet,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000VsE9hAAF,Linden Lab,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"Linden Research, Inc.",,,never,2026-08-13
+0014000000VsM4mAAF,"Liveops, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002LwcFtAAJ,Lob,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000001I7P3AAK,Loft Orbital,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002ih2AWAAY,Low Income Investment Fund,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y0000259j3uAAA,Lucidworks,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8uunAAA,Lucile Packard Foundation for Children's Health,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015owz7AAA,Luciq,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001xHYpQAAW,Luma Health,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000VAS2FAAX,MBH Architects,1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+0014y00002pC7OhAAK,MINE,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001qPwvfAAC,Madison Reed,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000bRS5UAAW,Malcolm Drilling,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001osrBUAAY,Marin Software,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,ESW Capital,,,never,2026-08-13
+0014000000VsK8oAAF,Mattson Technology,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f3000022P5uHAAS,Maximus Real Estate Partners,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000VAOSKAA5,Mazzetti,1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+0014y00002jRkT8AAK,McMillan Electric,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001b8Nu7AAE,"MedEvolve, LLC",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8ad0AAA,Medable,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001lNQkbAAG,Medium Corporation,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001whfvMAAQ,"Mercari, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001oszUoAAI,Messagebird USA Inc.,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Bird,,,never,2026-08-13
+0014y00002ihCDEAA2,Mezzetta,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000LEgZ3AAL,Midpen Housing Corporation,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000DMc0oAAD,Mindful Health Solutions,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002cbT1FAAU,"Minted, LLC",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001lIxUxAAK,"Mixpanel, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001whfbYAAQ,MoEngage,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001lNQtMAAW,Mode,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,ThoughtSpot,,,never,2026-08-13
+001f300001xut11AAA,Modern Health,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001qPvT0AAK,Modsquad,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015ptE5AAI,Monte Carlo,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002rSeePAAS,Mozilla Foundation,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002vMkd6AAC,Mursion,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015poeGAAQ,Nanonets,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002WLR1sAAH,"Narvar, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8xGgAAI,Native American Health Center,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001qPvmGAAS,Nativo Inc,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"Life360, Inc.",,,never,2026-08-13
+0013300001ot5KRAAY,Nauto,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000sIxbTAAS,Nektar Therapeutics,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001loE7dAAE,Neo4j,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a70000011RonAAE,Netomi,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002jS8hFAAS,Nexsan,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,StorCentric,,,never,2026-08-13
+0014000001YRIFrAAP,NextLabs,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002jRgQtAAK,Nextdoor,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001lIypTAAS,"Nextroll, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000K4jgCAAR,Nibbi Brothers General Contractors,1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+0014y00002vMlJdAAK,Nimble,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015pu3sAAA,Nirvana Insurance,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001osvvPAAQ,Nitro Software,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015olM6AAI,Nium,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Nium Pte. Ltd.,,,never,2026-08-13
+0014y00002ebrZbAAI,North American Title,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Title Resources Group,,,never,2026-08-13
+0014000000VASe9AAH,North East Medical Services,1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+0013300001qPrxNAAS,Northland Controls,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000K4jgDAAR,Notable,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001qPvT9AAK,Novogradac,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8i1TAAQ,Nuna Inc.,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001whaibAAA,"Nylas, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002dLX7mAAG,Obsidian Security,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f3000022PeAZAA0,Octave,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Octave Health Group Inc.,,,never,2026-08-13
+0014000000VsM0aAAF,"On Lok, Inc.",1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+0014y00002jRfBRAA0,OnePlus,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000JpZYwAAN,Ontra,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001whfO3AAI,OpenSpace,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"Open Space Labs, Inc.",,,never,2026-08-13
+001f300001v8WXsAAM,Opportunity Junction,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015olLtAAI,OptimHire,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015s2r4AAA,Oro Labs,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v94VAAAY,"Ouster, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002rSmVLAA0,"PGH Wong Engineering, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y0000255QWTAA2,PLOS,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Public Library of Science,,,never,2026-08-13
+0014y00002vNETnAAO,PQS by Innovaccer,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Innovaccer,,,never,2026-08-13
+0014y0000276rkUAAQ,Pacaso,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000VAStVAAX,Pacific Maritime Association,1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+0013300001ot08XAAQ,PagerDuty,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015s1c5AAA,Pair Team,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001whfizAAA,Patreon,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000003ngSrAAI,Pattern Energy,1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+0014y00002rSi3QAAS,Pave,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001qPxDcAAK,Peek,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001lIyqbAAC,Penguin Computing,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Penguin Solutions,,,never,2026-08-13
+001a7000015pmsmAAA,Perplexity,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000K4hVfAAJ,Persona,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8tmeAAA,Pet Food Express,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015oZ31AAE,Peterson Power Systems,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Peterson Holding Company,,,never,2026-08-13
+0013300001osysvAAA,"Philo, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015puDYAAY,PicnicHealth,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,PicnicAI,,,never,2026-08-13
+001a700000K4hVgAAJ,Pilot.com,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002dJRl6AAG,Pipefy,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002dLJpvAAG,Plaid,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001osoWvAAI,"Planful, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001qPsx6AAC,"Planisware USA, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000Vt5XzAAJ,Planned Parenthood Northern California,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001qPsJOAA0,Plastikon Industries Inc,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001whf5vAAA,Plume,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"Plume Design, Inc.",,,never,2026-08-13
+001f300001v8NYKAA2,Pocket Gems,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001whcdfAAA,Point,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001whev2AAA,Pony.ai,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001zumiaAAA,Pramata Corporation,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v84KeAAI,"Presto Phoenix, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001osyC9AAI,Prezi,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y0000276s9wAAA,Prime Finance,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Prime Group,,,never,2026-08-13
+001a7000015pBrWAAU,ProGuard Security Services,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001whfC9AAI,Productboard,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002ih6ztAAA,"Prometheus Real Estate Group, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002rSensAAC,Prophet,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002rSeh2AAC,Prosper Marketplace,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y0000259VQDAA2,PsiQuantum,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000K4kaxAAB,Qualia,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000sJGQzAAO,Quantcast,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8i3bAAA,Quay,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"Quay Eyeware, Inc.",,,never,2026-08-13
+001a7000008YGnPAAW,Quince,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002vOx1uAAC,Qwiet,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Harness,,,never,2026-08-13
+0014000000sJEZJAA4,"R.S. Hughes Company, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002rSh8ZAAS,RK Logistics Group,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8oaxAAA,RPX Corporation,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015poe5AAA,Rad AI,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000K4kayAAB,"Rams, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"Richmond Area Multi-Services, Inc.",,,never,2026-08-13
+0013300001qPthKAAS,Real-Time Innovations (RTI),3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001qPvg0AAC,Recurly,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015oooHAAQ,Replit,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001lIyFDAA0,Rescale,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000001d7ZVAAY,"Retool, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000K4MfRAAV,Rimon PC,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8v5BAAQ,Riviera Partners,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000001XU4ZMAA1,Rocket Lawyer,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002lwaJkAAI,Roofr,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001whcEIAAY,Rothy's,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000HLk7lAAD,SA Technologies Inc.,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000VAM3PAAX,SFMOMA San Francisco Museum of Modern Art,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,San Francisco Museum of Modern Art,,,never,2026-08-13
+0014y00002rSdGcAAK,SGH - Smart Global Holdings,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Penguin Solutions,,,never,2026-08-13
+001a700000K4k9EAAR,SPG Therapy & Education,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Unison Therapy Services,,,never,2026-08-13
+001a700000K4fK8AAJ,SRS Acquiom,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001osxljAAA,STUDIOS Architecture,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v9758AAA,Saildrone,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002rZJ83AAG,Salt Security,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8JfRAAU,"Samba Tv, Inc.",1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+0014000000VroEDAAZ,San Francisco Ballet,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002ih1UrAAI,San Francisco Foundation,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000K4MfXAAV,San Francisco SPCA,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000VsJUBAA3,San Francisco Symphony,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000K4kjQAAR,Sandbox VR,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015poe6AAA,SandboxAQ,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001loFDTAA2,Sauce Labs,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8ryMAAQ,"Scality, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8MobAAE,"Sciton, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001whbjqAAA,"Scribd, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001qPvhMAAS,Scuba,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Behavure AI,,,never,2026-08-13
+00140000014rwAPAAY,Security Engineers Inc,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000001LPLehAAH,Securonix,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015rvI4AAI,Seesaw Learning,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001whfCMAAY,Sendbird,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y0000256hx4AAA,Sendoso,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001xusywAAA,"Sense Talent Labs, Inc. (Sense)",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Sense,,,never,2026-08-13
+001f300001whcREAAY,Sensor Tower,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002rSlYwAAK,Sentry,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001qPwjPAAS,Sequoia,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000VAMLrAAP,Sequoia Living,1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+001a7000015ptMAAAY,Seyond,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002jRo3tAAC,Shorenstein Realty Services,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Shorenstein,,,never,2026-08-13
+0014y00003OTsH8AAL,Side,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002rSgp9AAC,Sierra,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001qPsJgAAK,Sierra Circuits,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001osvh5AAA,Sift,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"Sift Science, Inc.",,,never,2026-08-13
+0014y00002l6EeOAAU,Sigma,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Sigma Computing,,,never,2026-08-13
+001f300001whfAKAAY,"Sila Nanotechnologies, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y0000276swLAAQ,"Silicon Valley Mechanical, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,SVM,,,never,2026-08-13
+0014y00002h1V6DAAU,SingleStore,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001whfsNAAQ,Singular,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001qPsyDAAS,Sios Technology Corp.,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015rvHvAAI,Skai,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y0000276szBAAQ,SkinSpirit Skincare Clinic and Spa,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,SkinSpirit,,,never,2026-08-13
+0014y00002ih2ALAAY,"Skydio, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000LExrIAAT,Skylight,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00003QywfgAAB,Slash,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000K4JmmAAF,Smithrx,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"Smith Health, Inc.",,,never,2026-08-13
+0013300001lJ16eAAC,SnapLogic,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015oj0vAAA,Socialware,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Proofpoint,,,never,2026-08-13
+001a700000K4kbCAAR,Sonatus,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001osuj4AAA,"Soundthinking, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y000032YIylAAG,Span,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"SPAN.io, Inc.",,,never,2026-08-13
+0014y00002rThloAAC,Sparrow,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00003GadYMAAZ,Split (acquired by Harness),3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Harness,,,never,2026-08-13
+0014000001DdFF8AAN,Sports Basement,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000K4MfgAAF,Spring Fertility,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001qPu4rAAC,Stacy Witbeck,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000001W7nOAAS,Stellar Development Foundation,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002U1EltAAF,Step,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Beast Industries,,,never,2026-08-13
+0014y00002cTvTeAAK,"Strava, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002LweMaAAJ,Striim,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002pA3IDAA0,"SuSea, Inc. (dba you.com)",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,You.com,,,never,2026-08-13
+0014y00002rNHWFAA4,Substack Inc.,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8NrhAAE,Sunbasket,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Intelligent Foods,,,never,2026-08-13
+0014y0000276tJrAAI,Sundae,1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+001a7000015onSVAAY,SuperAnnotate,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015puDSAAY,Surefox North America,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015pHAKAA2,Surge AI,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000001XU32TAAT,SurveyMonkey,1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+0013300001pNDTvAAO,Swinerton Builders,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Swinerton Incorporated,,,never,2026-08-13
+001a700000K4MflAAF,Swords To Plowshares,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8jkHAAQ,Sysdig,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8u7PAAQ,TEECOM,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8dbeAAA,THINK Surgical,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002vMl7bAAC,"TRM Labs, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001qPxEGAA0,Talkdesk,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v87MBAAY,Tally,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Happen Bank,,,never,2026-08-13
+001a7000015pkSeAAI,TechCrunch,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015oagYAAQ,Textainer,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000JDkS7AAL,Thatch,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"Thatch Health, Inc.",,,never,2026-08-13
+0014y00002pC3ObAAK,The Bay Club Company,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002rSf3eAAC,The Conco Companies,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001qPyEvAAK,The John Stewart Company,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000K4MfoAAF,The Melt,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8yyZAAQ,The Mina Group,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000bRS5NAAW,The Olympic Club,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000K4MfqAAF,The Pill Club,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Thirty Madison,,,never,2026-08-13
+0014000000VARB1AAP,The San Francisco Aids Foundation,1,"Winback, lapsed membership on the account",in-book,,,,,,,lapsed,2026-08-13
+001f300001v8tFIAAY,The Trevor Project,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015oikEAAQ,The Westin St. Francis in San Francisco,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,The Westin St. Francis San Francisco on Union Square,,,never,2026-08-13
+0014y00002dHycnAAC,Thirdlove,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001osukAAAQ,"Thumbtack, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002vO5icAAC,Thycotic,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Delinea,,,never,2026-08-13
+001a700000K4kbQAAR,Tia,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002dKF5tAAG,Tiburcio Vasquez Health Center,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002beINGAA2,Tipalti,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001osoAIAAY,Tipping Point Community,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002vMkxEAAS,Torch,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Torch Leadership Labs,,,never,2026-08-13
+001a7000015oQksAAE,Tower Mobility,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000K4MftAAF,Traceable by Harness,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Harness,,,never,2026-08-13
+0014y00002jRqukAAC,Tradeshift,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001xusyyAAA,Trusted Health,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001lJ22IAAS,"Tumblr, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Automattic,,,never,2026-08-13
+001a7000003nk8EAAQ,U.S. Energy Foundation,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002lwVp9AAE,UTR Sports,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015pik7AAA,Upwind Security,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002pC3xDAAS,"Utstarcom, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001qPthiAAC,"Vance Brown, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015pikEAAQ,Vannevar,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000K9HfIAAV,Vanta Inc.,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002ih1WOAAY,Varo Bank,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"Varo Bank, N.A.",,,never,2026-08-13
+0014000001Dd8YvAAJ,Vcom Solutions,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,AppDirect,,,never,2026-08-13
+001f300001yONz5AAG,Vector North America Inc.,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Vector Informatik GmbH,,,never,2026-08-13
+0014000000XlmVEAAZ,Velo3D,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y0000276uEiAAI,"Veritas Investments, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8qJ9AAI,"Very Good Security, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001lIyxMAAS,Veryon,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001whbkDAAQ,Vida Health,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8uBqAAI,Vim,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f30000218CZkAAM,"Vir Biotechnology, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8VZCAA2,"Viz.ai, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001ot4qcAAA,Vungle,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,"Liftoff, Inc.",,,never,2026-08-13
+001f300001v90G5AAI,WRNS Studio,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002vMkk4AAC,Wag! Group Co.,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000VAPZfAAP,Walters & Wolf Glass Company,1,"Winback, lapsed membership on the account",in-book,,,,Walters & Wolf,,,lapsed,2026-08-13
+001a7000001TCmoAAG,Watershed,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y0000258Pm8AAE,"We Are Envoy, LLC",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Envoy,,,never,2026-08-13
+0013300001lIzALAA0,Wealthfront,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002jVoRmAAK,Webflow,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002dJcywAAC,Weee!,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014000000Vt5koAAB,Westak Circuits,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002rZbmpAAC,Whatnot,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002jRp0RAAS,Wikimedia Foundation,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001ossZKAAY,Wine.com,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002ih6p1AAA,WineDirect Fulfillment,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001ot5KTAAY,"Wiser Solutions, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015oItdAAE,Woflow,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002Lwf6iAAB,WordPress VIP,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Automattic,,,never,2026-08-13
+0014y00002cZTSWAA4,"Workato, Inc.",3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002jU0yPAAS,Workstream,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000HLajXAAT,Worldly,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000K4JmHAAV,Writer,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v8wVyAAI,XYZ,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001osp7wAAA,YMCA of Greater San Francisco,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a7000015plLDAAY,Yassir Inc.,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000K4e0uAAB,Yellow.ai,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f300001v84F6AAI,Yield Engineering Systems,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0014y00002pC2LWAA0,Yubico Inc.,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,Yubico AB,,,never,2026-08-13
+001f300001whfjcAAA,Yugabyte,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+0013300001lIyTjAAK,Zapier,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001f30000219RV9AAM,two chairs,3,"No named contact in territory export, Power is a zero until mapped",in-book,,,,,,,never,2026-08-13
+001a700000R2TXeAAN,Alef Education,,Tiering deferred pending scope resolution,needs-ownership-check,outside North America / non-CA billing,,,,,,never,2026-08-13
+0014000000VARwQAAX,American Lock Company,,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: Fortune Brands Innovations,,,Fortune Brands Innovations,,,lapsed,2026-08-13
+0013300001lIy2KAAS,"American Portwell Technology, Inc.",,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: Posiflex Technology Inc.,,,Posiflex Technology Inc.,,,never,2026-08-13
+0014y000025As4XAAS,AppSmart,,Tiering deferred pending scope resolution,needs-ownership-check,"billing state North Carolina, not California",,,AppDirect,,,never,2026-08-13
+0013300001qPtPWAA0,Archetype Agency LLC,,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: Next 15 Group plc,,,Next 15 Group plc,,,never,2026-08-13
+0014y00002rOaXEAA0,Avenue Code,,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: UOL - Universo Online,,,UOL - Universo Online,,,never,2026-08-13
+001f300001v8iCpAAI,BETA Healthcare Group,,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: BETA Risk Management Authority,,,BETA Risk Management Authority,,,never,2026-08-13
+001a7000015prgnAAA,Behavior Change Institute,,Tiering deferred pending scope resolution,needs-ownership-check,"billing state New Mexico, not California",,,Center for Social Dynamics,,,never,2026-08-13
+001f300001v94KaAAI,"Blizzard B&B Internet Marketing, Inc.",,Tiering deferred pending scope resolution,needs-ownership-check,"billing state Colorado, not California",,,Beyond,,,never,2026-08-13
+0014000001Dd2v1AAB,BrightTALK,,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: Informa PLC,,,Informa PLC,,,never,2026-08-13
+001f300001whgCmAAI,"Brothers Produce, Incorporated",,Tiering deferred pending scope resolution,needs-ownership-check,"billing state Texas, not California",,,GrubMarket Inc.,,,never,2026-08-13
+001f300001whfcnAAA,BuildingConnected,,Tiering deferred pending scope resolution,needs-ownership-check,"possible LE buying group: Autodesk, Inc.",,,"Autodesk, Inc.",,,never,2026-08-13
+0014000000VsK8nAAF,"CAI International, Inc.",,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: Mitsubishi HC Capital Inc.,,,Mitsubishi HC Capital Inc.,,,never,2026-08-13
+0013300001lNNNyAAO,CaseBank Technologies Inc,,Tiering deferred pending scope resolution,needs-ownership-check,outside North America / non-CA billing,,,Veryon,,,never,2026-08-13
+0014y00002jRqlMAAS,Catholic Charities SF,,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: Archdiocese of San Francisco,,,Archdiocese of San Francisco,,,never,2026-08-13
+0013300001lIxIaAAK,Clever Inc.,,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: Kahoot!,,,Kahoot!,,,never,2026-08-13
+001f300001v92g8AAA,Croscill Home LLC,,Tiering deferred pending scope resolution,needs-ownership-check,"billing state North Carolina, not California",,,"E&E Co., Ltd.",,,never,2026-08-13
+001f300001v99QGAAY,Crystal Dynamics,,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: Embracer Group,,,Embracer Group,,,never,2026-08-13
+0014y0000277W3FAAU,DNE,,Tiering deferred pending scope resolution,needs-ownership-check,outside North America / non-CA billing,,,AppDirect,,,never,2026-08-13
+0014y00002dLurnAAC,"Digital Turbine, Inc.",,Tiering deferred pending scope resolution,needs-ownership-check,"billing state Texas, not California",,,,,,never,2026-08-13
+001f300001v8dNJAAY,Divvy Homes,,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: Brookfield Properties,,,Brookfield Properties,,,never,2026-08-13
+001a7000003nmGQAAY,Enable Benefits,,Tiering deferred pending scope resolution,needs-ownership-check,outside North America / non-CA billing,,,Enable,,,never,2026-08-13
+00140000013xKAEAA2,Eventbrite,,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: Bending Spoons,,,Bending Spoons,,,never,2026-08-13
+001f300001v95NCAAY,Everwise Corporation,,Tiering deferred pending scope resolution,needs-ownership-check,"billing state New York, not California",,,Torch Leadership Labs,,,never,2026-08-13
+0014y00002rSoXPAA0,"Flightdocs II, LLC",,Tiering deferred pending scope resolution,needs-ownership-check,"billing state Florida, not California",,,Veryon,,,never,2026-08-13
+001f300001v8m6xAAA,"Fyber, Inc.",,Tiering deferred pending scope resolution,needs-ownership-check,"billing state Texas, not California",,,"Digital Turbine, Inc.",,,never,2026-08-13
+0014y00002VNjGrAAL,Granular,,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: Corteva Agriscience,,,Corteva Agriscience,,,never,2026-08-13
+0014y00002jSMvSAAW,Harvey Nash Inc.,,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: Nash Squared,,,Nash Squared,,,never,2026-08-13
+0014y00002jRq4EAAS,Hotwire,,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: Enero Group Limited,,,Enero Group Limited,,,never,2026-08-13
+001a700000L8CT5AAN,Implats,,Tiering deferred pending scope resolution,needs-ownership-check,outside North America / non-CA billing,,,Impala Platinum Holdings Limited,,,never,2026-08-13
+001a700000COsWoAAL,"Jerry Services, Inc",,Tiering deferred pending scope resolution,needs-ownership-check,"billing state Michigan, not California",,,Jerry,,,never,2026-08-13
+0013300001loDVFAA2,"Kabam, Inc.",,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: Netmarble Corp.,,,Netmarble Corp.,,,never,2026-08-13
+0014000000VAQA6AAP,KnowledgeStorm,,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: Informa PLC,,,Informa PLC,,,lapsed,2026-08-13
+0014000000VsKNoAAN,LoopNet,,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: CoStar Group,,,CoStar Group,,,never,2026-08-13
+001f300001v8WHTAA2,Lumens LLC,,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: Flos B&B Italia Group,,,Flos B&B Italia Group,,,never,2026-08-13
+001a7000001nDohAAE,MaintainX,,Tiering deferred pending scope resolution,needs-ownership-check,"possible LE buying group: Autodesk, Inc.",,,"Autodesk, Inc.",,,never,2026-08-13
+0014y00002vMkrbAAC,"Matterport, Inc.",,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: CoStar Group,,,CoStar Group,,,never,2026-08-13
+001f300001v8GS3AAM,Mobile Posse Inc.,,Tiering deferred pending scope resolution,needs-ownership-check,"billing state Texas, not California",,,"Digital Turbine, Inc.",,,never,2026-08-13
+001a700000r6IS1AAM,MrBeast,,Tiering deferred pending scope resolution,needs-ownership-check,"billing state North Carolina, not California",,,Beast Industries,,,never,2026-08-13
+0014y0000275ISXAA2,NetLine,,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: Informa PLC,,,Informa PLC,,,never,2026-08-13
+0014y0000259hphAAA,Nozomi Networks,,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: Mitsubishi Electric Corporation,,,Mitsubishi Electric Corporation,,,never,2026-08-13
+0013300001osvbjAAA,Nuage Networks from Nokia,,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: Nokia,,,Nokia,,,never,2026-08-13
+0014y00002p8ASpAAM,O A Logistics,,Tiering deferred pending scope resolution,needs-ownership-check,"billing state Georgia, not California",,,"E&E Co., Ltd.",,,never,2026-08-13
+001f300001v8hILAAY,Observeit Inc.,,Tiering deferred pending scope resolution,needs-ownership-check,"billing state Massachusetts, not California",,,Proofpoint,,,never,2026-08-13
+001f300001v8dsoAAA,Optoma Technology,,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: Coretronic Corporation,,,Coretronic Corporation,,,never,2026-08-13
+0013300001osvIuAAI,"Plangrid, Inc.",,Tiering deferred pending scope resolution,needs-ownership-check,"possible LE buying group: Autodesk, Inc.",,,"Autodesk, Inc.",,,never,2026-08-13
+0014000000VsJopAAF,"Professional Recreation Organization, Inc.",,Tiering deferred pending scope resolution,needs-ownership-check,"billing state Washington, not California",,,The Bay Club Company,,,never,2026-08-13
+001a7000013gMecAAE,Proofpoint,,Tiering deferred pending scope resolution,needs-ownership-check,viability blank in SFDC,,,,,,never,2026-08-13
+001a7000015ouXTAAY,PyTorch,,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: The Linux Foundation,,,The Linux Foundation,,,never,2026-08-13
+0013300001lIyGDAA0,Radialpoint Inc.,,Tiering deferred pending scope resolution,needs-ownership-check,outside North America / non-CA billing,,,AppDirect,,,never,2026-08-13
+001f300001v92VjAAI,Rahi,,Tiering deferred pending scope resolution,needs-ownership-check,"possible LE buying group: Wesco International, Inc.",,,"Wesco International, Inc.",,,never,2026-08-13
+001a7000010WcXxAAK,SF Chinese Hospital,,Tiering deferred pending scope resolution,needs-ownership-check,viability blank in SFDC,,,Chinese Hospital,,,never,2026-08-13
+0014y00002pC2NGAA0,"Seatel, Inc.",,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: Cobham Satcom,,,Cobham Satcom,,,never,2026-08-13
+0014y00002rSdtpAAC,Selling Simplified Group Inc.,,Tiering deferred pending scope resolution,needs-ownership-check,"billing state Colorado, not California",,,Foundry,,,never,2026-08-13
+0014y00002pC2sdAAC,"Sender, Inc.",,Tiering deferred pending scope resolution,needs-ownership-check,"billing state Arizona, not California",,,Sendoso,,,never,2026-08-13
+001a7000015pt2sAAA,Softimage,,Tiering deferred pending scope resolution,needs-ownership-check,outside North America / non-CA billing,,,"Autodesk, Inc.",,,never,2026-08-13
+0013300001qPvj1AAC,Sojern,,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: RateGain Travel Technologies Limited,,,RateGain Travel Technologies Limited,,,never,2026-08-13
+0014y00002rSmonAAC,"Springbox, Ltd.",,Tiering deferred pending scope resolution,needs-ownership-check,"billing state Texas, not California",,,Prophet,,,never,2026-08-13
+001f300001v8seuAAA,Storm8,,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: Stillfront Group,,,Stillfront Group,,,never,2026-08-13
+0014y00002rO22qAAC,Striking Distance Studios,,Tiering deferred pending scope resolution,needs-ownership-check,"possible LE buying group: KRAFTON, Inc.",,,"KRAFTON, Inc.",,,never,2026-08-13
+0013300001ossfHAAQ,"TuneIn, Inc.",,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: Stingray Group Inc.,,,Stingray Group Inc.,,,never,2026-08-13
+001a7000015s2rPAAQ,Unknown Worlds Entertainment,,Tiering deferred pending scope resolution,needs-ownership-check,"possible LE buying group: KRAFTON, Inc.",,,"KRAFTON, Inc.",,,never,2026-08-13
+0014y00002rSlS2AAK,"Vector Software, Inc.",,Tiering deferred pending scope resolution,needs-ownership-check,"billing state Rhode Island, not California",,,Vector Informatik GmbH,,,never,2026-08-13
+0014y00002ih7FXAAY,"Viz Media, LLC",,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: Shueisha Inc.,,,Shueisha Inc.,,,never,2026-08-13
+001a700000L8URBAA3,Vodacom,,Tiering deferred pending scope resolution,needs-ownership-check,outside North America / non-CA billing,,,Vodafone Group Plc,,,never,2026-08-13
+001a7000015pstBAAQ,Wells Capital Management,,Tiering deferred pending scope resolution,needs-ownership-check,"possible LE buying group: Allspring Global Investments Holdings, LLC",,,"Allspring Global Investments Holdings, LLC",,,never,2026-08-13
+001f300001v8MHgAAM,Yale and August U.S.,,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: Fortune Brands Innovations,,,Fortune Brands Innovations,,,never,2026-08-13
+001f300001v8ly9AAA,"Ydesign Group, LLC",,Tiering deferred pending scope resolution,needs-ownership-check,possible LE buying group: Flos B&B Italia Group,,,Flos B&B Italia Group,,,never,2026-08-13
+0014000000cLI0QAAW,"Accellion, Inc.",,Tiering deferred pending scope resolution,non-viable,,,,Kiteworks,,,lapsed,2026-08-13
+001a700000K4fK7AAJ,Adeptive Software,,Tiering deferred pending scope resolution,non-viable,,,,Qualia,,,never,2026-08-13
+0014y00002jRlwcAAC,"Advantest Test Solutions, Inc.",,Tiering deferred pending scope resolution,non-viable,,,,Advantest Corporation,,,never,2026-08-13
+001f300001yqdRkAAI,"Altimeter Group, LLC",,Tiering deferred pending scope resolution,non-viable,,,,Prophet,,,never,2026-08-13
+0013300001dwYgkAAE,Annie App,,Tiering deferred pending scope resolution,non-viable,,,,Sensor Tower,,,never,2026-08-13
+0014000000VANgHAAX,"Babcock & Brown Holdings, Inc.",,Tiering deferred pending scope resolution,non-viable,,,,BBAM,,,never,2026-08-13
+001f300001v97AfAAI,Black Rock City LLC,,Tiering deferred pending scope resolution,non-viable,,,,Burning Man Project,,,never,2026-08-13
+0014y00002jRixRAAS,"Daylight Foods, Inc.",,Tiering deferred pending scope resolution,non-viable,,,,GrubMarket Inc.,,,never,2026-08-13
+001f300001whdbEAAQ,Discotheque Inc.,,Tiering deferred pending scope resolution,non-viable,,,,Culture Amp,,,never,2026-08-13
+0014y00002bcjv6AAA,"Doma Holdings, Inc.",,Tiering deferred pending scope resolution,non-viable,,,,Title Resources Group,,,never,2026-08-13
+001f300001v98pYAAQ,EaseCentral,,Tiering deferred pending scope resolution,non-viable,,,,Employee Navigator,,,never,2026-08-13
+0014y0000275FKdAAM,"Ginger.io, Inc.",,Tiering deferred pending scope resolution,non-viable,,,,"Headspace, Inc.",,,never,2026-08-13
+0014y00002ihGtJAAU,Grant J. Hunt Company,,Tiering deferred pending scope resolution,non-viable,,,,GrubMarket Inc.,,,never,2026-08-13
+0014y0000259G3AAAU,"Jsr North America Holdings, Inc.",,Tiering deferred pending scope resolution,non-viable,,,,JSR Corporation,,,never,2026-08-13
+0013300001lIxDLAA0,"Kenshoo, Inc.",,Tiering deferred pending scope resolution,non-viable,,,,Skai,,,never,2026-08-13
+001f300001v970JAAQ,"Lmi, Inc.",,Tiering deferred pending scope resolution,non-viable,,,,"Liftoff, Inc.",,,never,2026-08-13
+001f300001whzRcAAI,Maxlinear,,Tiering deferred pending scope resolution,non-viable,,,,,,,never,2026-08-13
+0014000000VAR6eAAH,McF Corporation Which Will Do Business In California As Delaware Mcf Corporat...,,Tiering deferred pending scope resolution,non-viable,,,,BRIDGE Housing Corporation,,,lapsed,2026-08-13
+001f300001v8VTfAAM,"Overops, Inc.",,Tiering deferred pending scope resolution,non-viable,,,,Harness,,,never,2026-08-13
+0014y00002rTRJDAA4,PROPELO INC.,,Tiering deferred pending scope resolution,non-viable,,,,Harness,,,never,2026-08-13
+001f300001v8xyNAAQ,"Qordoba, Inc.",,Tiering deferred pending scope resolution,non-viable,,,,Writer,,,never,2026-08-13
+0014000000VATbqAAH,San Francisco Spca Veterinary Hospital Mission,,Tiering deferred pending scope resolution,non-viable,,,,San Francisco SPCA,,,lapsed,2026-08-13
+0014y0000277LNRAA2,Swinerton Incorporated,,Tiering deferred pending scope resolution,non-viable,,,,,,,never,2026-08-13
+0014y00002rSjssAAC,"Swinerton Management & Consulting, Inc.",,Tiering deferred pending scope resolution,non-viable,,,,Swinerton Incorporated,,,never,2026-08-13
+0014y00002jRm2zAAC,The McEvoy Group LLC,,Tiering deferred pending scope resolution,non-viable,,,,,,,never,2026-08-13
+0014000000VAOvXAAX,Alameda County Water District,,Tiering deferred pending scope resolution,routes-out,Andrew Daigle (SLED),,,,,,lapsed,2026-08-13
+0014000000VALtnAAH,Contra Costa Water District,,Tiering deferred pending scope resolution,routes-out,Andrew Daigle (SLED),,,,,,never,2026-08-13
+0014y00002ihFn4AAE,Port of San Francisco,,Tiering deferred pending scope resolution,routes-out,Andrew Daigle (SLED),,,"City and County of San Francisco, CA",,,never,2026-08-13
