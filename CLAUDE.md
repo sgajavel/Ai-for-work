@@ -363,6 +363,11 @@ Everything after that date, including IGNITE Sacramento, is unverified.
 skip the event mention on California outreach.** Never invent a geo-match. Every row
 in the calendar carries a verification mark, check it before using the row.
 
+**Names on an SFDC campaign record are internal colleagues tagged as attending, not
+the speaker lineup.** Never repeat one to a prospect as a speaker, that is a
+fabricated claim about the agenda. They are also internal, so they stay behind the
+intel firewall. Speaker names come from the events page only.
+
 ### On uncertainty
 
 Ask rather than guess on: account ownership, revenue thresholds, parent structure,

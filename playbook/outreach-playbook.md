@@ -303,15 +303,15 @@ For international prospects who can't travel, use an industry-matched virtual In
 
 ### IGNITE events (2-day immersive)
 
-| Event | Location | Date | Venue | Host | Verified |
+| Event | Location | Date | Venue | Featuring (prospect-facing) | Verified |
 |---|---|---|---|---|---|
-| IGNITE Texas | Austin, TX | September 17-18, 2026 | Hyatt Regency Austin | **Arushi Rawat** | ✅ SFDC |
+| IGNITE Texas | Austin, TX | September 17-18, 2026 | Hyatt Regency Austin | Carlene McCubbin (AVP, Agentic AI Implementation) | ✅ SFDC (date + venue) |
 | IGNITE | Washington, DC | October 1-2, 2026 | The Watergate Hotel | Gord Harrison (Chief Research Officer) | ⚠️ beyond SFDC window |
 | IGNITE | Sacramento, CA | October 27-28, 2026 | Kimpton Sawyer Hotel | Martin Bufi (Research Director) | ⚠️ **critical, CA anchor, see below** |
 | IGNITE | Atlanta, GA | November 2-3, 2026 | Hilton Atlanta | Nysa Zaran (Research Director) | ⚠️ beyond SFDC window |
 | IGNITE | Minneapolis, MN | June 3-4, 2027 | Marriott Minneapolis City Center | | ✅ web |
 
-**Austin correction:** the SFDC campaign record confirms the September 17-18 dates and the Hyatt Regency Austin venue, but the host is **Arushi Rawat**, not Carlene McCubbin as this playbook previously said. The old name was stale. Never name a speaker from this table without checking the campaign record.
+**On the Austin row:** the SFDC campaign record confirms the September 17-18 dates and the Hyatt Regency Austin venue. It does **not** speak to the speaker lineup, so the featured name above is unchanged and remains unverified. The SFDC export's name fields list internal Info-Tech people tagged as attending, not the billed speakers, see the note at the end of this section.
 
 > ⚠️ **IGNITE Sacramento, October 27-28, 2026, is still unconfirmed, and it is the only California in-person event in this playbook.**
 >
@@ -325,9 +325,11 @@ For international prospects who can't travel, use an industry-matched virtual In
 
 **Correction, 2026-08-13: this series is active.** The previous note saying there was nothing upcoming was wrong.
 
-| Location | Date | Host | Venue | Verified |
-|---|---|---|---|---|
-| Ottawa, ON | September 16, 2026, 3:00-6:30 PM | Cole Cioran | Lord Elgin Hotel | ✅ SFDC |
+| Location | Date | Venue | Verified |
+|---|---|---|---|
+| Ottawa, ON | September 16, 2026, 3:00-6:30 PM | Lord Elgin Hotel | ✅ SFDC |
+
+Speaker lineup unknown. The SFDC record tags Cole Cioran as attending, which is not the same as a billed host.
 
 Pattern worth knowing: CIO Roundtables are co-located with Leadership Summits (Nashville and Seattle both ran Summit and Roundtable at the same venue on the same day). If a Leadership Summit is announced in a city, a CIO Roundtable is likely attached to it.
 
@@ -373,19 +375,38 @@ Topic and industry-matched virtual sessions. Use when the prospect's industry ma
 
 **Correction, 2026-08-13: this series has scheduled dates.** The previous note saying there were none was wrong. LEVEL-UP runs as a half-day workforce-development session, usually co-located with a larger event the same day or the day before.
 
-| Session | Location | Date | Venue | Host | Verified |
-|---|---|---|---|---|---|
-| LEVEL-UP Austin, AI Workforce Development | Austin, TX | September 17, 2026, 9:00 AM-12:00 PM | Hyatt Regency Austin | Jai Hebel | ✅ SFDC |
-| LEVEL-UP Barcelona, AI Workforce Development | Barcelona, ES | September 21, 2026, 3:00-6:00 PM | Grand Hyatt Barcelona | Martin Bufi | ✅ SFDC |
-| LEVEL-UP Barcelona, IT Leadership Development | Barcelona, ES | September 21, 2026, 3:00-6:00 PM | Grand Hyatt Barcelona | Amanda Mathieson | ✅ SFDC |
+| Session | Location | Date | Venue | Verified |
+|---|---|---|---|---|
+| LEVEL-UP Austin, AI Workforce Development | Austin, TX | September 17, 2026, 9:00 AM-12:00 PM | Hyatt Regency Austin | ✅ SFDC |
+| LEVEL-UP Barcelona, AI Workforce Development | Barcelona, ES | September 21, 2026, 3:00-6:00 PM | Grand Hyatt Barcelona | ✅ SFDC |
+| LEVEL-UP Barcelona, IT Leadership Development | Barcelona, ES | September 21, 2026, 3:00-6:00 PM | Grand Hyatt Barcelona | ✅ SFDC |
+
+Speaker lineups unknown for all three. The session topic is the hook, not a name.
 
 Co-location pattern: Austin LEVEL-UP runs the morning of IGNITE Austin (which starts 2:00 PM the same day). Both Barcelona LEVEL-UPs run the day before LIVE Barcelona (Sept 22-23). A prospect attending the flagship can be offered the LEVEL-UP as a bolt-on.
 
 > Passed: Austin (May 14, 2026), Philadelphia (May 20, 2026), Washington DC (March 11, 2026), Atlanta (March 18, 2026).
 
-### Third-party events (Info-Tech attending or speaking)
+### Names in the SFDC export are attendees, not speakers
 
-Not Info-Tech-hosted. Useful for knowing where Info-Tech people will be, and occasionally for a "we'll both be there" hook. **Check routing before using any of these**, several sit squarely in another rep's book.
+Important, and easy to get wrong. The person fields on an SFDC campaign record list
+**internal Info-Tech people tagged as attending**. They are not the billed speaker
+lineup and they are not a public agenda.
+
+Two consequences:
+
+1. **Never present an SFDC-tagged name to a prospect as a speaker.** That is a
+   fabricated claim about the agenda. Speaker names in this playbook come from the
+   events page and are marked unverified until refreshed there.
+2. **These names sit behind the intel firewall.** Who from Info-Tech is attending is
+   internal. It does not go in an email.
+
+Where an attendee name is genuinely useful: knowing a colleague will be in the room,
+and coordinating internally before a touch lands near that event.
+
+### Third-party events (Info-Tech attending)
+
+Not Info-Tech-hosted. Useful for knowing where Info-Tech colleagues will be, and occasionally for a "we'll both be there" hook. **Check routing before using any of these**, several sit squarely in another rep's book.
 
 | Event | Location | Date | Routing note |
 |---|---|---|---|

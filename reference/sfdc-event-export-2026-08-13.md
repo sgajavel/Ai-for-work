@@ -8,14 +8,20 @@ playbook gets rewritten.
 That ceiling is why the fall IGNITE wave (DC, Sacramento, Atlanta) is still
 unverified.
 
-**Handling:** contains internal campaign links. Internal reference only, never
-prospect-facing. Intel firewall, CLAUDE.md Section 5.
+**Handling:** contains internal campaign links and internal staff names. Internal
+reference only, never prospect-facing. Intel firewall, CLAUDE.md Section 5.
+
+**Read the name column correctly.** The people listed against each event are
+**internal Info-Tech colleagues tagged as attending**. They are not the billed speaker
+lineup and not a public agenda. Never repeat one of these names to a prospect as a
+speaker, and do not treat them as contradicting the featured-speaker names in the
+playbook, which come from the events page and are tracked separately.
 
 ---
 
 ## Upcoming as of 2026-08-13
 
-| Date | Event | Type | Location | Venue | People |
+| Date | Event | Type | Location | Venue | Info-Tech attendees (internal) |
 |---|---|---|---|---|---|
 | Aug 16-18 | CACP Conference | 3rd party (CACP) | Edmonton, AB | | Benjamin Selmani, Angela McDow, Cole Cioran |
 | Aug 20 | Georgia Digital Government Summit | 3rd party (US Public Sector) | Atlanta, GA | | Isabelle Hertanto, Mike Daniels, Titus Moore, Lee Posey, Ryan Martin, Jordan Reed |
@@ -45,9 +51,9 @@ prospect-facing. Intel firewall, CLAUDE.md Section 5.
 
 ## What this export changed in the playbook
 
-1. **IGNITE Austin confirmed**, September 17-18, Hyatt Regency Austin. But the host is
-   **Arushi Rawat**, not Carlene McCubbin as the playbook had it. Speaker names in the
-   playbook are stale, check the campaign record before naming anyone.
+1. **IGNITE Austin confirmed**, September 17-18, Hyatt Regency Austin. Date and venue
+   only. The export says nothing about the speaker lineup, so the playbook's featured
+   name stands unchanged and still unverified.
 2. **LEVEL-UP is active.** The playbook said the series had no scheduled dates. Wrong,
    there are three sessions.
 3. **CIO Roundtable is active.** Ottawa, September 16. The playbook said nothing was
