@@ -277,55 +277,88 @@ For international prospects who can't travel, use an industry-matched virtual In
 
 ## 11. Event calendar
 
-> **Last refreshed:** 2026-06-22 (passed events removed; Industry Roundtables + Webinars added; Playbooks Summit date TBD)
+> **Last refreshed:** 2026-08-13, from two sources.
 >
-> **REFRESH OVERDUE as of 2026-07-21.** Several sessions below (June Industry Roundtables, June webinars, July 8 education roundtable) have now passed and should not be referenced. Pull the current list from https://www.infotech.com/events and replace this section before relying on virtual sessions. Remove any event whose date has passed.
+> **Source 1, the Salesforce campaign export** (authoritative, pasted by Sairam). Covers everything up to **September 21, 2026** and nothing beyond. Every row marked ✅ SFDC comes from it. This source added the LEVEL-UP and Leadership Summit sessions, the Ottawa CIO Roundtable, and the third-party list, and it corrected two "nothing scheduled" notes that were wrong.
 >
-> **How to refresh:** Pull the current list from https://www.infotech.com/events and replace this section. Remove any event whose date has passed.
+> **Source 2, web search** (weaker). https://www.infotech.com/events could not be opened directly, the domain is blocked by the network egress policy in the working environment, as are prnewswire.com and finance.yahoo.com. Flagship LIVE dates were confirmed from Info-Tech event page titles returned in search. Rows marked ✅ web.
+>
+> **The gap that matters: anything after September 21, 2026 is unconfirmed.** That includes all three remaining fall IGNITEs, Sacramento among them.
+>
+> **Verification key:** ✅ SFDC confirmed in the campaign export. ✅ web confirmed from an Info-Tech page title. ⚠️ unverified, do not use in prospect-facing copy. ⛔ passed, never reference.
+>
+> **How to close the gap:** pull an SFDC campaign export that reaches into November 2026, or open the events page in a browser. Then set every ⚠️ row to ✅ or delete it.
 
 ### Flagship LIVE events
 
-| Event | Location | Date | Notes |
-|---|---|---|---|
-| Info-Tech LIVE 2026 | Barcelona, ES | September 22-23, 2026 | European flagship. Theme: Exponential IT |
-| Info-Tech LIVE 2026 | Toronto, ON | November 10-12, 2026 | Canadian flagship. Theme: Exponential IT |
-| Info-Tech LIVE 2027 | New Orleans, LA | January 26-28, 2027 | Forward-looking flagship. Theme: Exponential IT |
-| Info-Tech LIVE 2027 | Gold Coast, AU | March 16-17, 2027 | APAC flagship. Theme: Agentic IT: From Hype to Value |
+| Event | Location | Date | Verified | Notes |
+|---|---|---|---|---|
+| Info-Tech LIVE 2026 | Barcelona, ES | September 22-23, 2026 | ✅ | European flagship. Theme: Exponential IT |
+| Info-Tech LIVE 2026 | Toronto, ON | November 10-12, 2026 | ✅ | Canadian flagship. Theme: Exponential IT |
+| Info-Tech LIVE 2027 | New Orleans, LA | January 26-28, 2027 | ✅ | Forward-looking flagship. Theme: Exponential IT |
+| Info-Tech LIVE 2027 | Gold Coast, AU | March 16-17, 2027 | ✅ | APAC flagship. Theme: Agentic IT: From Hype to Value |
+| Info-Tech LIVE 2027 | Las Vegas, NV | May 11-13, 2027 | ✅ | **NEW, added 2026-08-13.** The Bellagio. Closest flagship to the California book, see geo-matching below |
 
 > LIVE Las Vegas (June 9-11, 2026) has passed and been removed.
 
 ### IGNITE events (2-day immersive)
 
-| Event | Location | Date | Venue | Featuring |
+| Event | Location | Date | Venue | Host | Verified |
+|---|---|---|---|---|---|
+| IGNITE Texas | Austin, TX | September 17-18, 2026 | Hyatt Regency Austin | **Arushi Rawat** | ✅ SFDC |
+| IGNITE | Washington, DC | October 1-2, 2026 | The Watergate Hotel | Gord Harrison (Chief Research Officer) | ⚠️ beyond SFDC window |
+| IGNITE | Sacramento, CA | October 27-28, 2026 | Kimpton Sawyer Hotel | Martin Bufi (Research Director) | ⚠️ **critical, CA anchor, see below** |
+| IGNITE | Atlanta, GA | November 2-3, 2026 | Hilton Atlanta | Nysa Zaran (Research Director) | ⚠️ beyond SFDC window |
+| IGNITE | Minneapolis, MN | June 3-4, 2027 | Marriott Minneapolis City Center | | ✅ web |
+
+**Austin correction:** the SFDC campaign record confirms the September 17-18 dates and the Hyatt Regency Austin venue, but the host is **Arushi Rawat**, not Carlene McCubbin as this playbook previously said. The old name was stale. Never name a speaker from this table without checking the campaign record.
+
+> ⚠️ **IGNITE Sacramento, October 27-28, 2026, is still unconfirmed, and it is the only California in-person event in this playbook.**
+>
+> What is known: the SFDC campaign export pulled on 2026-08-13 runs through September 21, 2026 and contains **no California event of any kind**. That window stops before late October, so it neither confirms nor kills Sacramento. Separately, the only Sacramento IGNITE corroborated on the web is **October 30, 2025** at the Kimpton Sawyer Hotel, the same venue claimed here for 2026, and the only Sacramento agenda on Info-Tech's CDN is `2025-IGNITE-Agenda-Sacramento.pdf`. The published "IGNITE 2026" series announcement lists only Toronto, Detroit, Chicago, and Vancouver, all spring, no fall wave.
+>
+> The Austin row proves the fall wave is at least partly real, which raises the odds Sacramento is real too. But "probably real" is not the standard for something that goes in front of a prospect. **Confirm it in SFDC or on the events page before using it.**
+
+> Passed and removed: IGNITE Vancouver (June 1-2, 2026), Toronto (April 16-17, 2026), Detroit (April 28-29, 2026), Chicago (May 6-7, 2026).
+
+### CIO Roundtable series (evening sessions)
+
+**Correction, 2026-08-13: this series is active.** The previous note saying there was nothing upcoming was wrong.
+
+| Location | Date | Host | Venue | Verified |
 |---|---|---|---|---|
-| IGNITE | Austin, TX | September 17-18, 2026 | Hyatt Regency Austin | Carlene McCubbin (AVP, Agentic AI Implementation) |
-| IGNITE | Washington, DC | October 1-2, 2026 | The Watergate Hotel | Gord Harrison (Chief Research Officer) |
-| IGNITE | Sacramento, CA | October 27-28, 2026 | Kimpton Sawyer Hotel | Martin Bufi (Research Director) |
-| IGNITE | Atlanta, GA | November 2-3, 2026 | Hilton Atlanta | Nysa Zaran (Research Director) |
+| Ottawa, ON | September 16, 2026, 3:00-6:30 PM | Cole Cioran | Lord Elgin Hotel | ✅ SFDC |
 
-> IGNITE Vancouver (June 1-2, 2026) has passed and been removed.
+Pattern worth knowing: CIO Roundtables are co-located with Leadership Summits (Nashville and Seattle both ran Summit and Roundtable at the same venue on the same day). If a Leadership Summit is announced in a city, a CIO Roundtable is likely attached to it.
 
-### CIO Roundtable series (3PM-6PM evening sessions)
+> Passed: Sydney (May 13), New York (May 20), Halifax (June 17), Washington DC (July 22), Seattle (July 22), Nashville (August 12), all 2026.
 
-| Location | Date | Host | Venue |
-|---|---|---|---|
-| Seattle, WA | July 22, 2026 | Gord Harrison (Chief Research Officer) | The Alexis Royal Sonesta Hotel Seattle |
-| Nashville, TN | August 12, 2026 | Mark Roman (Managing Partner, Education) | The Joseph, a Luxury Collection Hotel |
+### Leadership Summit series
 
-> Sydney (May 13), New York (May 20), and Halifax (June 17) have passed and been removed.
+**New to this playbook, added 2026-08-13.** Multi-day summit series, was not previously tracked here.
+
+| Location | Date | Hosts | Venue | Verified |
+|---|---|---|---|---|
+| Ottawa, ON | September 16-18, 2026 | | | ✅ SFDC |
+
+Landing page pattern: `https://www.infotech.com/leadership-summit#<city>-<state>-<yyyy-mm-dd>`
+
+> Passed: Seattle, WA (July 22-24, 2026), Nashville, TN (August 12-14, 2026, running as of today).
 
 ### Industry Roundtables (virtual, industry-specific)
 
-Topic and industry-matched virtual sessions. Use when the prospect's industry matches and the date is still upcoming. These expire quickly, so check the date before referencing. **Note (2026-07-21): every session in this table has now passed. Do not reference until refreshed.**
+Topic and industry-matched virtual sessions. Use when the prospect's industry matches and the date is still upcoming. These expire quickly, so check the date before referencing.
 
-| Session | Industry/Topic | Date |
-|---|---|---|
-| Assess and Prioritize Agentic AI Use Cases in Healthcare | Healthcare | June 24, 2026 |
-| Agentic AI Use Cases for Professional Services Firms | Professional services | June 24, 2026 |
-| Build an OT Security Model for Manufacturing | Manufacturing / OT security | June 25, 2026 |
-| Build an OT Security Model for Utilities | Utilities / OT security | June 25, 2026 |
-| Redesign Retail to Scale AI | Retail | June 25, 2026 |
-| Drive Student Success with High-Impact Education Data | Education / data | July 8, 2026 |
+⛔ **Every session below has passed (all June and July 2026). The table is retained only as a record of what the series covers, which is useful for guessing what will come back around. Nothing here is referenceable.** Until this table is refreshed there is **no usable virtual fallback**, which matters a lot for Southern California, see geo-matching below.
+
+| Session | Industry/Topic | Date | Status |
+|---|---|---|---|
+| Assess and Prioritize Agentic AI Use Cases in Healthcare | Healthcare | June 24, 2026 | ⛔ passed |
+| Agentic AI Use Cases for Professional Services Firms | Professional services | June 24, 2026 | ⛔ passed |
+| Build an OT Security Model for Manufacturing | Manufacturing / OT security | June 25, 2026 | ⛔ passed |
+| Build an OT Security Model for Utilities | Utilities / OT security | June 25, 2026 | ⛔ passed |
+| Redesign Retail to Scale AI | Retail | June 25, 2026 | ⛔ passed |
+| Drive Student Success with High-Impact Education Data | Education / data | July 8, 2026 | ⛔ passed |
 
 ### Webinars (virtual)
 
@@ -336,9 +369,33 @@ Topic and industry-matched virtual sessions. Use when the prospect's industry ma
 | Agentic IT: From Hype to Value | AI / IT strategy | June 24, 2026 |
 | Securing Agentic AI and the New Security Reality | Security | June 30, 2026 |
 
-### LEVEL-UP series (half-day, 3PM-6PM)
+### LEVEL-UP series (half-day, 3 hours)
 
-Series is still active but has no scheduled dates right now. Austin (May 14) and Philadelphia (May 20) have passed. Do not reference until new dates are published.
+**Correction, 2026-08-13: this series has scheduled dates.** The previous note saying there were none was wrong. LEVEL-UP runs as a half-day workforce-development session, usually co-located with a larger event the same day or the day before.
+
+| Session | Location | Date | Venue | Host | Verified |
+|---|---|---|---|---|---|
+| LEVEL-UP Austin, AI Workforce Development | Austin, TX | September 17, 2026, 9:00 AM-12:00 PM | Hyatt Regency Austin | Jai Hebel | ✅ SFDC |
+| LEVEL-UP Barcelona, AI Workforce Development | Barcelona, ES | September 21, 2026, 3:00-6:00 PM | Grand Hyatt Barcelona | Martin Bufi | ✅ SFDC |
+| LEVEL-UP Barcelona, IT Leadership Development | Barcelona, ES | September 21, 2026, 3:00-6:00 PM | Grand Hyatt Barcelona | Amanda Mathieson | ✅ SFDC |
+
+Co-location pattern: Austin LEVEL-UP runs the morning of IGNITE Austin (which starts 2:00 PM the same day). Both Barcelona LEVEL-UPs run the day before LIVE Barcelona (Sept 22-23). A prospect attending the flagship can be offered the LEVEL-UP as a bolt-on.
+
+> Passed: Austin (May 14, 2026), Philadelphia (May 20, 2026), Washington DC (March 11, 2026), Atlanta (March 18, 2026).
+
+### Third-party events (Info-Tech attending or speaking)
+
+Not Info-Tech-hosted. Useful for knowing where Info-Tech people will be, and occasionally for a "we'll both be there" hook. **Check routing before using any of these**, several sit squarely in another rep's book.
+
+| Event | Location | Date | Routing note |
+|---|---|---|---|
+| CACP Conference | Edmonton, AB | August 16-18, 2026 | Canadian police chiefs. Public safety |
+| Georgia Digital Government Summit | Atlanta, GA | August 20, 2026 | ⛔ **SLED team** |
+| Tertiary ICT Conference | Wellington, NZ | August 25-27, 2026 | ⛔ Education, and APAC |
+| Connecticut Digital Government Summit | Hartford, CT | September 2, 2026 | ⛔ **SLED team** |
+| Digital Stratosphere 2026 | Denver, CO | September 9, 2026 | Third Stage Consulting. ERP transformation audience |
+| Mississippi Digital Government Summit | Flowood, MS | September 9, 2026 | ⛔ **SLED team** |
+| 27th TribalNet Conference and Tradeshow | Texas | September 20-24, 2026 | ⛔ **Erin Font**, casinos and tribal enterprises |
 
 ### IT Playbooks Summit (virtual)
 
@@ -358,20 +415,26 @@ Hyperlink "our upcoming events" or the event name to: https://www.infotech.com/e
 
 ### Geo-matching logic
 
-| Region | Primary event |
-|---|---|
-| Texas | IGNITE Austin Sept 17-18 |
-| DC metro / Mid-Atlantic (PA, DE, MD, VA) | IGNITE Washington DC Oct 1-2 |
-| Georgia / Atlanta metro | IGNITE Atlanta Nov 2-3 |
-| Southeast US (TN, AL, KY) | Nashville Roundtable Aug 12, or IGNITE Atlanta Nov 2-3 |
-| Northern California / Sacramento | IGNITE Sacramento Oct 27-28 |
-| Pacific Northwest US | Seattle Roundtable July 22 |
-| Canada (all regions) | LIVE Toronto Nov 10-12 |
-| Europe / UK | LIVE Barcelona Sept 22-23 |
-| Australia / NZ | LIVE Gold Coast Mar 16-17, 2027 |
-| Northeast US / New England (no close in-person match now) | Industry-matched virtual session if one fits, otherwise skip |
-| Central/western US, Colorado | LIVE New Orleans Jan 26-28 2027 if they can wait, otherwise virtual/skip |
-| Any region with no close in-person match | Industry-matched virtual roundtable/webinar if upcoming and relevant, otherwise skip the event mention |
+**California territory rows come first, since that is the whole book now.**
+
+| Region | Primary event | Usable today? |
+|---|---|---|
+| **Northern California / Sacramento / Bay Area** | IGNITE Sacramento Oct 27-28, 2026 | ⚠️ **NO, not until verified.** Only NorCal option and still unconfirmed. Skip the mention |
+| **Southern California (LA, OC, SD, IE)** | No in-person match. Nearest flagship is LIVE Las Vegas May 11-13, 2027 | ⚠️ Las Vegas is confirmed but 9 months out, so it only works for a prospect explicitly planning ahead. Otherwise skip. No virtual fallback exists either, every roundtable and webinar has passed |
+| Texas | IGNITE Austin Sept 17-18, or LEVEL-UP Austin the same morning | ✅ both confirmed |
+| DC metro / Mid-Atlantic (PA, DE, MD, VA) | IGNITE Washington DC Oct 1-2 | ⚠️ unverified |
+| Georgia / Atlanta metro | IGNITE Atlanta Nov 2-3 | ⚠️ unverified |
+| Southeast US (TN, AL, KY) | IGNITE Atlanta Nov 2-3 | ⚠️ unverified. Nashville Roundtable Aug 12 has passed |
+| Pacific Northwest US | None. Seattle Roundtable July 22 has passed | ⛔ skip |
+| Ottawa / Eastern Ontario | CIO Roundtable Ottawa Sept 16, or Leadership Summit Ottawa Sept 16-18 | ✅ both confirmed |
+| Canada (all regions) | LIVE Toronto Nov 10-12 | ✅ |
+| Europe / UK | LIVE Barcelona Sept 22-23 | ✅ |
+| Australia / NZ | LIVE Gold Coast Mar 16-17, 2027 | ✅ |
+| Central / western US, Colorado, Mountain | LIVE New Orleans Jan 26-28 2027, or LIVE Las Vegas May 11-13 2027 | ✅ |
+| Northeast US / New England | No close in-person match | ⛔ skip, no virtual fallback available right now |
+| Any region with no close in-person match | Industry-matched virtual roundtable/webinar **if upcoming** | ⛔ none upcoming as of 2026-08-13. Skip the event mention |
+
+**Bottom line for this territory as of 2026-08-13: skip the event mention on California outreach.** There is no confirmed in-person California event and no live virtual fallback. Per Section 10, do not invent a geo-match. This resolves the moment someone confirms IGNITE Sacramento.
 
 ### Playbooks Summit track matching
 

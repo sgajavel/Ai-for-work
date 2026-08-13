@@ -19,6 +19,27 @@ Not "how good is this account" in the abstract. Three operational questions:
 An account that cannot be actioned this quarter is not Tier 1 no matter how large or
 attractive it is. Tier is about **cycle temperature and readiness**, not account size.
 
+## Tiering as a pre-QP judgment
+
+`QP = VMD x Value x Power x Plan` is multiplicative, so a zero anywhere kills the
+prospect. Tiering is the step before that formula can even be attempted, and the tiers
+line up against it cleanly:
+
+| Tier | Position against the QP formula |
+|---|---|
+| Tier 1 | Something live means VMD is plausibly reachable on the first call |
+| Tier 2 | A named contact means **Power** has a candidate, unconfirmed |
+| Tier 3 | No named contact means Power is a hard zero. No QP is possible yet |
+
+This is the actual reason Tier 3 gets research instead of outreach. It is not that
+those accounts are worse, it is that a required factor is missing and no amount of
+good email fixes a zero.
+
+**Power is the habitual blank** across the whole motion, per the standing rules. It is
+also the single field most likely to be missing from a territory list. Expect the
+Tier 2 / Tier 3 split to be decided by contact data quality more than by anything
+about the account itself.
+
 ---
 
 ## Signal definitions
