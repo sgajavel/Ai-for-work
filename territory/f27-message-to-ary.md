@@ -4,7 +4,8 @@ Draft for review. Sairam edits before sending.
 
 Structured against Dana Tessler's review guide (viable first, Retained → Departures →
 Arrivals, exceptions only). Supporting detail in `territory/f27-feedback-submission.md`
-and `territory/f27-proposed-book-analysis.md`.
+and `territory/f27-proposed-book-analysis.md`. Attachment:
+`territory/F27-Territory-Feedback-Sairam-Gajavelli.xlsx`.
 
 ---
 
@@ -23,13 +24,39 @@ Of the arrivals, 608 are viable and 647 bill to California, which reads correctl
 Northern California and Bay Area book. No open opportunity at Proposal or beyond appears
 anywhere in it.
 
-**1. Arrival timing, six flags covering eight accounts**
+**1. Duplicate records, 37 to merge across 24 companies**
+
+This is the one I would most like to move on quickly, because it affects everything I do
+from August 24 onward.
+
+There are 24 companies that each appear under several SFDC records inside a single APEX
+group, 37 redundant records in total. I found them by matching shared LinkedIn company
+URLs and normalised legal names within each group. The largest are AppDirect, North
+American Title, Doma, Achievers and XYZ, at four records apiece.
+
+Tab 1 of the attached workbook lists every one of them with the record I would keep, the
+records that fold into it, and why that particular record should be the survivor.
+Generally it is the one marked Viable, billing to California, and carrying a LinkedIn
+URL. Two need a decision rather than a straight merge, and I have called both out in the
+sheet:
+
+- **Mozilla Foundation and Mozilla Corporation** are genuinely separate legal entities,
+  the nonprofit parent and its taxable subsidiary. They clustered because they share one
+  LinkedIn page.
+- **Doma and North American Title** are two clusters inside the Title Resources Group
+  APEX group, which holds eight records altogether, so that is probably one
+  consolidation rather than two.
+
+If these get cleaned up before the book goes live I avoid working the same company twice
+and my account counts mean something. Happy to route the list wherever it needs to go.
+
+**2. Arrival timing, six flags covering eight accounts**
 
 All eight are held to February 1. On each there is either no opportunity at all, or the
 opportunity is closed lost with no live communication. Since a February 1 holdover
 depends on moving the account to QO before that date, and there is nothing on these to
-move, the holdover has nothing to protect. I would like them to arrive August 24 with
-the rest.
+move, I would wonder whether it makes sense for them to just move now rather than sit
+for another six months.
 
 - **Federal Home Loan Bank of San Francisco** (Steve Platt). Opportunity exists but the
   cycle has died. The contact, Joseph Sacri, is someone I know from his previous
@@ -38,7 +65,8 @@ the rest.
   opportunity on Exar, and the MaxLinear opportunity is closed lost with no
   communication on it.
 - **Burning Man Project and Black Rock City LLC** (Andrew Bell). Opportunity has died.
-  Both records sit under the same APEX group and are the same organisation.
+  Both records sit under the same APEX group and are the same organisation, so this one
+  overlaps with the duplicate list above.
 - **Samba TV** (Josh Scott). No opportunity. This one is a Winback, so there is a lapsed
   membership I would rather work in August than in February.
 - **iRhythm Technologies** (Cameron McLean). No opportunity on the account.
@@ -47,23 +75,8 @@ the rest.
   belong in LE rather than with me, and I would rather surface it now than work it and
   find out later.
 
-**2. Accounts that look like the wrong territory, seven**
-
-Four have a Region that is not USA & Canada, which I took as the clearest signal:
-
-- **Vodacom.** Two records, both APEX Vodafone Group Plc, org group Vodacom & Africa
-  OpCo, Region Southern Africa Core. The viable record is currently set to arrive August
-  24, the non-viable one is held to February.
-- **Implats.** APEX Impala Platinum Holdings, Region Southern Africa Core.
-- **Alef Education.** Region Southern Gulf.
-
-Three look like SLED:
-
-- **Port of San Francisco.** APEX group is "City and County of San Francisco, CA", org
-  group Port & Maritime. It is a child of a municipal government parent.
-- **Contra Costa Water District** and **Alameda County Water District.** Both are their
-  own APEX groups under a Natural Resources org group. California public special
-  districts.
+Tab 2 of the workbook has these with account IDs, current owners and the detail behind
+each one.
 
 **3. Reviewed and not flagging**
 
@@ -77,24 +90,6 @@ checked rather than missed:
   back only if one looks genuinely LE-owned.
 - The non-viable set is almost entirely child and acquired-entity records inside groups
   whose primary account is viable. Nothing there changes a territory assignment.
-
-**4. Separate from territory feedback**
-
-I found 24 clusters where one company appears under several SFDC records inside a single
-APEX group, 37 redundant records in total, identified by shared LinkedIn company URL and
-matching legal name. The largest are AppDirect, North American Title, Doma, Achievers and
-XYZ at four records each.
-
-This is not a territory question so I have kept it out of the list above, but it does
-inflate the book count and it will cost time later. I have the full keep-and-merge list
-with account IDs. Tell me where it should go and I will send it.
-
-**5. Two questions**
-
-- **Which holdover date governs?** The deck body and the territory file both say
-  February 1, 2027. The FAQ says January 1, 2027. Nineteen of my arrivals turn on it.
-- **Can the dashboard expose annual revenue?** SMB is defined as the $50M to $500M band
-  and there is no revenue field in the view, so I cannot check account size at all.
 
 Happy to walk through any of this live if that is quicker.
 
