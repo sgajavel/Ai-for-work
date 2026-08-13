@@ -1,0 +1,4 @@
+signal_date,account_id,signal_type,detail,source,actioned
+2026-08-10,EX-002,content-download,Pulled three OT security resources in one week,marketing,yes
+2026-08-12,EX-001,membership-lapse,Lapsed 2024 and never re-engaged,sfdc,yes
+2026-08-13,EX-003,leadership-change,New VP of Technology announced,linkedin,no

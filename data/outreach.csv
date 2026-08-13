@@ -1,0 +1,4 @@
+touch_date,account_id,contact_id,channel,campaign_type,touch_number,subject_or_note,outcome,next_followup_date,status
+2026-08-04,EX-001,EXC-001,email,winback,1,Reconnect on the lapsed membership,no-response,2026-08-11,open
+2026-08-11,EX-001,EXC-001,email,winback,2,Second touch on peer comparison angle,no-response,2026-08-18,open
+2026-08-12,EX-002,EXC-002,email,zero-cv,1,OT security program timing,replied,2026-08-14,open

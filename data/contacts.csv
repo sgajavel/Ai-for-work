@@ -1,0 +1,4 @@
+contact_id,account_id,name,title,email,linkedin,persona_fit,is_power,notes
+EXC-001,EX-001,EXAMPLE Dana Whitfield,CIO,,,core-it,unconfirmed,In seat since 2019 and was the contact on the lapsed membership
+EXC-002,EX-002,EXAMPLE Ravi Menon,VP Information Technology,,,core-it,unconfirmed,Owns the OT security program
+EXC-003,EX-002,EXAMPLE Priya Shah,Director of Security,,,core-it,no,Reports to Menon

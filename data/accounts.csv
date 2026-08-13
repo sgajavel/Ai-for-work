@@ -1,0 +1,6 @@
+account_id,account_name,tier,tier_reason,scope_status,routed_to,industry,revenue_musd,parent_company,city,zip,membership_status,last_reviewed
+EX-001,EXAMPLE Meridian Foods Inc,1,Membership lapsed 2024 and prior CIO still in seat,in-book,,Food & beverage manufacturing,180,,Fresno,93720,lapsed-2024,2026-08-13
+EX-002,EXAMPLE Calder Health Partners,2,Named CIO identified plus OT security timing hook,in-book,,Healthcare services,95,,San Diego,92121,none,2026-08-13
+EX-003,EXAMPLE Vantage Logistics Group,3,No named IT contact and no engagement footprint,in-book,,Transportation & logistics,240,,Stockton,95206,none,2026-08-13
+EX-004,EXAMPLE Redwood Credit Alliance,,Small credit union,routed-out,Nick P,Credit union,60,,Santa Rosa,95403,none,2026-08-13
+EX-005,EXAMPLE Sierra Composite Materials,,Sub-500M but appears to be a division,needs-ownership-check,,Advanced materials,310,Possible parent: unconfirmed holding co,Sacramento,95814,none,2026-08-13

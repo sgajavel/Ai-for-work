@@ -1,0 +1,2 @@
+cycle_id,account_id,contact_id,stage,opened_date,vmd,value,power,plan,next_step,next_step_date,map_documented,close_target,notes
+EXY-001,EX-002,EXC-002,discovery,2026-08-12,partial,no,no,no,Run 30-minute discovery and establish VMD,2026-08-20,no,,Discovery booked off the first touch

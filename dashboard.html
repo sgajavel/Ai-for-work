@@ -1,0 +1,392 @@
+<title>Territory Board</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>
+*,*::before,*::after{box-sizing:border-box}
+:root{
+  --ground:#FFFFFF; --surface:#F4F6F7; --surface-2:#EAEEF0; --line:#D8DFE3;
+  --ink:#10171C; --ink-2:#3A4A55; --muted:#5C6B75;
+  --accent:#0F6E7B; --accent-soft:#E3F0F1;
+  --critical:#A8324A; --critical-soft:#F7E7EB;
+  --warn:#9A6414; --warn-soft:#FAF0DF;
+  --ok:#2F6B4F; --ok-soft:#E5F1EA;
+  --sans:ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+  --mono:ui-monospace,SFMono-Regular,"SF Mono",Menlo,Consolas,"Liberation Mono",monospace;
+  --r:3px;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme="light"]){
+    --ground:#0E1418; --surface:#161E24; --surface-2:#1E282F; --line:#2C3941;
+    --ink:#E8EEF1; --ink-2:#AFC0CA; --muted:#8399A6;
+    --accent:#4FB3BF; --accent-soft:#123034;
+    --critical:#E8879C; --critical-soft:#331A21;
+    --warn:#D9A758; --warn-soft:#33270F;
+    --ok:#7FC3A1; --ok-soft:#162C22;
+  }
+}
+:root[data-theme="dark"]{
+  --ground:#0E1418; --surface:#161E24; --surface-2:#1E282F; --line:#2C3941;
+  --ink:#E8EEF1; --ink-2:#AFC0CA; --muted:#8399A6;
+  --accent:#4FB3BF; --accent-soft:#123034;
+  --critical:#E8879C; --critical-soft:#331A21;
+  --warn:#D9A758; --warn-soft:#33270F;
+  --ok:#7FC3A1; --ok-soft:#162C22;
+}
+body{margin:0;background:var(--ground);color:var(--ink);font-family:var(--sans);
+  font-size:15px;line-height:1.5;-webkit-font-smoothing:antialiased}
+.mono,.due__date,.bar__val,.sig__date,.cyc__next-date{font-family:var(--mono);
+  font-variant-numeric:tabular-nums}
+.wrap{max-width:1180px;margin:0 auto;padding:32px 24px 72px;
+  display:flex;flex-direction:column;gap:24px}
+
+/* masthead */
+.mast{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:flex-end;
+  gap:16px;padding-bottom:20px;border-bottom:2px solid var(--ink)}
+.mast h1{margin:0;font-size:26px;font-weight:640;letter-spacing:-.02em;text-wrap:balance}
+.mast__sub{margin:6px 0 0;color:var(--muted);font-size:13.5px;max-width:62ch}
+.mast__meta{text-align:right;font-family:var(--mono);font-size:12px;color:var(--muted);
+  display:flex;flex-direction:column;gap:3px}
+.mast__meta b{color:var(--ink);font-weight:600;font-size:14px}
+
+/* counters */
+.counts{display:grid;grid-template-columns:repeat(auto-fit,minmax(132px,1fr));gap:1px;
+  background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.count{background:var(--surface);padding:14px 16px;display:flex;flex-direction:column;gap:3px}
+.count__n{font-family:var(--mono);font-variant-numeric:tabular-nums;font-size:26px;
+  font-weight:600;line-height:1;letter-spacing:-.03em}
+.count__l{font-size:10.5px;text-transform:uppercase;letter-spacing:.09em;color:var(--muted);font-weight:600}
+.count--accent .count__n{color:var(--accent)}
+.count--critical .count__n{color:var(--critical)}
+.count--warn .count__n{color:var(--warn)}
+
+/* panels */
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(340px,1fr));gap:24px}
+.panel{background:var(--surface);border:1px solid var(--line);border-radius:var(--r);
+  padding:18px 20px 20px;display:flex;flex-direction:column;gap:14px;min-width:0}
+.panel--wide{grid-column:1/-1}
+.panel__head{display:flex;justify-content:space-between;align-items:baseline;gap:12px;flex-wrap:wrap}
+.panel__head h2{margin:0;font-size:12px;text-transform:uppercase;letter-spacing:.11em;
+  font-weight:680;color:var(--ink-2)}
+.sub{margin:6px 0 0;font-size:10.5px;text-transform:uppercase;letter-spacing:.1em;
+  color:var(--muted);font-weight:650}
+.empty,.clear-note{margin:0;color:var(--muted);font-size:13.5px;max-width:62ch}
+.panel--clear{border-left:3px solid var(--ok)}
+
+.chips{display:flex;gap:6px;flex-wrap:wrap}
+.chip{font-family:var(--mono);font-size:11px;padding:2.5px 8px;border-radius:999px;
+  background:var(--surface-2);color:var(--ink-2);white-space:nowrap}
+.chip--critical{background:var(--critical-soft);color:var(--critical);font-weight:600}
+.chip--warn{background:var(--warn-soft);color:var(--warn);font-weight:600}
+.chip--soon{background:var(--accent-soft);color:var(--accent);font-weight:600}
+
+/* follow-ups */
+.due-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:1px;
+  background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.due{background:var(--surface);display:grid;
+  grid-template-columns:minmax(120px,132px) minmax(180px,1.1fr) minmax(200px,1.5fr);
+  gap:14px;padding:11px 14px 11px 15px;border-left:3px solid transparent;align-items:start}
+.due--critical{border-left-color:var(--critical);background:var(--critical-soft)}
+.due--warn{border-left-color:var(--warn);background:var(--warn-soft)}
+.due--soon{border-left-color:var(--accent)}
+.due--later{border-left-color:var(--line)}
+.due__when,.due__who,.due__what{display:flex;flex-direction:column;gap:2px;min-width:0}
+.due__date{font-size:13px;font-weight:600}
+.due__rel{font-size:11px;color:var(--muted);font-family:var(--mono)}
+.due--critical .due__rel{color:var(--critical);font-weight:600}
+.due--warn .due__rel{color:var(--warn);font-weight:600}
+.due__account{font-weight:600;font-size:13.5px;display:flex;align-items:center;gap:6px;flex-wrap:wrap}
+.due__contact,.due__meta{font-size:12px;color:var(--muted)}
+.due__note{font-size:13px;color:var(--ink-2)}
+.due__meta{font-family:var(--mono);font-size:11px}
+
+.tier{font-family:var(--mono);font-size:10px;font-weight:700;padding:1px 5px;border-radius:2px;
+  background:var(--surface-2);color:var(--ink-2)}
+.tier--1{background:var(--critical-soft);color:var(--critical)}
+.tier--2{background:var(--accent-soft);color:var(--accent)}
+.tier--3{background:var(--surface-2);color:var(--muted)}
+
+/* cycles */
+.cyc-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:14px}
+.cyc{background:var(--ground);border:1px solid var(--line);border-radius:var(--r);
+  padding:14px 15px;display:flex;flex-direction:column;gap:11px;min-width:0}
+.cyc--blocked{border-left:3px solid var(--critical)}
+.cyc--built{border-left:3px solid var(--ok)}
+.cyc__head{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+.cyc__head h3{margin:0;font-size:14.5px;font-weight:640;letter-spacing:-.01em}
+.cyc__contact{margin:2px 0 0;font-size:12px;color:var(--muted)}
+.stage{font-family:var(--mono);font-size:10px;text-transform:uppercase;letter-spacing:.06em;
+  padding:2.5px 7px;border-radius:2px;background:var(--surface-2);color:var(--ink-2);
+  white-space:nowrap;font-weight:650}
+.stage--proposal,.stage--commit{background:var(--accent-soft);color:var(--accent)}
+
+.qp{display:grid;grid-template-columns:repeat(4,1fr);gap:3px}
+.qp__seg{height:26px;border-radius:2px;display:flex;align-items:center;justify-content:center;
+  border:1px solid var(--line)}
+.qp__label{font-family:var(--mono);font-size:9.5px;font-weight:700;letter-spacing:.05em}
+.qp__seg--yes{background:var(--ok);border-color:var(--ok)}
+.qp__seg--yes .qp__label{color:var(--ground)}
+.qp__seg--partial{background:var(--warn-soft);border-color:var(--warn)}
+.qp__seg--partial .qp__label{color:var(--warn)}
+.qp__seg--no{background:transparent;border-style:dashed;border-color:var(--critical)}
+.qp__seg--no .qp__label{color:var(--critical)}
+
+.cyc__verdict{margin:0;font-size:12px;line-height:1.45}
+.cyc__verdict--blocked{color:var(--critical);font-weight:550}
+.cyc__verdict--built{color:var(--ok);font-weight:550}
+.cyc__meta{margin:0;display:flex;flex-direction:column;gap:6px;
+  border-top:1px solid var(--line);padding-top:10px}
+.cyc__meta div{display:flex;gap:10px;justify-content:space-between;align-items:baseline}
+.cyc__meta dt{font-size:10.5px;text-transform:uppercase;letter-spacing:.08em;color:var(--muted);
+  font-weight:650;flex-shrink:0}
+.cyc__meta dd{margin:0;font-size:12.5px;text-align:right;color:var(--ink-2)}
+.cyc__next-date{font-size:12px}
+.cyc__rel{color:var(--muted);font-size:11px}
+.u-critical{color:var(--critical);font-weight:600}
+.u-warn{color:var(--warn);font-weight:600}
+.flag{align-self:flex-start;font-family:var(--mono);font-size:10.5px;padding:2px 7px;
+  border-radius:2px;background:var(--warn-soft);color:var(--warn);font-weight:600}
+
+/* bars */
+.bars{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:13px}
+.bar__top{display:flex;justify-content:space-between;align-items:baseline;margin-bottom:5px}
+.bar__name{font-size:13px;font-weight:600}
+.bar__val{font-size:14px;font-weight:650}
+.bar__track{height:7px;background:var(--surface-2);border-radius:999px;overflow:hidden}
+.bar__fill{display:block;height:100%;border-radius:999px;background:var(--accent)}
+.bar__fill--t1{background:var(--critical)}
+.bar__fill--t2{background:var(--accent)}
+.bar__fill--t3{background:var(--muted)}
+.bar__note{margin:5px 0 0;font-size:11.5px;color:var(--muted)}
+.kv{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:5px}
+.kv li{display:flex;justify-content:space-between;gap:12px;font-size:12.5px;
+  padding-bottom:5px;border-bottom:1px solid var(--line);color:var(--ink-2)}
+.kv li:last-child{border-bottom:0}
+
+/* signals */
+.sig-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:9px}
+.sig{display:grid;grid-template-columns:78px 1fr auto;gap:10px;align-items:start;
+  padding-left:9px;border-left:2px solid var(--line);font-size:12.5px}
+.sig--open{border-left-color:var(--warn)}
+.sig__date{font-size:11px;color:var(--muted)}
+.sig__body{display:flex;flex-direction:column;gap:1px;min-width:0}
+.sig__type{font-family:var(--mono);font-size:10.5px;text-transform:uppercase;
+  letter-spacing:.05em;color:var(--accent);font-weight:650}
+.sig__acct{font-weight:600;font-size:12.5px}
+.sig__detail{color:var(--muted);font-size:12px}
+.sig__flag{font-family:var(--mono);font-size:10px;color:var(--warn);font-weight:650;
+  text-transform:uppercase;letter-spacing:.05em}
+
+/* attention */
+.att-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:1px;
+  background:var(--line);border:1px solid var(--line);border-radius:var(--r);overflow:hidden}
+.att{background:var(--surface);padding:11px 14px;border-left:3px solid var(--line);
+  display:flex;flex-direction:column;gap:2px}
+.att--critical{border-left-color:var(--critical)}
+.att--warn{border-left-color:var(--warn)}
+.att--soon{border-left-color:var(--accent)}
+.att__title{font-weight:640;font-size:13.5px}
+.att--critical .att__title{color:var(--critical)}
+.att--warn .att__title{color:var(--warn)}
+.att__body{font-size:12.5px;color:var(--muted)}
+
+/* notices + footer */
+.notice{border:1px dashed var(--warn);background:var(--warn-soft);color:var(--warn);
+  border-radius:var(--r);padding:11px 14px;font-size:12.5px;font-weight:550}
+.foot{border-top:1px solid var(--line);padding-top:16px;font-size:11.5px;color:var(--muted);
+  display:flex;flex-wrap:wrap;gap:8px 22px}
+.foot code{font-family:var(--mono);font-size:11px;background:var(--surface-2);
+  padding:1px 5px;border-radius:2px;color:var(--ink-2)}
+@media (max-width:760px){
+  .due{grid-template-columns:1fr;gap:5px}
+  .mast__meta{text-align:left}
+  .sig{grid-template-columns:70px 1fr}
+  .sig__flag{grid-column:2}
+}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}}
+</style>
+<div class="wrap">
+  <header class="mast">
+    <div>
+      <h1>Territory Board</h1>
+      <p class="mast__sub">California 4 of 5 &middot; SMB, $50-500M, own decision unit.
+      Follow-ups, active cycles, and account signals, read straight from the CSVs in
+      <code>data/</code>.</p>
+    </div>
+    <div class="mast__meta">
+      <b>13 Aug 2026</b>
+      <span>5 accounts &middot; 3 contacts</span>
+      <span>3 touches logged</span>
+    </div>
+  </header>
+
+  <p class="notice">5 EXAMPLE rows are still in the CSVs. They exist so this page renders before the territory list lands. Delete them from every file in <code>data/</code> before working a real book.</p>
+
+  <div class="counts"><div class="count"><span class="count__n">3</span><span class="count__l">in book</span></div><div class="count count--accent"><span class="count__n">1</span><span class="count__l">tier 1</span></div><div class="count"><span class="count__n">1</span><span class="count__l">open cycles</span></div><div class="count"><span class="count__n">0</span><span class="count__l">QP built</span></div><div class="count count--critical"><span class="count__n">1</span><span class="count__l">overdue</span></div><div class="count count--warn"><span class="count__n">2</span><span class="count__l">due in 7d</span></div></div>
+
+  
+    <section class="panel panel--wide" id="attention">
+      <header class="panel__head"><h2>Needs attention</h2>
+        <div class="chips"><span class="chip chip--critical">3 flagged</span></div>
+      </header>
+      <ul class="att-list">
+        <li class="att att--critical">
+          <span class="att__title">1 account awaiting an ownership call</span>
+          <span class="att__body">Run the buying-group test before any work goes into them. EXAMPLE Sierra Composite Materials</span>
+        </li>
+        <li class="att att--warn">
+          <span class="att__title">Power unconfirmed on 1 of 1 open cycle</span>
+          <span class="att__body">The habitual blank. Question bank is in reference/deal-stages.md.</span>
+        </li>
+        <li class="att att--critical">
+          <span class="att__title">1 follow-up past due</span>
+          <span class="att__body">Listed in the follow-ups panel.</span>
+        </li></ul>
+    </section>
+  
+    <section class="panel panel--wide" id="followups">
+      <header class="panel__head">
+        <h2>Follow-ups</h2>
+        <div class="chips"><span class="chip chip--critical">1 overdue</span><span class="chip chip--soon">2 this week</span></div>
+      </header>
+      <ul class="due-list">
+        <li class="due due--critical">
+          <div class="due__when">
+            <span class="due__date">2026-08-11</span>
+            <span class="due__rel">2d overdue</span>
+          </div>
+          <div class="due__who">
+            <span class="due__account">EXAMPLE Meridian Foods Inc<span class="tier tier--1">T1</span></span>
+            <span class="due__contact">EXAMPLE Dana Whitfield · CIO</span>
+          </div>
+          <div class="due__what">
+            <span class="due__note">Reconnect on the lapsed membership</span>
+            <span class="due__meta">winback · touch 1 · no-response</span>
+          </div>
+        </li>
+        <li class="due due--soon">
+          <div class="due__when">
+            <span class="due__date">2026-08-14</span>
+            <span class="due__rel">tomorrow</span>
+          </div>
+          <div class="due__who">
+            <span class="due__account">EXAMPLE Calder Health Partners<span class="tier tier--2">T2</span></span>
+            <span class="due__contact">EXAMPLE Ravi Menon · VP Information Technology</span>
+          </div>
+          <div class="due__what">
+            <span class="due__note">OT security program timing</span>
+            <span class="due__meta">zero-cv · touch 1 · replied</span>
+          </div>
+        </li>
+        <li class="due due--soon">
+          <div class="due__when">
+            <span class="due__date">2026-08-18</span>
+            <span class="due__rel">in 5d</span>
+          </div>
+          <div class="due__who">
+            <span class="due__account">EXAMPLE Meridian Foods Inc<span class="tier tier--1">T1</span></span>
+            <span class="due__contact">EXAMPLE Dana Whitfield · CIO</span>
+          </div>
+          <div class="due__what">
+            <span class="due__note">Second touch on peer comparison angle</span>
+            <span class="due__meta">winback · touch 2 · no-response</span>
+          </div>
+        </li></ul>
+    </section>
+  
+    <section class="panel panel--wide" id="cycles">
+      <header class="panel__head">
+        <h2>Active cycles</h2>
+        <div class="chips"><span class="chip">1 open</span></div>
+      </header>
+      <div class="cyc-grid">
+        <article class="cyc cyc--blocked">
+          <header class="cyc__head">
+            <div>
+              <h3>EXAMPLE Calder Health Partners</h3>
+              <p class="cyc__contact">EXAMPLE Ravi Menon · VP Information Technology</p>
+            </div>
+            <span class="stage stage--discovery">discovery</span>
+          </header>
+          <div class="qp" role="img" aria-label="QP components: VMD partial, VALUE no, POWER no, PLAN no"><span class="qp__seg qp__seg--partial" title="VMD: partial"><span class="qp__label">VMD</span></span><span class="qp__seg qp__seg--no" title="VALUE: no"><span class="qp__label">VALUE</span></span><span class="qp__seg qp__seg--no" title="POWER: no"><span class="qp__label">POWER</span></span><span class="qp__seg qp__seg--no" title="PLAN: no"><span class="qp__label">PLAN</span></span></div>
+          <p class="cyc__verdict cyc__verdict--blocked">QP blocked on VMD, VALUE, POWER, PLAN. Multiplicative, so this is a zero, not a gap.</p>
+          <dl class="cyc__meta">
+            <div><dt>Next step</dt><dd>Run 30-minute discovery and establish VMD</dd></div>
+            <div><dt>By</dt><dd><span class="cyc__next-date u-soon">2026-08-20 <span class="cyc__rel">in 7d</span></span></dd></div>
+          </dl>
+          <span class="flag">MAP not documented</span>
+        </article></div>
+    </section>
+
+  <div class="grid">
+    
+    <section class="panel" id="book">
+      <header class="panel__head"><h2>Book composition</h2>
+        <div class="chips"><span class="chip">3 in book</span></div>
+      </header>
+      <ul class="bars">
+        <li class="bar">
+          <div class="bar__top">
+            <span class="bar__name">Tier 1</span>
+            <span class="bar__val">1</span>
+          </div>
+          <div class="bar__track"><span class="bar__fill bar__fill--t1" style="width:33.3%"></span></div>
+          <p class="bar__note">Warm and active. Meet first.</p>
+        </li>
+        <li class="bar">
+          <div class="bar__top">
+            <span class="bar__name">Tier 2</span>
+            <span class="bar__val">1</span>
+          </div>
+          <div class="bar__track"><span class="bar__fill bar__fill--t2" style="width:33.3%"></span></div>
+          <p class="bar__note">Qualified with a hook. Attack list.</p>
+        </li>
+        <li class="bar">
+          <div class="bar__top">
+            <span class="bar__name">Tier 3</span>
+            <span class="bar__val">1</span>
+          </div>
+          <div class="bar__track"><span class="bar__fill bar__fill--t3" style="width:33.3%"></span></div>
+          <p class="bar__note">Cold whitespace. Build before you touch.</p>
+        </li></ul>
+      <h3 class="sub">Outside the book</h3>
+      <ul class="kv"><li><span>needs-ownership-check</span><span class="mono">1</span></li><li><span>routed-out</span><span class="mono">1</span></li></ul>
+    </section>
+    
+    <section class="panel" id="signals">
+      <header class="panel__head"><h2>Signals</h2><div class="chips"><span class="chip chip--warn">1 unactioned</span></div></header>
+      <ul class="sig-list">
+        <li class="sig sig--open">
+          <span class="sig__date mono">2026-08-13</span>
+          <span class="sig__body">
+            <span class="sig__type">leadership-change</span>
+            <span class="sig__acct">EXAMPLE Vantage Logistics Group</span>
+            <span class="sig__detail">New VP of Technology announced</span>
+          </span>
+          <span class="sig__flag">unactioned</span>
+        </li>
+        <li class="sig">
+          <span class="sig__date mono">2026-08-12</span>
+          <span class="sig__body">
+            <span class="sig__type">membership-lapse</span>
+            <span class="sig__acct">EXAMPLE Meridian Foods Inc</span>
+            <span class="sig__detail">Lapsed 2024 and never re-engaged</span>
+          </span>
+          <span class="sig__flag"></span>
+        </li>
+        <li class="sig">
+          <span class="sig__date mono">2026-08-10</span>
+          <span class="sig__body">
+            <span class="sig__type">content-download</span>
+            <span class="sig__acct">EXAMPLE Calder Health Partners</span>
+            <span class="sig__detail">Pulled three OT security resources in one week</span>
+          </span>
+          <span class="sig__flag"></span>
+        </li></ul>
+    </section>
+  </div>
+
+  <footer class="foot">
+    <span>Source of truth: <code>data/*.csv</code></span>
+    <span>Rebuild: <code>python3 scripts/build_dashboard.py</code></span>
+    <span>Internal only. Intel firewall, CLAUDE.md Section 5.</span>
+  </footer>
+</div>

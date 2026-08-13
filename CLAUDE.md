@@ -1,9 +1,10 @@
 # ACD Command Center — Sairam Gajavelli, Info-Tech Research Group
 
 **Owner:** Sairam Gajavelli, Associate Commercial Director (ACD)
-**Territory:** California SMB (sub-$500M revenue accounts), zip-code defined
+**Territory:** California 4 of 5, SMB ($50-500M revenue), zip-code defined
+**Reports to:** Ary Tsotras (Canada + California) → Dana Tessler (SMB) → Frank Brilliant
 **Last updated:** 2026-08-13
-**Status:** initial build. Territory list not yet loaded. Onboarding context loaded.
+**Status:** F27 model loaded. Account list not yet loaded. Tracker built and empty.
 
 This file is the operating manual for this repo. It tells Claude who Sairam is, what
 is in and out of his book, how the sales motion works, how accounts get tiered, and
@@ -13,6 +14,38 @@ change in chat.
 Deeper background lives in `reference/role-context.md` (the full onboarding
 distillation) and `playbook/outreach-playbook.md` (all outreach drafting). This file
 carries only what changes behavior day to day.
+
+---
+
+## 0. Live right now: F27 territory window
+
+The F27 territory model landed 2026-08-13. Full detail in
+`reference/f27-territory-model.md`. The clock:
+
+| Date | What |
+|---|---|
+| **Aug 14** | Target for getting territory feedback to the current director |
+| **Aug 19** | **Hard cut-off. Last day to submit feedback** |
+| Aug 24 | Territories go live, reporting lines change, Shark Week |
+| Sept 1 | Deals roll to the new director |
+
+After Aug 19 territories lock for the year and changes need executive sign-off.
+
+**Feedback is a controlled data correction process, not an account fight.** Eligible:
+holdover opp not reflected, wrong sector classification, wrong account size
+classification, wrong buying-center grouping, an SFDC data issue that materially
+affected assignment. Not eligible: preference, tenure, speculative deals, anything not
+already validated with Director and VP. Every submission needs account name, SFDC
+link, LinkedIn, current owner, future owner, category, and 3-5 bullets of fact.
+
+**Holdover rules on open opportunities:**
+
+- Accounts moving to another Acquire rep: reps keep accounts with an **FAC in the last
+  24 months**. Opps must reach **QO by January** or the account moves
+- Accounts moving out of or into Acquire: held with the current owner until **Oct 1**
+  only if the opp is at Proposal or beyond, **and** CPQ has been sent, **and** there
+  was meaningful contact in the previous 60 days
+- Two reps with an FAC on the same account: **most recent qualified FAC wins**
 
 ---
 
@@ -28,21 +61,36 @@ standard outreach. On non-focused SMB accounts he owns Discover, Build, Present,
 Transition solo, with no Executive Counselor safety net, which means weak discovery
 turns directly into a weak CKIP with nobody downstream to catch it.
 
+**Reporting line (F27):** Frank Brilliant → Dana Tessler (SMB) → Ary Tsotras (Canada
++ California) → Sairam, **California 4 of 5**. Full org and segment model in
+`reference/f27-territory-model.md`.
+
+**California is split five ways.** Josh McKnight, Henry Oland, Amy Wynne, Sairam, and
+Mujtaba Afeef all hold California SMB territory on the same team. Boundary precision
+is a daily concern, not a theoretical one.
+
 **In scope:**
 
 - Accounts whose registered/primary location falls in one of his assigned California
   zip codes
-- Annual revenue **under $500 million**
-- Standalone entities, meaning the sub-$500M revenue is the whole company, not a
-  division of something larger
+- Annual revenue **between $50 million and $500 million**. F27 defines SMB as a band,
+  not a ceiling. Anything under $50M is outside the segment
+- Its own decision-making unit, meaning it does not share a decision maker, brand,
+  leadership, P&L, and procurement process with a larger buying group
 
 **Out of scope (see Section 2 for routing):**
 
-- Any account under $500M that is a subsidiary, division, or business unit of a
-  larger conglomerate
+- Any account inside a larger enterprise **buying group**, regardless of its own
+  revenue
+- Accounts under $50M
 - Small credit unions
 - Small casinos and tribal enterprises
 - State, local, and education (SLED)
+- Consulting and MSP account groups, NAICS 5415/5416, which go to the Partner Team
+
+**SMB profile per F27:** 1-6 stakeholders, 1-6 month cycle, standard PO and
+discretionary budget, GTM aligned by geography. The named focus area for the segment
+is **meeting generation and qualification**.
 
 **What he sells:** research and advisory memberships (Core Membership, tiered by seat
 type: Counselor, Advisory, Team, Reference) plus attached services: diagnostics,
@@ -61,27 +109,39 @@ prospects, never Ontario events. See Section 8.
 account that belongs to another rep is time lost, and double-touching an account
 another rep owns is a real problem, not a cosmetic one.
 
-| Account type | Owner | Notes |
+| Account type | Owner | Their F27 scope |
 |---|---|---|
-| Sub-$500M but part of a larger conglomerate | Large enterprise rep | The parent relationship, not the sub's revenue, decides ownership |
-| Small credit unions | Nick P | Full name to be confirmed |
-| Small casinos and tribal enterprises | Erin Font | Full name to be confirmed |
-| State, local, education | SLED team | Named contact to be confirmed |
+| Inside a larger enterprise buying group | The LE rep who owns that group | LE is organized by **industry vertical, not geography**, so a California account routes to whoever owns that vertical nationally |
+| Credit unions | **Nick Pearson** | Financial Services, Insurance & Credit Unions |
+| Casinos and tribal enterprises | **Erin Font** | Sports, Leisure & Entertainment + Tribal Gov't |
+| California state, local, education | **Andrew Daigle** | SLED, EDU+GOV: CA/NM |
+| Consulting and MSP groups, NAICS 5415/5416 | Partner Team | Moved by design in F27 |
+| Under $50M revenue | Outside the SMB segment | Confirm where these land |
 
-### The conglomerate test
+### The buying-group test
 
-An account passes into Sairam's book only if it is standalone. Before tiering or
-prospecting, check for:
+F27 replaced legal-parent grouping with decision-unit grouping, so the test changed
+with it. A **group** is a cluster of entities sharing a real decision maker, brand,
+leadership, and P&L, with one procurement process. The FAQ is explicit: an SMB-sized
+account that is part of a larger enterprise buying group stays with the LE territory
+that owns that group.
 
-- A parent company, holding company, or PE/VC sponsor with operating control
+So the question is not "does it have a parent." It is **"does it share a
+decision-making unit with something larger."** An entity with a distant parent but its
+own decision maker, brand, leadership, P&L, and procurement can be in the book.
+
+Check for:
+
+- Shared IT leadership with a parent, a CIO whose title spans multiple entities. This
+  is the strongest single signal, because it goes directly to decision unit
+- One procurement process run above the entity
 - "A [X] company" or "part of the [X] family" language on the site or LinkedIn
-- Shared IT leadership with a parent (a CIO whose title spans multiple entities)
 - A LinkedIn company page that redirects or ladders up to a larger parent
+- A PE/VC sponsor with operating control, as distinct from a passive minority holder
 
-If any of these hit, flag it as **enterprise-owned** and route out. When it is
-genuinely ambiguous (minority investor, loose franchise relationship, recently
-divested), flag it as **needs-ownership-check** rather than guessing. Do not
-silently drop it and do not silently keep it.
+If it shares a decision unit, flag it as **enterprise-owned** and route out. When it
+is genuinely ambiguous, flag it as **needs-ownership-check** rather than guessing. Do
+not silently drop it and do not silently keep it.
 
 This is the same discipline as the **entity precision** rule in Section 5. Getting
 the legal entity right is what makes the ownership question answerable at all.
@@ -254,7 +314,7 @@ and prep should support them rather than work around them.
    cadences. Not a strategic overview.
 
 **Number 3 is blocked on the territory list**, which is also the top open item in
-Section 11. When the list lands, the fast start plan is the first deliverable, ahead
+Section 14. When the list lands, the fast start plan is the first deliverable, ahead
 of any outreach drafting.
 
 ### Known failure patterns
@@ -367,7 +427,84 @@ New-Indy Containerboard, Ampath Laboratories. Full 46-entry catalog is in Drive.
 
 ---
 
-## 10. Standing behaviors for Claude
+## 10. The tracker
+
+The book of business lives in five CSVs under `data/`, rendered by
+`scripts/build_dashboard.py` into `dashboard.html`. Schema and conventions in
+`data/README.md`.
+
+| File | Grain |
+|---|---|
+| `accounts.csv` | One row per account. Tier, scope status, revenue, parent, zip, membership |
+| `contacts.csv` | One row per person. `is_power` stays `unconfirmed` until asked |
+| `outreach.csv` | One row per touch. **The follow-up engine** |
+| `cycles.csv` | One row per opportunity. Four QP columns |
+| `signals.csv` | One row per signal event. Re-tiering triggers |
+
+Rebuild with `python3 scripts/build_dashboard.py`. Standard library only.
+
+### Keeping it current
+
+When Sairam reports an action, write it to the CSV rather than only answering in
+chat. Specifically:
+
+- Drafted and sent outreach → append to `outreach.csv` with a `next_followup_date`
+- A reply, a booking, a decline → update the touch's `outcome`, close it if the thread
+  is done
+- Meeting booked → open a row in `cycles.csv` and copy `cycles/TEMPLATE.md`
+- Anything learned on a call → update the QP columns and the cycle file
+- New intel on an account → `signals.csv`, and re-tier if it warrants it
+- Scope check result → `scope_status` on the account row
+
+Then rebuild the dashboard so the visual matches reality. A tracker that lags the
+conversation is worse than no tracker, because it gets trusted anyway.
+
+### What the dashboard surfaces
+
+Needs-attention first, then follow-ups by urgency, then active cycles, then book
+composition and signals. The QP bar on each cycle card shows four segments, and a
+dashed segment means that component is a zero. Because QP is multiplicative, one
+dashed segment blocks the whole cycle, and the card says so.
+
+---
+
+## 11. Call partner mode
+
+For booked discovery calls and live cycles. Each cycle gets a working file at
+`cycles/<account-slug>.md` from `cycles/TEMPLATE.md`, which persists across calls so
+context is not rebuilt each time.
+
+**Before the call.** Run `discovery-call-prep` for the prep doc and call sheet. Pull
+the account's tier reason, signals, and outreach history from the CSVs. Confirm scope
+and membership one more time. Offer a story from the verified library if a rapport
+slot fits, via `discovery-story`.
+
+**Structure to hold to.** 30-minute discovery is an *earn the second meeting* call,
+six steps, not full discovery. The 60-minute FAC runs discovery **before** showcasing
+any capability. Reserve the last 10 minutes for the MAP either way.
+
+**After the call.** Capture the prospect's exact words into the cycle file while they
+are fresh, since the same five elements feed the QP, the CKIP, and the Salesforce
+notes. Run `sales-gap-analysis` for notes, MAP, and gaps. Update the QP columns in
+`cycles.csv` honestly, then rebuild.
+
+**Three things to check every time, because they are the known misses:**
+
+1. Was a consequence question asked after the pain was paraphrased, or did it stop at
+   a nod? Development area 1
+2. Was the value confirmation earned before logistics came up? The Plan & Next Steps
+   gate is one gate, not two motions. Development area 2
+3. Is Power actually confirmed, or was a soft participation probe counted as the
+   Power question? It is `yes` only when who signs, who holds budget, and who can
+   veto are all known
+
+Flag these rather than filling them in optimistically. A QP that looks built but is
+not is worse than one that is honestly blocked, because it moves to Proposal on a
+zero.
+
+---
+
+## 12. Standing behaviors for Claude
 
 ### On every account or prospect Sairam brings
 
@@ -390,7 +527,7 @@ classified.
 
 ### On event mentions
 
-The playbook's event calendar (Section 11) was partially refreshed 2026-08-13 from a
+The playbook's event calendar (playbook Section 11) was partially refreshed 2026-08-13 from a
 Salesforce campaign export. **It is confirmed only through September 21, 2026.**
 Everything after that date, including IGNITE Sacramento, is unverified.
 
@@ -411,11 +548,25 @@ Guess freely on nothing that reaches a prospect.
 
 ---
 
-## 11. Repo map
+## 13. Repo map
 
 ```
 CLAUDE.md                       This file. Operating manual and standing rules.
+dashboard.html                  Generated. The visual board. Do not hand-edit.
+data/                           THE TRACKER. Source of truth for the book.
+  README.md                     Schema and conventions for all five files.
+  accounts.csv                  One row per account.
+  contacts.csv                  One row per person.
+  outreach.csv                  One row per touch. The follow-up engine.
+  cycles.csv                    One row per opportunity. QP columns.
+  signals.csv                   One row per signal event.
+scripts/
+  build_dashboard.py            Renders data/*.csv into dashboard.html. Stdlib only.
+cycles/                         Per-opportunity working files.
+  TEMPLATE.md                   Copy this when a discovery call gets booked.
 reference/
+  f27-territory-model.md        F27 org, segment definition, key dates, holdover
+                                rules, buying-group logic, named routing reps.
   role-context.md               Full onboarding distillation. Sales framework,
                                 training takeaways, coaching feedback, product lines.
   deal-stages.md                Everything after discovery. Plan & Next Steps gate,
@@ -426,9 +577,9 @@ playbook/
   outreach-playbook.md          Single source of truth for outreach drafting.
                                 Voice, subject lines, structure, campaign types,
                                 event calendar, pre-send checklist.
-territory/                      Territory list, zip codes, coverage boundaries.
+territory/                      Zip codes and coverage boundaries.
   README.md                     Ingestion spec and current status.
-accounts/                       Tiered account working files and account maps.
+accounts/                       Long-form account maps, for accounts that need one.
   tiering-framework.md          Working detail behind Section 8.
 meetings/                       Notes from internal meetings, training, enablement.
 bdr-claude-pitch-deck/          Unrelated prior project. Leave alone unless asked.
@@ -436,17 +587,39 @@ bdr-claude-pitch-deck/          Unrelated prior project. Leave alone unless aske
 
 ---
 
-## 12. Open items
+## 14. Open items
 
 Merged from this repo and from the onboarding notes. Update as these close.
 
+**Urgent, F27 window:**
+
+- [ ] **Review the proposed territory in the dashboard.** Live since Aug 13.
+- [ ] **Submit any territory feedback.** Target Aug 14, hard cut-off **Aug 19**. Only
+      objective, material, VP-validated issues. See Section 0.
+- [ ] **Check holdover exposure.** Any open opp not at Proposal with CPQ sent and
+      contact in the last 60 days is at risk on the Oct 1 rule.
+
 **Blocking:**
 
-- [ ] **Territory list.** Not yet received. Once it lands: load into `territory/`, run
-      the scope check across it, produce the initial tiering pass, then build the
-      tactical SMB fast start plan (Jillian development area 3).
-- [ ] **Zip code list.** Assigned zip codes not yet defined.
-- [ ] **SMB activity benchmarks.** Needed for the fast start plan. Unknown.
+- [ ] **Account list.** Load the territory dashboard export into `data/accounts.csv`,
+      run the scope check across it, produce the initial tiering pass, then build the
+      tactical SMB fast start plan (Jillian development area 3). The F27 focus area
+      for SMB is meeting generation and qualification, which is what the plan should
+      be built around.
+- [ ] **Zip code list.** Assigned zip codes not yet defined. Matters more than usual,
+      since four other reps hold California.
+- [ ] **SMB activity benchmarks.** Needed for the fast start plan. Quotas expected in
+      September.
+- [ ] **Delete the EXAMPLE rows** from every file in `data/` before real use.
+
+**F27 questions:**
+
+- [ ] **Confirm Dana.** "Dana, VP of Business Development" in the onboarding notes is
+      probably **Dana Tessler**, who runs SMB. Worth confirming.
+- [ ] **Holdover date conflict.** The deck body says accounts move Feb 1, 2027, the
+      FAQ says Jan 1, 2027. Which governs?
+- [ ] **Where do sub-$50M accounts go?** F27 defines SMB as $50-500M but does not say
+      who owns what falls below the floor.
 
 **Events:**
 
@@ -492,7 +665,7 @@ Merged from this repo and from the onboarding notes. Update as these close.
 
 ---
 
-## 13. Conventions
+## 15. Conventions
 
 - Dates in `YYYY-MM-DD`.
 - Account files named by company, lowercase, hyphenated: `accounts/acme-widgets.md`.
