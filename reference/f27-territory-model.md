@@ -231,3 +231,50 @@ does not.
 
 **For the SMB motion specifically, the named focus area is meeting generation and
 qualification.** That is the lever, and it maps directly onto the fast start plan.
+
+---
+
+## Territory dashboard review protocol (Dana Tessler, 2026-08-13)
+
+The dashboard launched with a review guide. It sets both the order of review and, more
+importantly, the **narrow set of things that count as feedback**.
+
+**Order:** filter to **Viable** first, that is the primary review. Non-viable comes
+after. Then work **Retained → Departures → Arrivals**, checking the Moving Timeframe
+column on the last two.
+
+| Moving Timeframe | Meaning | Action |
+|---|---|---|
+| August 24 | Moves immediately | Flag if it should stay to Oct 1 or Feb 1 |
+| October 1 | Moving to another division | You have until Oct 1 to close it. Flag if it can move now |
+| February 1 | FAC holdover | Move it to QO before Feb 1 to keep it. Flag if it can move now |
+
+**Only three things count as feedback:**
+
+1. An Aug 24 move that should happen Oct 1 or Feb 1 instead
+2. An Oct 1 or Feb 1 departure you are comfortable moving immediately
+3. Any other account that appears to be in the wrong territory
+
+Anything else is out of scope for this process, including SFDC data quality issues such
+as duplicate records. Raise those on a separate channel.
+
+### Account group labelling
+
+Groups are labelled **`APEX Group | Organizational Group | Region`**.
+
+This is the key to reading the territory file. Three consequences:
+
+- **The Region segment is the cleanest wrong-territory test.** Anything not
+  `USA & Canada` does not belong in a North American book.
+- **Imperfect fits inside a group are expected, not errors.** Dana's guide says
+  explicitly that accounts which look like poor fits are likely children of the parent
+  account. An account sitting under a differently-named APEX parent is the design, so it
+  is not by itself a flag.
+- Organizational groups were split out of APEX groups deliberately, to limit the impact
+  of 0CV moves to Engage after a sale. APEX groups may also be split to accommodate
+  geography or active members.
+
+A note aimed at LE reps is still useful here in reverse: a "small" or "medium" standalone
+account group is likely an organizational subset of an APEX parent that contains larges.
+So if an SMB-looking account sits under an APEX group that carries larges, that is the
+LE buying-group question, and it is worth surfacing rather than working the account.

@@ -1,7 +1,10 @@
 # Message to Ary Tsotras, F27 territory feedback
 
-Draft for review. Sairam edits before sending. Detail behind every item is in
-`territory/f27-feedback-submission.md` and `territory/f27-proposed-book-analysis.md`.
+Draft for review. Sairam edits before sending.
+
+Structured against Dana Tessler's review guide (viable first, Retained → Departures →
+Arrivals, exceptions only). Supporting detail in `territory/f27-feedback-submission.md`
+and `territory/f27-proposed-book-analysis.md`.
 
 ---
 
@@ -9,94 +12,91 @@ Draft for review. Sairam edits before sending. Detail behind every item is in
 
 Hi Ary,
 
-I have been through the proposed California 4 book in full, all 699 rows. Below is what
-I would like to submit ahead of the August 19 cut-off, grouped by category. Happy to
-walk through any of it live if that is easier.
+I have worked through the California 4 book following Dana's guide. Viable accounts
+first, and I have kept the comments to exceptions only.
 
-Quick shape of the book first, since it may be useful context. After merging duplicate
-records and setting aside what routes elsewhere, it resolves to roughly 566 workable
-accounts. It reads as a Northern California and Bay Area book. There is no open
-opportunity at Proposal or beyond anywhere in it, so nothing arrives as live late-stage
-pipeline.
+One structural note before the list. Every one of the 699 rows proposed to me is an
+**Arrival**. There is nothing Retained, so there was no retained set to sanity check.
+I am reviewing my Departures separately since they are not in this view.
 
-**1. Holdover releases, six submissions covering eight accounts**
+Of the arrivals, 608 are viable and 647 bill to California, which reads correctly as a
+Northern California and Bay Area book. No open opportunity at Proposal or beyond appears
+anywhere in it.
 
-Nineteen accounts are held to February 1, 2027. On eight of them there is either no
-opportunity at all, or the opportunity is closed lost with no live communication. Since
-a held account has to reach QO by January or it moves, those eight cannot meet the
-condition the hold exists to protect. I would like them released to the August 24 move
-with the rest of the book.
+**1. Arrival timing, six flags covering eight accounts**
+
+All eight are held to February 1. On each there is either no opportunity at all, or the
+opportunity is closed lost with no live communication. Since a February 1 holdover
+depends on moving the account to QO before that date, and there is nothing on these to
+move, the holdover has nothing to protect. I would like them to arrive August 24 with
+the rest.
 
 - **Federal Home Loan Bank of San Francisco** (Steve Platt). Opportunity exists but the
   cycle has died. The contact, Joseph Sacri, is someone I know from his previous
-  organisation, so there is a relationship available to restart it now rather than in
-  February.
-- **Exar Corporation and MaxLinear** (Kevin Gharibizadeh). Same buying group. No
+  organisation, so there is a live relationship to restart it with now.
+- **Exar Corporation and MaxLinear** (Kevin Gharibizadeh). Same APEX group. No
   opportunity on Exar, and the MaxLinear opportunity is closed lost with no
-  communication.
+  communication on it.
 - **Burning Man Project and Black Rock City LLC** (Andrew Bell). Opportunity has died.
-  These two records are the same organisation and sit in the same account group, so I
-  would also ask that Black Rock City LLC be merged into Burning Man Project.
+  Both records sit under the same APEX group and are the same organisation.
 - **Samba TV** (Josh Scott). No opportunity. This one is a Winback, so there is a lapsed
-  membership worth working early.
+  membership I would rather work in August than in February.
 - **iRhythm Technologies** (Cameron McLean). No opportunity on the account.
-- **Mode** (Akshat Singh). No opportunity on the account. One flag on this one: the
-  account group is ThoughtSpot, which acquired Mode. If ThoughtSpot runs a single IT
-  decision unit then this may be an LE buying-group question rather than a holdover
-  question, and I would rather raise that now than work it and find out later.
+- **Mode** (Akshat Singh). No opportunity on the account. Flagging one thing on it: the
+  APEX group is ThoughtSpot, which acquired Mode. If that group carries larges, this may
+  belong in LE rather than with me, and I would rather surface it now than work it and
+  find out later.
 
-**2. Routing corrections, six accounts**
+**2. Accounts that look like the wrong territory, seven**
 
-Three look like SLED rather than SMB:
+Four have a Region that is not USA & Canada, which I took as the clearest signal:
 
-- **Port of San Francisco.** The account group on the record reads "City and County of
-  San Francisco, CA."
-- **Contra Costa Water District** and **Alameda County Water District.** California
-  special districts, so local government.
+- **Vodacom.** Two records, both APEX Vodafone Group Plc, org group Vodacom & Africa
+  OpCo, Region Southern Africa Core. The viable record is currently set to arrive August
+  24, the non-viable one is held to February.
+- **Implats.** APEX Impala Platinum Holdings, Region Southern Africa Core.
+- **Alef Education.** Region Southern Gulf.
 
-Three are outside the territory entirely:
+Three look like SLED:
 
-- **Vodacom.** Two records in the book, both billing to Gauteng, South Africa, both in
-  the Vodafone Group Plc account group under Vodacom and Africa OpCo. One is viable and
-  currently set to move August 24, the other is a non-viable duplicate held to February.
-- **Implats.** Gauteng, South Africa, under Impala Platinum Holdings.
-- **Alef Education.** Abu Dhabi, UAE.
+- **Port of San Francisco.** APEX group is "City and County of San Francisco, CA", org
+  group Port & Maritime. It is a child of a municipal government parent.
+- **Contra Costa Water District** and **Alameda County Water District.** Both are their
+  own APEX groups under a Natural Resources org group. California public special
+  districts.
 
-**3. Data quality, 37 duplicate records**
+**3. Reviewed and not flagging**
 
-I found 24 clusters where the same company appears under multiple SFDC records inside
-one account group, 37 redundant records in total. They were identified by shared
-LinkedIn company URL and matching legal name. The largest are AppDirect, North American
-Title, Doma, Achievers and XYZ, at four records each.
+Two things I looked hard at and am deliberately leaving alone, so you know they were
+checked rather than missed:
 
-Two need a look rather than a straight merge. Mozilla Foundation and Mozilla Corporation
-are genuinely separate legal entities that share a LinkedIn page. Doma and North
-American Title are two clusters inside the Title Resources Group account group, which
-holds eight records altogether, so that is probably one consolidation rather than two.
+- Roughly 98 viable accounts sit under an APEX parent with a different name, including
+  Nokia, Mitsubishi Electric, Autodesk, CoStar, Corteva, KRAFTON, Netmarble, Informa and
+  Brookfield. Dana's note covers these as children of parent accounts, so I am treating
+  them as intended rather than as errors. I will map them before working them and come
+  back only if one looks genuinely LE-owned.
+- The non-viable set is almost entirely child and acquired-entity records inside groups
+  whose primary account is viable. Nothing there changes a territory assignment.
 
-I have the full keep-and-merge list with account IDs and can send it in whatever format
-is most useful.
+**4. Separate from territory feedback**
 
-Separately, **SF Chinese Hospital** has the viability field blank, which risks it being
-skipped silently. It looks like a real in-book account.
+I found 24 clusters where one company appears under several SFDC records inside a single
+APEX group, 37 redundant records in total, identified by shared LinkedIn company URL and
+matching legal name. The largest are AppDirect, North American Title, Doma, Achievers and
+XYZ at four records each.
 
-**4. Two questions rather than submissions**
+This is not a territory question so I have kept it out of the list above, but it does
+inflate the book count and it will cost time later. I have the full keep-and-merge list
+with account IDs. Tell me where it should go and I will send it.
+
+**5. Two questions**
 
 - **Which holdover date governs?** The deck body and the territory file both say
-  February 1, 2027. The FAQ says January 1, 2027. Nineteen accounts turn on it.
-- **Can the territory dashboard expose annual revenue?** F27 defines SMB as the $50M to
-  $500M band, and there is no revenue field in the export, so account size cannot be
-  checked at all. Size misclassification is one of the eligible feedback categories and
-  right now I have no way to test for it across 566 accounts.
+  February 1, 2027. The FAQ says January 1, 2027. Nineteen of my arrivals turn on it.
+- **Can the dashboard expose annual revenue?** SMB is defined as the $50M to $500M band
+  and there is no revenue field in the view, so I cannot check account size at all.
 
-I also noticed 98 viable accounts sitting under a parent entity with a different name,
-including Nokia, Mitsubishi Electric, Autodesk, CoStar, Corteva, KRAFTON, Netmarble,
-Informa and Brookfield. I am not submitting those, since most will pass the
-decision-unit test. I plan to map them before I work them, and will flag anything that
-looks genuinely LE-owned.
-
-Let me know what you would like formalised and in what format, and I will get it in
-before the 19th.
+Happy to walk through any of this live if that is quicker.
 
 Thanks,
 Sairam
