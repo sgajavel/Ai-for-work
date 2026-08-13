@@ -30,6 +30,24 @@ Other SMB directors under Dana Tessler: Ryan Mitra (Northeast), Lavish Bangia
 (Mid-Atlantic + OH/IN/MI), EJ McLean (Southern US), Rob Lake (Upper Midwest +
 Mountain West).
 
+### What the territory map does and does not say
+
+The SMB Territory Distribution map colours California as a single block belonging to
+Ary Tsotras, the same colour as all of Canada. **It does not show the five-way
+California split.** So this deck establishes that Sairam holds California 4 of 5 but
+gives no boundary at all. The zip codes have to come from the territory dashboard that
+went live 2026-08-13. They are not recoverable from this document.
+
+**Neighbouring territories with gaps**, worth knowing when an account has a sibling
+entity across a state line:
+
+| Territory | Owner |
+|---|---|
+| AZ + NM + NV + HI | **VACANT**, under EJ McLean |
+| Washington + Alaska | **VACANT**, under Rob Lake |
+| OR + ID + UT | Steve Platt, under Rob Lake |
+| NE + WY + MT + ND + CO | Josh Scott, under Rob Lake |
+
 > **Probable:** "Dana" in the onboarding notes, listed as VP of Business Development
 > with a pending conversation, is almost certainly **Dana Tessler**, who runs SMB.
 > Worth confirming, since it changes who that conversation is with.
