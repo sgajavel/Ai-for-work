@@ -2,3 +2,10 @@ signal_date,account_id,signal_type,detail,source,actioned
 2026-08-10,EX-002,content-download,Pulled three OT security resources in one week,marketing,yes
 2026-08-12,EX-001,membership-lapse,Lapsed 2024 and never re-engaged,sfdc,yes
 2026-08-13,EX-003,leadership-change,New VP of Technology announced,linkedin,no
+2026-08-13,0013300001loDIyAAM,prior-relationship,"Joseph Sacri, known to Sairam from Joseph previous organisation. Opp on account but cycle died",sairam-review,no
+2026-08-13,001f300001whzRcAAI,opp-closed-lost,"Opportunity closed lost, no communication on the account",sairam-review,no
+2026-08-13,001a700000LEgFFAA1,opp-stalled,Opportunity died. Held to Feb 1 2027 by Andrew Bell,sairam-review,no
+2026-08-13,001f300001v8JfRAAU,winback-no-opp,Winback with no opp on account. Held to Feb 1 2027 by Josh Scott,sairam-review,no
+2026-08-13,0013300001lIyw0AAC,no-opp-on-hold,No opp on account despite Feb 1 2027 hold,sairam-review,no
+2026-08-13,0013300001lNQtMAAW,no-opp-on-hold,No opp on account despite Feb 1 2027 hold,sairam-review,no
+2026-08-13,00140000011lkU3AAI,no-opp-on-hold,No opp on account despite Feb 1 2027 hold,sairam-review,no
