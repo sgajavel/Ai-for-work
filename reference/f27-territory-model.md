@@ -260,7 +260,11 @@ as duplicate records. Raise those on a separate channel.
 
 ### Account group labelling
 
-Groups are labelled **`APEX Group | Organizational Group | Region`**.
+Groups are labelled **`APEX Group | Organizational Group | Region`**, quoting Dana's email.
+
+**Say "parent/account group" in anything written for others.** "APEX" appears only in that
+one email and may be internal shorthand rather than standard vocabulary. The deck calls the
+same first segment the Ultimate Parent. Use the plain term and the meaning survives either way.
 
 This is the key to reading the territory file. Three consequences:
 
@@ -268,13 +272,13 @@ This is the key to reading the territory file. Three consequences:
   `USA & Canada` does not belong in a North American book.
 - **Imperfect fits inside a group are expected, not errors.** Dana's guide says
   explicitly that accounts which look like poor fits are likely children of the parent
-  account. An account sitting under a differently-named APEX parent is the design, so it
+  account. An account sitting under a differently-named parent is the design, so it
   is not by itself a flag.
-- Organizational groups were split out of APEX groups deliberately, to limit the impact
-  of 0CV moves to Engage after a sale. APEX groups may also be split to accommodate
+- Organizational groups were split out of the parent groups deliberately, to limit the impact
+  of 0CV moves to Engage after a sale. Parent groups may also be split to accommodate
   geography or active members.
 
 A note aimed at LE reps is still useful here in reverse: a "small" or "medium" standalone
-account group is likely an organizational subset of an APEX parent that contains larges.
-So if an SMB-looking account sits under an APEX group that carries larges, that is the
+account group is likely an organizational subset of a parent group that contains larges.
+So if an SMB-looking account sits under a parent group that carries larges, that is the
 LE buying-group question, and it is worth surfacing rather than working the account.
