@@ -34,11 +34,17 @@ group, 37 redundant records in total. I found them by matching shared LinkedIn c
 URLs and normalised legal names within each group. The largest are AppDirect, North
 American Title, Doma, Achievers and XYZ, at four records apiece.
 
-Tab 1 of the attached workbook lists every one of them with the record I would keep, the
-records that fold into it, and why that particular record should be the survivor.
-Generally it is the one marked Viable, billing to California, and carrying a LinkedIn
-URL. Two need a decision rather than a straight merge, and I have called both out in the
-sheet:
+Three of the 24 are not just untidy, they are splitting an account across two arrival
+dates, so I have put those on the feedback form as data issues affecting assignment.
+**Vir Biotechnology** and **Enable** each arrive August 24 under one record and are held
+to February 1 under a duplicate of themselves. The remaining 21 clusters all arrive on
+the same date and change nobody's assignment, so the form is the wrong channel for them
+and they are the ones I am raising here instead.
+
+The attached workbook lists every one of them with the record I would keep, the records
+that fold into it, and why that particular record should be the survivor. Generally it
+is the one marked Viable, billing to California, and carrying a LinkedIn URL. Two need a
+decision rather than a straight merge, and I have called both out in the sheet:
 
 - **Mozilla Foundation and Mozilla Corporation** are genuinely separate legal entities,
   the nonprofit parent and its taxable subsidiary. They clustered because they share one
@@ -75,8 +81,9 @@ for another six months.
   belong in LE rather than with me, and I would rather surface it now than work it and
   find out later.
 
-Tab 2 of the workbook has these with account IDs, current owners and the detail behind
-each one.
+These are on the feedback form with SFDC links and rationale. Two of them, Exar and
+MaxLinear, sit in one APEX group, and Burning Man Project and Black Rock City LLC are
+one organisation, so the eight records are really six situations.
 
 **3. Reviewed and not flagging**
 
@@ -90,6 +97,10 @@ checked rather than missed:
   back only if one looks genuinely LE-owned.
 - The non-viable set is almost entirely child and acquired-entity records inside groups
   whose primary account is viable. Nothing there changes a territory assignment.
+
+I have drafted the form rows already and can drop them into the team tab as soon as you
+are happy with them. Flagging that rather than filing them first, since the guidance is
+that requests need Director validation before they go in.
 
 Happy to walk through any of this live if that is quicker.
 
