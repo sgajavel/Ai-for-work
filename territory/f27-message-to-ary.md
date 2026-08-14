@@ -3,9 +3,10 @@
 Draft for review. Sairam edits before sending.
 
 Structured against Dana Tessler's review guide (viable first, Retained → Departures →
-Arrivals, exceptions only). Supporting detail in `territory/f27-feedback-submission.md`
-and `territory/f27-proposed-book-analysis.md`. Attachment:
-`territory/F27-Territory-Feedback-Sairam-Gajavelli.xlsx`.
+Arrivals, exceptions only). Attachment:
+`territory/F27-Duplicate-Records-Sairam-Gajavelli.xlsx`. Form rows drafted in
+`territory/F27-Feedback-Form-Rows.xlsx`. Background in
+`territory/f27-proposed-book-analysis.md`.
 
 ---
 
@@ -13,38 +14,41 @@ and `territory/f27-proposed-book-analysis.md`. Attachment:
 
 Hi Ary,
 
-I have worked through the California 4 book following Dana's guide. Viable accounts
-first, and I have kept the comments to exceptions only.
+I have worked through the California 4 book following Dana's guide, viable accounts
+first, and kept it to exceptions. I have put seven rows on the feedback form under your
+tab. This note covers the one thing that does not belong on the form, plus what I chose
+not to raise.
 
-One structural note before the list. Every one of the 699 rows proposed to me is an
-**Arrival**. There is nothing Retained, so there was no retained set to sanity check.
-I am reviewing my Departures separately since they are not in this view.
-
-Of the arrivals, 608 are viable and 647 bill to California, which reads correctly as a
-Northern California and Bay Area book. No open opportunity at Proposal or beyond appears
-anywhere in it.
+One structural note first. Every one of the 699 rows proposed to me is an **Arrival**.
+Nothing is Retained, so there was no retained set to sanity check, and I am reviewing my
+Departures separately since they are not in this view. Of the arrivals, 608 are viable
+and 647 bill to California, which reads correctly as a Northern California and Bay Area
+book. No open opportunity at Proposal or beyond appears anywhere in it.
 
 **1. Duplicate records, 37 to merge across 24 companies**
 
 This is the one I would most like to move on quickly, because it affects everything I do
-from August 24 onward.
+from August 24 onward, and it is the reason for the attachment.
 
-There are 24 companies that each appear under several SFDC records inside a single APEX
-group, 37 redundant records in total. I found them by matching shared LinkedIn company
-URLs and normalised legal names within each group. The largest are AppDirect, North
-American Title, Doma, Achievers and XYZ, at four records apiece.
+Twenty-four companies each appear under several SFDC records inside a single APEX group,
+37 redundant records in total. I found them by matching shared LinkedIn company URLs and
+normalised legal names within each group. The largest are AppDirect, North American
+Title, Doma, Achievers and XYZ, at four records apiece.
 
-Three of the 24 are not just untidy, they are splitting an account across two arrival
-dates, so I have put those on the feedback form as data issues affecting assignment.
-**Vir Biotechnology** and **Enable** each arrive August 24 under one record and are held
-to February 1 under a duplicate of themselves. The remaining 21 clusters all arrive on
-the same date and change nobody's assignment, so the form is the wrong channel for them
-and they are the ones I am raising here instead.
+Two of the 24 are doing real damage rather than just being untidy, so those two are on
+the form as Salesforce data issues. **Vir Biotechnology** and **Enable** each arrive
+August 24 under one record while a duplicate of the same company is held to February 1
+under a different owner. One company, two arrival dates, two owners, entirely because of
+a duplicate record. Enable's August record also arrives with no current owner recorded
+at all.
 
-The attached workbook lists every one of them with the record I would keep, the records
-that fold into it, and why that particular record should be the survivor. Generally it
-is the one marked Viable, billing to California, and carrying a LinkedIn URL. Two need a
-decision rather than a straight merge, and I have called both out in the sheet:
+The other 22 clusters all arrive on one date and change nobody's assignment, so the
+form is the wrong channel for them. That is what the attachment is for. It lists every
+record with the one I would keep, the ones that fold into it, and the reason that
+particular record should be the survivor, which is usually that it is the only one
+marked Viable, billing to California, and carrying a LinkedIn URL.
+
+Two need a decision rather than a straight merge, and both say so in the sheet:
 
 - **Mozilla Foundation and Mozilla Corporation** are genuinely separate legal entities,
   the nonprofit parent and its taxable subsidiary. They clustered because they share one
@@ -53,56 +57,36 @@ decision rather than a straight merge, and I have called both out in the sheet:
   APEX group, which holds eight records altogether, so that is probably one
   consolidation rather than two.
 
-If these get cleaned up before the book goes live I avoid working the same company twice
-and my account counts mean something. Happy to route the list wherever it needs to go.
+If these get cleaned up before the book goes live I avoid working the same company
+twice, and my account count means something. Happy to route the list wherever it needs
+to go.
 
-**2. Arrival timing, six flags covering eight accounts**
+**2. What I put on the form, and what I left alone**
 
-All eight are held to February 1. On each there is either no opportunity at all, or the
-opportunity is closed lost with no live communication. Since a February 1 holdover
-depends on moving the account to QO before that date, and there is nothing on these to
-move, I would wonder whether it makes sense for them to just move now rather than sit
-for another six months.
+Seven rows, all on accounts held to February 1 where there is no opportunity at all, so
+nothing can reach QO before the date and the holdover has no condition it can meet.
+Samba TV, iRhythm Technologies, Mode, Exar Corporation, Black Rock City LLC, plus the
+two duplicate records above.
 
-- **Federal Home Loan Bank of San Francisco** (Steve Platt). Opportunity exists but the
-  cycle has died. The contact, Joseph Sacri, is someone I know from his previous
-  organisation, so there is a live relationship to restart it with now.
-- **Exar Corporation and MaxLinear** (Kevin Gharibizadeh). Same APEX group. No
-  opportunity on Exar, and the MaxLinear opportunity is closed lost with no
-  communication on it.
-- **Burning Man Project and Black Rock City LLC** (Andrew Bell). Opportunity has died.
-  Both records sit under the same APEX group and are the same organisation, so this one
-  overlaps with the duplicate list above.
-- **Samba TV** (Josh Scott). No opportunity. This one is a Winback, so there is a lapsed
-  membership I would rather work in August than in February.
-- **iRhythm Technologies** (Cameron McLean). No opportunity on the account.
-- **Mode** (Akshat Singh). No opportunity on the account. Flagging one thing on it: the
-  APEX group is ThoughtSpot, which acquired Mode. If that group carries larges, this may
-  belong in LE rather than with me, and I would rather surface it now than work it and
-  find out later.
-
-These are on the feedback form with SFDC links and rationale. Two of them, Exar and
-MaxLinear, sit in one APEX group, and Burning Man Project and Black Rock City LLC are
-one organisation, so the eight records are really six situations.
+I deliberately left the February 1 accounts that **do** have an opportunity on them,
+including Federal Home Loan Bank of San Francisco and MaxLinear. The rules of engagement
+are clear that a rep keeps an account where the FAC has happened, and I am not looking
+to reopen those.
 
 **3. Reviewed and not flagging**
 
-Two things I looked hard at and am deliberately leaving alone, so you know they were
-checked rather than missed:
+Two things I looked at closely and am leaving alone, so you know they were checked
+rather than missed:
 
 - Roughly 98 viable accounts sit under an APEX parent with a different name, including
   Nokia, Mitsubishi Electric, Autodesk, CoStar, Corteva, KRAFTON, Netmarble, Informa and
   Brookfield. Dana's note covers these as children of parent accounts, so I am treating
-  them as intended rather than as errors. I will map them before working them and come
-  back only if one looks genuinely LE-owned.
+  them as intended. I will map them before working them and come back only if one looks
+  genuinely LE-owned.
 - The non-viable set is almost entirely child and acquired-entity records inside groups
   whose primary account is viable. Nothing there changes a territory assignment.
 
-I have drafted the form rows already and can drop them into the team tab as soon as you
-are happy with them. Flagging that rather than filing them first, since the guidance is
-that requests need Director validation before they go in.
-
-Happy to walk through any of this live if that is quicker.
+Happy to walk through any of it live if that is quicker.
 
 Thanks,
 Sairam
