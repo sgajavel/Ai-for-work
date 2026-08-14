@@ -16,8 +16,7 @@ Hi Ary,
 
 I have worked through the California 4 book following Dana's guide, viable accounts
 first, and kept it to exceptions. I have put eight rows on the feedback form under your
-tab. This note covers the one thing that does not belong on the form, plus what I chose
-not to raise.
+tab. This note is the short version of them, plus what I chose not to raise.
 
 **On my departures, there is only one I would want to keep: Berje Inc.** There is an FAC
 on it from my time on the account, run with Jennifer Case, and the two of us intend to
@@ -30,54 +29,47 @@ was no retained set to sanity check. Of those arrivals, 608 are viable and 647 b
 California, which reads correctly as a Northern California and Bay Area book. No open
 opportunity at Proposal or beyond appears anywhere in it.
 
-**1. Duplicate records, 37 to merge across 24 companies**
+**1. Arrival timing, the accounts held to February 1**
 
-This is the one I would most like to move on quickly, because it affects everything I do
-from August 24 onward, and it is the reason for the attachment.
+Five arrivals are held to February 1 where there is no opportunity on the account at
+all. Since a February 1 holdover is retained by moving the opportunity to QO before that
+date, and there is nothing on these to move, I would wonder whether it makes sense for
+them to just move now rather than sit for another six months. Samba TV, iRhythm
+Technologies, Mode, Exar Corporation and Black Rock City LLC.
 
-Twenty-four companies each appear under several SFDC records inside a single parent/account group,
-37 redundant records in total. I found them by matching shared LinkedIn company URLs and
-normalised legal names within each group. The largest are AppDirect, North American
-Title, Doma, Achievers and XYZ, at four records apiece.
+Samba TV is the one I would push hardest on, since it is a Winback with a lapsed
+membership sitting on it.
 
-Two of the 24 are doing real damage rather than just being untidy, so those two are on
-the form as Salesforce data issues. On both **Vir Biotechnology** and **Enable**, the
-good record is the one being held back and the redundant one is the one released early.
-Vir Biotechnology's Viable California record is held to February 1 while a Non-Viable
-Colorado duplicate arrives August 24 under a different owner. Enable is the same shape,
-with its Viable California record held to February 1 and a blank-viability duplicate
-arriving August 24 with no owner recorded at all.
+I deliberately left the February 1 accounts that **do** carry an opportunity, including
+Federal Home Loan Bank of San Francisco and MaxLinear. The rules of engagement keep an
+account with the rep who ran the FAC, and I am not looking to reopen those.
 
-The other 22 clusters all arrive on one date and change nobody's assignment, so the
-form is the wrong channel for them. That is what the attachment is for. It lists every
-record with the one I would keep, the ones that fold into it, and the reason that
-particular record should be the survivor, which is usually that it is the only one
-marked Viable, billing to California, and carrying a LinkedIn URL.
+Two more on the form are a slightly different case, **Vir Biotechnology** and **Enable**.
+On both, the Viable California record is held to February 1 while a duplicate record of
+the same company is released on August 24, and in Enable's case that early record arrives
+with no owner recorded at all. So the workable record is the one frozen and the redundant
+one is the one let through.
 
-Two need a decision rather than a straight merge, and both say so in the sheet:
+**2. Duplicate records**
 
-- **Mozilla Foundation and Mozilla Corporation** are genuinely separate legal entities,
-  the nonprofit parent and its taxable subsidiary. They clustered because they share one
-  LinkedIn page.
-- **Doma and North American Title** are two clusters inside the Title Resources Group
-  parent/account group, which holds eight records altogether, so that is probably one
-  consolidation rather than two.
+There are 24 companies in the book that appear under more than one SFDC record inside a
+single parent/account group, 37 redundant records in total. Following the guidance to
+work from the viable list, almost none of them are urgent: 30 of the 37 extra records are
+Non-Viable and 6 have a blank viability field, so they never surface when the dashboard is
+filtered to Viable.
 
-If these get cleaned up before the book goes live I avoid working the same company
-twice, and my account count means something. Happy to route the list wherever it needs
-to go.
+**One is worth your time. North East Medical Services** has two records that are both
+Viable, both arriving August 24 under Josh Scott, so it shows up twice even on the
+filtered list. It also splits the account's own history, with Winback status on one record
+and Prospect on the other, which means working the wrong one would have me approaching a
+lapsed member as a cold prospect.
 
-**2. What I put on the form, and what I left alone**
-
-Eight rows. Berje Inc as above, on the departures side. Then five arrivals held to
-February 1 where there is no opportunity at all, so nothing can reach QO before the date
-and the holdover has no condition it can meet: Samba TV, iRhythm Technologies, Mode,
-Exar Corporation and Black Rock City LLC. Plus the two duplicate records above.
-
-I deliberately left the February 1 accounts that **do** have an opportunity on them,
-including Federal Home Loan Bank of San Francisco and MaxLinear. The rules of engagement
-are clear that a rep keeps an account where the FAC has happened, and I am not looking
-to reopen those.
+The rest is data debt rather than anything blocking. I have attached the full list anyway,
+ordered by that same priority, with the record I would keep in each case and why. It is
+there if it is useful to whoever handles SFDC cleanup, not something I am asking you to
+action. Two clusters in it need a decision rather than a straight merge, Mozilla
+Foundation against Mozilla Corporation, and the Doma and North American Title records
+inside Title Resources Group.
 
 **3. Reviewed and not flagging**
 
@@ -90,7 +82,8 @@ rather than missed:
   them as intended. I will map them before working them and come back only if one looks
   genuinely LE-owned.
 - The non-viable set is almost entirely child and acquired-entity records inside groups
-  whose primary account is viable. Nothing there changes a territory assignment.
+  whose primary account is viable. Nothing there changes a territory assignment, and per
+  the guidance I have not spent time on it beyond the duplicate check above.
 
 Happy to walk through any of it live if that is quicker.
 
