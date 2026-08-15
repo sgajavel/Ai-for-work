@@ -125,3 +125,24 @@ usable a month later. "T1: membership lapsed 2024, CIO Jane Doe still in seat" i
 - Rolling T3 research to keep T2 stocked
 
 Cadence is a proposal, not a rule. Sairam sets it.
+
+## Signals promoted to Tier 1 in practice (2026-08-15)
+
+Section 8 of CLAUDE.md is still a draft, and these are the calls actually made against
+real accounts. Recording them so the same signal gets the same tier next time.
+
+| Signal | Tier | Example |
+|---|---|---|
+| Named contact known to Sairam personally from their prior employer | 1 | Joseph Sarci, CIO, Federal Home Loan Bank of San Francisco |
+| Target-persona contact **follows Info-Tech on LinkedIn** | 1 | Rathi Murthy, CTO, Varo Bank |
+| Lapsed membership on the account (Winback in SFDC) | 1 | The 30 winbacks in the book |
+
+**"Follows Info-Tech on LinkedIn" is a new criterion**, not in the Section 8 draft. The
+draft's Tier 1 tests all describe something live on the account, and a page follow is
+softer than that, closer to the Tier 2 definition of a named contact plus a hook. It was
+called as Tier 1 on Varo Bank.
+
+Worth deciding deliberately, because it is a cheap signal to check across the whole book
+and will likely fire on more than a handful of accounts. If it turns out to be common,
+either it stays Tier 1 and Tier 1 grows large, or it becomes a Tier 2 promoter. Sales
+Navigator surfaces it per contact, so the count is discoverable once contacts are mapped.
