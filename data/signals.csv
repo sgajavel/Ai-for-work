@@ -8,3 +8,4 @@ signal_date,account_id,signal_type,detail,source,actioned
 2026-08-13,00140000011lkU3AAI,no-opp-on-hold,No opp on account despite Feb 1 2027 hold,sairam-review,no
 2026-08-14,001f300001v97U9AAI,territory-feedback,"Filed to keep under the FAC holdover. FAC run with Jennifer Case, intending to work it jointly",sairam-review,yes
 2026-08-14,0014000000VASe9AAH,duplicate-record,Second Viable record 001a7000003nh4UAAQ reads Prospect while this one carries Winback. Raised with Ary,sairam-review,yes
+2026-08-15,0013300001loDIyAAM,prior-relationship,Sairam knows Joseph Sacri from his previous organisation. Re-tiered to 1,sairam,yes
