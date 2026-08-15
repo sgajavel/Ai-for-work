@@ -114,3 +114,93 @@ to check on the first run:
   in `territory/F27-Duplicate-Records-Sairam-Gajavelli.xlsx`.
 - **Berje Inc** is a departure, so it will not appear under this filter at all. It carries
   a different territory value.
+
+---
+
+# Finding closed-lost opportunities in the territory
+
+## Why the CRM Analytics query cannot do this
+
+The `F27_Territories_v2` dataset is a **territory** dataset. It carries one
+opportunity-related field, `F27_Proposed_Terr.Open_Opportunities_Proposal`, and that
+field counts **open** opportunities at Proposal stage or beyond. It reads `0` on all 699
+rows.
+
+A closed-lost opportunity is not open, and it is not at Proposal, so it can never appear
+in that field no matter how the filter is written. There is no stage field, no close-date
+field, and no opportunity name in the dataset. Adding a filter for closed-lost would
+either error on an unknown field or silently return nothing.
+
+## Step 1, confirm what the dataset actually holds
+
+Before assuming, check whether the dataset carries opportunity fields that were simply
+not projected in the `foreach`. Run this and read the field list in the results panel:
+
+```sql
+q = load "F27_Territories_v2";
+q = filter q by 'Rep_Name' == "Sairam Gajavelli";
+q = limit q 10;
+```
+
+Dropping the `foreach` returns every column the dataset has. If nothing resembling
+`StageName`, `IsWon`, `IsClosed`, or `CloseDate` appears, the dataset cannot answer the
+question and Step 2 is the route.
+
+The CRM Analytics data manager also lists a dataset's fields directly, which is faster
+than inferring from a query.
+
+## Step 2, the reliable route is a standard report
+
+Closed-lost lives on the Opportunity object, so query that object rather than the
+territory dataset.
+
+**Report type:** `Accounts with Opportunities`. This returns only accounts that have at
+least one opportunity, which is exactly the population wanted here.
+
+| # | Field | Operator | Value |
+|---|---|---|---|
+| 1 | Package Territories F27 | contains | `SMB 35: California 4` |
+| 2 | Stage | equals | `Closed Lost` |
+| 3 | Close Date | greater or equal | `LAST_N_MONTHS:24` |
+
+Filter 3 is a judgement call rather than a rule. A loss from five years ago says little
+about the account today, and 24 months matches the FAC recency window F27 uses elsewhere.
+Widen it if the result set is thin.
+
+**Columns:** Account Name, Close Date, Stage, Amount, Loss Reason (if the org captures
+it), Opportunity Owner, Opportunity Name, Is Viable IT, ITRG Status.
+
+**Group by** Account Name, so an account with several losses collapses to one row with
+its history underneath.
+
+If the org restricts the `Accounts with Opportunities` report type, the fallback is an
+`Opportunities` report filtered on Stage and Close Date, then match the Account Name
+column back against `data/accounts.csv`.
+
+## Why this is worth running early
+
+Tier 1 in the tiering framework includes **"open or recently closed-lost opportunity"**.
+Right now 536 accounts sit at Tier 3 purely because the territory export carried no
+contact data and no opportunity history. Every account this report returns is a Tier 1
+candidate that is currently mis-tiered.
+
+It is also the only way to find out how much prior engagement the book actually has. The
+territory export shows zero open Proposal+ opportunities across all 699 accounts, which
+reads as a completely cold book. That reading is almost certainly wrong: it reflects the
+absence of *open late-stage* opportunities, not the absence of history. A closed-lost
+report is the fastest correction to that picture.
+
+Feed anything it returns into `data/accounts.csv` as a re-tier, and into `signals.csv`
+with `signal_type` of `closed-lost`.
+
+## Related queries worth running at the same time
+
+| Question | Filter |
+|---|---|
+| Any opportunity ever, regardless of outcome | drop the Stage filter |
+| Closed-won, meaning a former member | Stage equals `Closed Won` |
+| Anything still open at any stage | Stage not equal to `Closed Lost` and not equal to `Closed Won` |
+
+The third one matters most. The territory export only counted opportunities at
+**Proposal or beyond**, so an opportunity sitting at Discovery or Qualification anywhere
+in the book would be invisible in everything reviewed so far.
