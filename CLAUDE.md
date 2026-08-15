@@ -601,16 +601,24 @@ Merged from this repo and from the onboarding notes. Update as these close.
 
 **Blocking:**
 
-- [ ] **Account list.** Load the territory dashboard export into `data/accounts.csv`,
-      run the scope check across it, produce the initial tiering pass, then build the
-      tactical SMB fast start plan (Jillian development area 3). The F27 focus area
-      for SMB is meeting generation and qualification, which is what the plan should
-      be built around.
-- [ ] **Zip code list.** Assigned zip codes not yet defined. Matters more than usual,
-      since four other reps hold California.
+- [x] **Account list loaded 2026-08-14.** 608 viable accounts plus Berje Inc in
+      `data/accounts.csv`, scope-checked and tiered. Analysis in
+      `territory/f27-proposed-book-analysis.md`. Non-viable records are excluded by
+      design per the review guidance.
+- [ ] **Tactical SMB fast start plan** (Jillian development area 3). Now unblocked. The
+      F27 focus area for SMB is meeting generation and qualification, which is what the
+      plan should be built around. Note the constraint the book imposes: no open
+      opportunity at Proposal or beyond anywhere in it, and no contact data at all, so
+      the plan has to be front-loaded with contact discovery.
+- [ ] **Zip code list.** Assigned zip codes still not defined, and the territory export
+      carries no city or zip column, so they cannot be inferred from it. Ask Ary. The
+      account names point to San Francisco with some inner East Bay, but that is
+      recognition rather than data and must not be used as a boundary. For prospecting
+      in the meantime, `territory/sales-navigator-account-list.csv` gives the exact book
+      as a Sales Navigator account list, which sidesteps geography entirely.
 - [ ] **SMB activity benchmarks.** Needed for the fast start plan. Quotas expected in
       September.
-- [ ] **Delete the EXAMPLE rows** from every file in `data/` before real use.
+- [x] **EXAMPLE rows deleted** from every file in `data/`, 2026-08-14.
 
 **F27 questions:**
 

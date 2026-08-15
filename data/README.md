@@ -93,3 +93,24 @@ that day. `actioned=no` keeps it visible on the dashboard until it has been work
 This data is non-public commercial information. It stays in the repo, behind the
 intel firewall in CLAUDE.md Section 5. None of it goes in an email, and none of it
 gets pasted into an external tool.
+
+### Columns added 2026-08-14 for the F27 transition
+
+`accounts.csv` carries four extra fields while territories are moving. They are additive,
+so the dashboard renderer ignores them safely.
+
+| Column | Meaning |
+|---|---|
+| `linkedin` | Company LinkedIn URL from the territory export. Present on every viable account |
+| `current_owner` | Who holds the account today. Only meaningful until the book goes live |
+| `arrival_date` | `August 24, 2026`, `Feb 1, 2027`, or a departure note |
+| `feedback_status` | Blank unless a territory feedback row was filed on the account |
+
+Retire `current_owner`, `arrival_date` and `feedback_status` once the F27 window closes and
+every account has landed.
+
+### What is loaded
+
+Viable accounts only, per the territory review guidance to work from the Viable filter.
+Non-viable records are excluded by design, not missing. The duplicate analysis behind that
+decision is in `territory/F27-Duplicate-Records-Sairam-Gajavelli.xlsx`.

@@ -1,7 +1,4 @@
 signal_date,account_id,signal_type,detail,source,actioned
-2026-08-10,EX-002,content-download,Pulled three OT security resources in one week,marketing,yes
-2026-08-12,EX-001,membership-lapse,Lapsed 2024 and never re-engaged,sfdc,yes
-2026-08-13,EX-003,leadership-change,New VP of Technology announced,linkedin,no
 2026-08-13,0013300001loDIyAAM,prior-relationship,"Joseph Sacri, known to Sairam from Joseph previous organisation. Opp on account but cycle died",sairam-review,no
 2026-08-13,001f300001whzRcAAI,opp-closed-lost,"Opportunity closed lost, no communication on the account",sairam-review,no
 2026-08-13,001a700000LEgFFAA1,opp-stalled,Opportunity died. Held to Feb 1 2027 by Andrew Bell,sairam-review,no
@@ -9,3 +6,5 @@ signal_date,account_id,signal_type,detail,source,actioned
 2026-08-13,0013300001lIyw0AAC,no-opp-on-hold,No opp on account despite Feb 1 2027 hold,sairam-review,no
 2026-08-13,0013300001lNQtMAAW,no-opp-on-hold,No opp on account despite Feb 1 2027 hold,sairam-review,no
 2026-08-13,00140000011lkU3AAI,no-opp-on-hold,No opp on account despite Feb 1 2027 hold,sairam-review,no
+2026-08-14,001f300001v97U9AAI,territory-feedback,"Filed to keep under the FAC holdover. FAC run with Jennifer Case, intending to work it jointly",sairam-review,yes
+2026-08-14,0014000000VASe9AAH,duplicate-record,Second Viable record 001a7000003nh4UAAQ reads Prospect while this one carries Winback. Raised with Ary,sairam-review,yes
